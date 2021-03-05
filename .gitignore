@@ -19,9 +19,11 @@
 *.blg
 *.run.xml
 
-out/
+precomp/
 temp/
 drafts/
 
 *.doc
 *.docx
+
+.vscode/

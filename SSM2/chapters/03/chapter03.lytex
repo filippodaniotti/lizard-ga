@@ -1,6 +1,6 @@
 \documentclass[class=book, crop=false, oneside, 12pt]{standalone}
 \usepackage{standalone}
-\usepackage{../../style}
+\usepackage{../../../style}
 \graphicspath{{./assets/images/}}
 
 \begin{document}
@@ -10,5 +10,17 @@
 \section{Testo}
 \section{Tecnica e arrangiamento}
 \section{Analisi armonica}
+Per capire questo pezzo bisogna guardare la linea di basso.
+\begin{sheet}{Linea di basso}
+aaaaaaaaaaaaa
+\end{sheet}
+
+\begin{sheet}{Di nuovo}
+  \musicxmlfile{assets/sheets/f.musicxml}
+\end{sheet}
+
+\begin{sheet}{}
+  niente titolo
+\end{sheet}
 
 \end{document}

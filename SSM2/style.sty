@@ -1,3 +1,5 @@
+%%% PACKAGES %%%
+
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english, italian]{babel}
@@ -52,3 +54,23 @@
 	style=numeric,
 	sorting=ynt
 ]{biblatex}
+
+%%% ENVIRONMENTS %%%
+
+% Define a new counter for sheet environment
+% will reset each time chapter counter is incremented
+\newcounter{sheet}[chapter] 
+\newsavebox{\sheetcaption}
+\newenvironment{sheet} [1]
+	{
+		\refstepcounter{sheet}%   			 Increment sheet counter
+		\sbox{\sheetcaption}{#1}% 	     Save argument (caption)
+		\begin{center}
+		
+	}
+	{
+		\\
+		\vspace{1em}
+		Pentagramma~\thechapter.\thesheet: \usebox{\sheetcaption}
+	\end{center}
+}
