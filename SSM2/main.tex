@@ -2,10 +2,20 @@
 	,a4paper
 	,12pt
 	,oneside
-	% ,draft
 ]{book}
 
 \usepackage{style}
+
+% Would set urldate field in bibliography to current date
+% \DeclareSourcemap{
+%   \maps[datatype=bibtex]{
+%     \map[overwrite=true]{
+%        \pertype{online}
+%        \step[fieldset=urldate,fieldvalue={\the\year-\the\month-\the\day}]
+%     } 
+%  }
+% }
+\addbibresource{references.bib}
 
 \graphicspath{%
 	{./chapters/titlepage/images/}%
@@ -28,7 +38,9 @@
 	\import{./chapters/02/}{chapter02}
 	\import{./chapters/03/}{chapter03}
 	\import{./chapters/04/}{chapter04}
-    
+
 \backmatter
+
+	\printbibliography[heading=bibintoc, title={Fonti}]
 
 \end{document}
