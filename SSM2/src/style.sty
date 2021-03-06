@@ -42,6 +42,11 @@
 \usepackage{subcaption}
 
 \usepackage{geometry}
+% \geometry{
+%  a4paper,
+%  left=30mm,
+%  top=30mm,
+%  }
 
 \usepackage[hidelinks]{hyperref}
 
@@ -63,8 +68,8 @@
 \newsavebox{\sheetcaption}
 \newenvironment{sheet} [1]
 	{
-		\refstepcounter{sheet}%   			 Increment sheet counter
-		\sbox{\sheetcaption}{#1}% 	     Save argument (caption)
+		\refstepcounter{sheet}%     Increment sheet counter
+		\sbox{\sheetcaption}{#1}% 	Save argument (caption)
 		\begin{center}
 		
 	}

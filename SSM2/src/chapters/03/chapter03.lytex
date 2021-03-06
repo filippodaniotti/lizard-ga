@@ -11,16 +11,20 @@
 \section{Tecnica e arrangiamento}
 \section{Analisi armonica}
 Per capire questo pezzo bisogna guardare la linea di basso.
-\begin{sheet}{Linea di basso}
-aaaaaaaaaaaaa
+\begin{sheet}{Linea di basso della strofa}
+  \musicxmlfile{assets/sheets/FP-verse_bass_1.musicxml}
 \end{sheet}
 
-\begin{sheet}{Di nuovo}
-  \musicxmlfile{assets/sheets/f.musicxml}
+\begin{sheet}{Arpeggi}
+  \musicxmlfile{assets/sheets/FP-verse_organ_1.musicxml}
 \end{sheet}
 
-\begin{sheet}{}
-  niente titolo
+\begin{sheet}{Figura iniziale}
+  \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
+\end{sheet}
+
+\begin{sheet}{Accordi della strofa}
+  \musicxmlfile{assets/sheets/FP-verse_chords_1.musicxml}
 \end{sheet}
 
 \end{document}
