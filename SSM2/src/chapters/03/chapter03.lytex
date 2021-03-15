@@ -7,20 +7,31 @@
 \chapter{Foreplay / Long Time}
 
 \section{Informazioni preliminari}
+\section{Struttura}
 \section{Testo}
 \section{Tecnica e arrangiamento}
+
 \section{Analisi armonica}
-Per capire questo pezzo bisogna guardare la linea di basso.
+\subsection{Foreplay}
+Possiasmo quindi iniziare a dispiegare lo sviluppo armonico di Foreplay. La 
+primissima sezione di senso armonico compiuto del brano vede la ripetizione
+dell'ostinato di organo sopra a una linea di basso discendente.
+\begin{sheet}{Figura iniziale}
+  \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
+\end{sheet}
+
+Nella sezione precedente abbiamo parlato di come questa figura riesca a 
+gettare efficacemente le basi per lo sviluppo di tutto il brano sotto
+moltissimi aspetti; questa funzione viene svolta anche per l'armonia, anche
+se in misura leggermente più ridotta. Le note della prima terzina, infatti,
+% sono Fa, Si\flat e Fa, seguite da Mi\flat , La\flat e Do;
+
 \begin{sheet}{Linea di basso della strofa}
   \musicxmlfile{assets/sheets/FP-verse_bass_1.musicxml}
 \end{sheet}
 
 \begin{sheet}{Arpeggi}
   \musicxmlfile{assets/sheets/FP-verse_organ_1.musicxml}
-\end{sheet}
-
-\begin{sheet}{Figura iniziale}
-  \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
 \end{sheet}
 
 \begin{sheet}{Accordi della strofa}
