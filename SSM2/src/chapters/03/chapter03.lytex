@@ -23,8 +23,16 @@ dell'ostinato di organo sopra a una linea di basso discendente.
 Nella sezione precedente abbiamo parlato di come questa figura riesca a 
 gettare efficacemente le basi per lo sviluppo di tutto il brano sotto
 moltissimi aspetti; questa funzione viene svolta anche per l'armonia, anche
-se in misura leggermente più ridotta. Le note della prima terzina, infatti,
-sono Fa, Si\flat e Fa, seguit e da Mi\flat , La\flat e Do;
+se in misura leggermente ridotta. Le note della prima terzina, infatti,
+sono Re\flat , Fa e Re\flat , segui te da Mi\flat , La\flat e Do; se il
+secondo sembra costituire una triade di \writechord{Ab}, è più difficile
+determinare se il primo gruppo sia da intendere come una triade di 
+\writechord{Db} (senza la quinta), di \wrtiechord{Bbm} (senza la tonia)
+oppure come altro ancora.
+
+Per fare altre affermazioni abbiamo bisogno di un contesto armonico più
+strutturato, che ci viene subito fornito dalla linea discendente suonata
+dall'organo e che chiude il lungo fade in introduttivo del pezzo.
 
 \begin{sheet}{Linea di basso della strofa}
   \musicxmlfile{assets/sheets/FP-verse_bass_1.musicxml}
