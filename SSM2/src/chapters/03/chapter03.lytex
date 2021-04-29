@@ -3,43 +3,51 @@
 \usepackage{../../../style}
 \graphicspath{{./assets/images/}}
 
+
+% arara: pdflatex: { shell: yes }
+% arara: latexmk: { clean: partial }
 \begin{document}
-\chapter{Foreplay / Long Time}
+\chapter{Foreplay}
 
 \section{Informazioni preliminari}
+Foreplay 
 \section{Struttura}
 \section{Testo}
 \section{Tecnica e arrangiamento}
 
+\begin{sheet}{Arpeggi}
+  \musicxmlfile{assets/sheets/FP-verse_organ_1.musicxml}
+\end{sheet}
+
 \section{Analisi armonica}
-Possiasmo quindi iniziare a dispiegare lo sviluppo armonico di Foreplay. La 
-primissima sezione di senso armonico compiuto del brano vede la ripetizione
-dell'ostinato di organo sopra a una linea di basso discendente.
+Possiamo quindi iniziare ad analizzare lo sviluppo armonico di Foreplay. La primissima sezione di senso armonico compiuto del brano vede la ripetizione dell'ostinato di organo sopra a una linea di basso discendente.
 \begin{sheet}{Figura iniziale}
   \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
 \end{sheet}
 
-Nella sezione precedente abbiamo parlato di come questa figura riesca a 
-gettare efficacemente le basi per lo sviluppo di tutto il brano sotto
-moltissimi aspetti; questa funzione viene svolta anche per l'armonia, anche
-se in misura leggermente ridotta. Le note della prima terzina, infatti,
-sono Re\flat , Fa e Re\flat , segui te da Mi\flat , La\flat e Do; se il
-secondo sembra costituire una triade di \writechord{Ab}, è più difficile
-determinare se il primo gruppo sia da intendere come una triade di 
-\writechord{Db} (senza la quinta), di \wrtiechord{Bbm} (senza la tonia)
-oppure come altro ancora.
+Nella sezione precedente abbiamo parlato di come questa figura riesca a gettare efficacemente le basi per lo sviluppo di tutto il brano sotto moltissimi aspetti; questa funzione viene svolta anche per l'armonia, anche se in misura leggermente ridotta. Le note della prima terzina, infatti, sono Re\flat , Fa e Re\flat , segui te da Mi\flat , La\flat  e Do; se il secondo sembra costituire una triade di \writechord{Ab}, è più difficile determinare se il primo gruppo sia da intendere come una triade di  \writechord{Db} (senza la quinta)  di \writechord{Bbm} (senza la tonica) oppure come altro ancora. 
 
-Per fare altre affermazioni abbiamo bisogno di un contesto armonico più
-strutturato, che ci viene subito fornito dalla linea discendente suonata
-dall'organo e che chiude il lungo fade in introduttivo del pezzo.
+Ad ogni modo, poco importa: trattandosi di due terzine di ottavi a circa 180 bpm, le note non risultano chiaramente distinguibile e, come già detto, questo ostinato costituisce una cellula più per l'aspetto di tempo e ritmo che non per l'aspetto armonico. Ulteriori considerazioni sullo sviluppo armonico richiedono un contesto più strutturato, e questo ci viene subito fornito dalla linea discendente suonata dall'organo e che chiude il lungo fade in introduttivo del pezzo.
 
 \begin{sheet}{Linea di basso della strofa}
-  \musicxmlfile{assets/sheets/FP-verse_bass_1.musicxml}
+  \musicxmlfile{assets/sheets/FP-intro_bass.musicxml}
 \end{sheet}
 
-\begin{sheet}{Arpeggi}
-  \musicxmlfile{assets/sheets/FP-verse_organ_1.musicxml}
+Si tratta di una scala di Si\flat  minore naturale che, partendo dalla fondamentale, discende per tutta un'ottava; la tonica Si, inoltre, viene tenuta come pedale, rafforzando l'idea che \writechord{Bbm} sia effettivamente il centro tonale della composizione.
+
+L'unica nota estranea alla scala che incontriamo è la sesta maggiore Sol; questo cromatismo conferisce alla sequenza un lieve sapore dorico, anche se in questo punto sembra inserito quasi esclusivamente per rendere pari il numero di note della scala e far tornare i conti e ottenere due gruppi di 4 note ciascuno\footnote{forse ha più a che fare con tecnica e arrangiamento, da rivedere}.
+
+\paragraph{}
+A seguito di questo abbiamo la sequenza di accordi arpeggiati discendenti.
+
+\begin{sheet}{Fill di arpeggi discendenti verso la strofa}
+  \musicxmlfile{assets/sheets/FP-intro_fill.musicxml}
 \end{sheet}
+
+Nonostante si tratti di triadi complete, possiamo dire che questo fill abbia una funzione più melodica che propriamente armonica; vengono sfruttati i rivolti di \writechord{Bbm} e \writechord{Ab} in modo che il primo elemento delle varie terzine discenda rispetto alla scala di Si\flat minore, andando in un certo senso a riprendere il movimento che era appena stato fatto dalla linea di basso.
+
+\paragraph{}
+La prossima sezione di nostro interesse è quella che potremmo ragionevolmente considerare la strofa del pezzo, segmento più interessente nonchédi maggiore difficoltà interpretativa. 
 
 \begin{sheet}{Accordi della strofa}
   \musicxmlfile{assets/sheets/FP-verse_chords_1.musicxml}
