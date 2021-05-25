@@ -10,9 +10,33 @@
 \chapter{Foreplay}
 
 \section{Informazioni preliminari}
-Foreplay 
 \section{Struttura}
-\section{Testo}
+Foreplay si compone di due sezioni principali che chiamiamo \(A\) e \(B\) e vengono eseguite secondo il semplice schema \(ABAB\); queste sono precedute da una breve introduzione e seguite da una coda che funge da raccordo con Long Time, transitando verso quest'ultima senza soluzione di continuità.
+
+\subsubsection*{Introduzione\\ \small{da 0:00 a 0:18}}
+Il pezzo inizia con un lento fade in; inizialmente è presente solo l'organo, ma a 0:10 entra anche il resto del gruppo, suonando degli staccati per rafforzare la discesa dell'organo e tenendo l'ultimo accordo più lungo per dare alla sezione una conclusione. Seguono alcuni secondi ditransizione verso la sezione \(A\) in cui rimangono solamente organo e batteria.
+
+\subsubsection*{A - prima ripetizione\\ \small{da 0:18 a 0:40}}
+Questa prima ripetizione di \(A\) si compone essenzialmente di 4 iterazioni complete della progressione armonica e melodia associata che costituiscono il fulcro del brano. 
+
+La prima è eseguita da organo e batteria, nella seconda si aggiunge il basso e, finalmente, alla terza iterazione (0:29) si unisce stabilmente il gruppo completo, in quel momento che rappresenta la vera e propria esplosione del pezzo. La quarta e ultima iterazione mantiene lo stesso arrangiamento, variando invece la progressione armonica, impostando efficacemente il passaggio alla sezione \(B\).
+
+\subsubsection*{B - prima ripetizione\\ \small{da 0:40 a 0:56}}
+Questa sottosezione si compone di una prima metà in cui tutti gli strumenti tengono accordi lunghi un'intera misura (\(\frac{4}{4}\)) e in cui il senso di sviluppo è dato dai rivolti crescenti dell'organo. 
+
+Nella seconda parte (0:45) i fill di batteria si fanno più densi e i cambi di accordo avvengono ogni quarto della misura. In questa prima esecuzione di \(B\) abbiamo anche una rapida ripresa dell'introduzione, usata come raccordo verso il lancio di \(A\).
+
+\subsubsection*{A - seconda ripetizione\\ \small{da 0:56 a 1:12}}
+A differenza della prima esecuzione di \(A\), qui abbiamo solamente tre iterazioni: le prime due, infatti, vengono collassate in una sola, in cui figura anche una traccia di clavinet come raddoppiamento del basso.
+
+\subsubsection*{B - seconda ripetizione\\ \small{da 1:12 a 1:23}}
+Del tutto simile alla prima ripetizione. In questo caso non è presente la ripresa dell'intro; al suo posto, il brano passa direttamente alla coda.
+
+\subsubsection*{Coda e cross fade\\ \small{da 1:23 a 2:30}}
+A sua volta divisa in due parti, entrambe eseguite in rubato. La prima ha lo scopo di distendere la tensione creata dalla precedente sezione: abbiamo accordi eseguiti da un organo liturgico e da delle chitarre elettriche che presentano effetti di modulazione pesanti, quasi esacerbati.
+
+Quest'ultima viene interrotta repentinamente a 1:53 per lasciare il passo a un delicato tappeto di organo pesantemente equalizzato, eseguendo una progressione di accordi che termina nel fill di batteria che lancia il primo assolo di Long Time.
+
 \section{Tecnica e arrangiamento}
 
 \begin{sheet}{Arpeggi}
@@ -47,7 +71,7 @@ A seguito di questo abbiamo la sequenza di accordi arpeggiati discendenti.
 Nonostante si tratti di triadi complete, possiamo dire che questo fill abbia una funzione più melodica che propriamente armonica; vengono sfruttati i rivolti di \writechord{Bbm} e \writechord{Ab} in modo che il primo elemento delle varie terzine discenda rispetto alla scala di Si\flat minore, andando in un certo senso a riprendere il movimento che era appena stato fatto dalla linea di basso.
 
 \paragraph{}
-La prossima sezione di nostro interesse è quella che potremmo ragionevolmente considerare la strofa del pezzo, segmento più interessente nonchédi maggiore difficoltà interpretativa. 
+La prossima sezione di nostro interesse è quella che potremmo ragionevolmente considerare la strofa del pezzo, segmento più interessente nonché di maggiore difficoltà interpretativa. 
 
 \begin{sheet}{Accordi della strofa}
   \musicxmlfile{assets/sheets/FP-verse_chords_1.musicxml}
