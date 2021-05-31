@@ -38,10 +38,23 @@ A sua volta divisa in due parti, entrambe eseguite in rubato. La prima ha lo sco
 Quest'ultima viene interrotta repentinamente a 1:53 per lasciare il passo a un delicato tappeto di organo pesantemente equalizzato, eseguendo una progressione di accordi che termina nel fill di batteria che lancia il primo assolo di Long Time.
 
 \section{Tecnica e arrangiamento}
+\subsection{Tastiere}
+L'organo è senz'ombra di dubbio lo strumento più importante di tutto il brano; scritte e eseguite da Tom Scholz, le parti di organo potrebbero costituirebbero un pezzo musicale di senso compiuto anche senza l'aggiunta di altri strumenti, le parti dei quali sono state scritte per esaltare tutti lo (storytelling, da vedere se posso renderlo in italiano) già impostato dall'organo.
 
+\paragraph{Arpeggi}
+La parte di organo scritta da Scholz sfrutta pochi espedienti, ma molto ben integrati tra loro. 
+
+\begin{sheet}{Figura iniziale}
+  \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
+\end{sheet}
+ 
 \begin{sheet}{Arpeggi}
   \musicxmlfile{assets/sheets/FP-verse_organ_1.musicxml}
 \end{sheet}
+
+\subsection{Chitarre}
+\subsection{Basso}
+\subsection{Batteria}
 
 \section{Analisi armonica}
 Possiamo quindi iniziare ad analizzare lo sviluppo armonico di Foreplay. La primissima sezione di senso armonico compiuto del brano vede la ripetizione dell'ostinato di organo sopra a una linea di basso discendente.
