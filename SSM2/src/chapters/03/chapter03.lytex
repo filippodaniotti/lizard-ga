@@ -39,7 +39,10 @@ Quest'ultima viene interrotta repentinamente a 1:53 per lasciare il passo a un d
 
 \section{Tecnica e arrangiamento}
 \subsection{Tastiere}
-L'organo è senz'ombra di dubbio lo strumento più importante di tutto il brano; scritte e eseguite da Tom Scholz, le parti di organo potrebbero costituirebbero un pezzo musicale di senso compiuto anche senza l'aggiunta di altri strumenti, le parti dei quali sono state scritte per esaltare tutti lo (storytelling, da vedere se posso renderlo in italiano) già impostato dall'organo.
+Le parti di tastiera di Foreplay si compongono di due tracce, una di organo e una di clavinet, entrambe scritte ed eseguite da Tom Scholz\cite{wiki:bost_b}.
+
+\subsubsection{Organo}
+L'organo è senz'ombra di dubbio lo strumento più importante di tutto il brano e costituirebbe un pezzo musicale di senso compiuto anche senza l'aggiunta di altri strumenti; l'arrangiamento completo, per tutti gli strumenti, è stato pensato e scritto per esaltare lo (storytelling, da vedere se posso renderlo in italiano) già impostato dall'organo.
 
 \paragraph{Arpeggi}
 La parte di organo scritta da Scholz sfrutta pochi espedienti, ma molto ben integrati tra loro. 
@@ -51,6 +54,22 @@ La parte di organo scritta da Scholz sfrutta pochi espedienti, ma molto ben inte
 \begin{sheet}{Arpeggi}
   \musicxmlfile{assets/sheets/FP-verse_organ_1.musicxml}
 \end{sheet}
+
+\subsubsection{Clavinet}
+Il clavinet ha un ruolo temporalmente molto ridotto in questo pezzo: entra infatti a 0:56, nella seconda ripetizione di \(A\), e resta nell'arrangiamento per una sola ripetizione del giro armonico. 
+
+Inserire uno strumento in un arrangiamento per poco più di 5 secondi è una scelta ardita e al contempo rischiosa: l'ascoltatore ha poco tempo per contestualizzare la sua presenza e potrebbe non riuscirci, con il rischio che lo strumento in questione dia l'impressione di essere stato inserito casualmente, per riempire un buco, o comunque per una cattiva e poco ragionata scrittura dell'arrangiamento. 
+
+In Foreplay questo non avviene: il clavinet, infatti, riprende e raddoppia all'ottava superiore la linea di basso del giro, già suonata sia dal basso, sia dall'organo.  
+
+\begin{sheet}{Linea di clavinet}
+  \label{sh:FP-B_clav}
+  \musicxmlfile{assets/sheets/FP-B_clav.musicxml}
+\end{sheet}
+
+Le note eseguite appartengono a una frase già nota e questo, unito al fatto che questa aggiunta rappresenta l'unica variazione rispetto alla prima ripetizione di \(A\), fa sì che l'ascoltatore non incontri difficoltà a contestualizzare la presenza del clavinet.
+
+L'aggiunta del clavinet concorre, assieme anche alla riduzione del numero di iterazioni del giro armonico, ad accelerare la crescita del \emph{momentum} del pezzo: a partire dal raddoppiamento stesso della linea di basso fino al suono molto aggressivo, carico di frequenze medie e presenza e privo modulazioni (phaser, tremolo) a patinarlo, persino il La colpito nell'ultimo elemento della terzina che precede il lancio della sezione (segnato come appoggiatura in \ref{sh:FP-B_clav}), tutto sembra comunica all'ascoltatore che la tensione rimane alta e il brano sta avviandosi verso la sua conclusione.
 
 \subsection{Chitarre}
 \subsection{Basso}
