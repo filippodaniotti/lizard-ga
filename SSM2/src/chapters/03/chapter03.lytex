@@ -42,6 +42,7 @@ Quest'ultima viene interrotta repentinamente a 1:53 per lasciare il passo a un d
 Le parti di tastiera di Foreplay si compongono di due tracce, una di organo e una di clavinet, entrambe scritte ed eseguite da Tom Scholz\cite{wiki:bost_b}.
 
 \subsubsection{Organo}
+\label{ssubsec:parts-organ}
 L'organo è senz'ombra di dubbio lo strumento più importante di tutto il brano e costituirebbe un pezzo musicale di senso compiuto anche senza l'aggiunta di altri strumenti; l'arrangiamento completo, per tutti gli strumenti, è stato pensato e scritto per esaltare lo (storytelling, da vedere se posso renderlo in italiano) già impostato dall'organo.
 
 \paragraph{Arpeggi}
@@ -64,18 +65,38 @@ In Foreplay questo non avviene: il clavinet, infatti, riprende e raddoppia all'o
 
 \begin{sheet}{Linea di clavinet}
   \label{sh:FP-B_clav}
-  \musicxmlfile{assets/sheets/FP-B_clav.musicxml}
+  \musicxmlfile{assets/sheets/FP-A_clav.musicxml}
 \end{sheet}
 
 Le note eseguite appartengono a una frase già nota e questo, unito al fatto che questa aggiunta rappresenta l'unica variazione rispetto alla prima ripetizione di \(A\), fa sì che l'ascoltatore non incontri difficoltà a contestualizzare la presenza del clavinet.
 
-L'aggiunta del clavinet concorre, assieme anche alla riduzione del numero di iterazioni del giro armonico, ad accelerare la crescita del \emph{momentum} del pezzo: a partire dal raddoppiamento stesso della linea di basso fino al suono molto aggressivo, carico di frequenze medie e presenza e privo modulazioni (phaser, tremolo) a patinarlo, persino il La colpito nell'ultimo elemento della terzina che precede il lancio della sezione (segnato come appoggiatura in \ref{sh:FP-B_clav}), tutto sembra comunica all'ascoltatore che la tensione rimane alta e il brano sta avviandosi verso la sua conclusione.
+L'aggiunta del clavinet concorre, assieme anche alla riduzione del numero di iterazioni del giro armonico, ad accelerare la crescita del \emph{momentum} del pezzo: a partire dal raddoppiamento stesso della linea di basso fino al suono molto aggressivo, carico di frequenze medie e presenza e privo modulazioni (phaser, tremolo) a patinarlo, persino il La colpito nell'ultimo elemento della terzina che precede il lancio della sezione (segnato come appoggiatura in \ref{sh:FP-A_clav}), tutto sembra comunica all'ascoltatore che la tensione rimane alta e il brano sta avviandosi verso la sua conclusione.
 
 \subsection{Chitarre}
+Le parti di chitarra possono essere convenientemente distinte in due gruppi distinti: le parti del corpo principale del pezzo, ossia quelle che vengono eseguite nelle sezioni \(intro\;ABAB\), e le parti della coda di raccordo con Long Time.
+
+\subsubsection{Corpo}
+In queste sezioni le parti sono estremamente semplici: a partire dall'ingresso delle chitarre nella terza iterazione del giro armonico nella prima ripetizione di \(A\), Tom Scholz sceglie di suonare dei powerchords, ovvero dei bicordi prima-quinta; l'uso di questa particolare tipologia di accordo sospeso, in tandem con un suono aggressivo e saturo di armoniche ottenuto grazie all'uso di overdrive, è tra i fondamenti più basilari e, al contempo, riconoscibili delle sonorità hard rock. 
+\begin{sheet}{Come esempio, parte di chitarra in \(B\)}
+  \musicxmlfile{assets/sheets/FP-B_guit.musicxml}
+\end{sheet}
+
+Le ragioni che possono aver portato Scholz a preferire questa soluzione rispetto ad arrangiamenti più complessi sono molteplici. Senza dubbio, possiamo ipotizzare che Scholz volesse mantenere l'organo vera e unica voce del pezzo, dal momento che la parte di organo (come discusso in \ref{ssubsec:parts-organ}) porta già con sé tutte le informazioni melodico/armoniche necessarie a conferire un senso compiuto al brano. Aggiungere una parte di chitarra molto densa, in questo caso, avrebbe reso molto meno intelligibile la parte dell'organo, a maggior ragione se consideriamo che quest'ultimo fatica a uscire dal mix quando il gruppo entra con l'arrangiamento completo. È probabile che quindi, volendo giocare con l'arrangiamento per alzare il \emph{momentum} del pezzo e dovendo scegliere tra addensare utilizzando chitarra o batteria, Scholz abbia preferito quest'ultima, dal momento che la batteria porta un quantitativo di informazione armonica notevolmente inferiore alla chitarra. Quest'ultima viene usata, per l'appunto, per esaltare i vari cambi di armonia dettati dalla parte di organo, senza mai aggiungere alcunché all'arrangiamento.
+
+Inoltre, l'uso dei powerchord da parte della chitarra e quindi, come detto, di un uso dell'armonia tipicamente hard rock si pone in netto contrasto con la complessa e bachiana armonia dell'organo; è come se Scholz stesse utilizzando quest'arrangiamento estremamente grezzo delle chitarre per ricordare all'ascoltatore che quello che stiamo sentendo è un pezzo hard rock. Questo tipo di contrasto, peraltro, non può che ricordare il suono dei grandi classici dell'hard rock dei primi anni '70, in particolare dei Deep Purple.
+\begin{sheet}{Chitarra in \(A\), si notino le quinte giuste}
+  \musicxmlfile{assets/sheets/FP-A_guit.musicxml}
+\end{sheet}
+
+Come postilla possiamo inoltre segnalare che forse è improprio parlare di bicordi relativamente alla parte eseguita da Scholz in queste sezioni: le quinte considerate, per ogni accordo, sono sempre delle quinte giuste, anche quando vanno a cozzare con la scala di \writechord{Bbm} (come nel caso del Sol naturale nel \writechord{C(5)}), oppure con la stessa parte di organo (in corrispondenza del \writechord{G(dim)}). Forse Scholz stava ragionando in maniera melodica, pensando di portare la linea di basso raddoppiata dalla chitarra e arricchita da un'armonizzazione per quinte giuste, piuttosto che armonicamente per accordi. Ad ogni modo non è strettamente rilevante ai fini di un'analsi tecnica e arrangiamento; di questa scelta (e dei problemi che da essa derivano) ci preoccuperemo in sede di analisi armonica (\ref{sec:analysis}).
+
+\subsubsection{Coda}
+
 \subsection{Basso}
 \subsection{Batteria}
 
 \section{Analisi armonica}
+\label{sec:analysis}
 Possiamo quindi iniziare ad analizzare lo sviluppo armonico di Foreplay. La primissima sezione di senso armonico compiuto del brano vede la ripetizione dell'ostinato di organo sopra a una linea di basso discendente.
 \begin{sheet}{Figura iniziale}
   \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
@@ -92,7 +113,7 @@ Ad ogni modo, poco importa: trattandosi di due terzine di ottavi a circa 180 bpm
 Si tratta di una scala di Si\flat  minore naturale che, partendo dalla fondamentale, discende per tutta un'ottava; la tonica Si, inoltre, viene tenuta come pedale, rafforzando l'idea che \writechord{Bbm} sia effettivamente il centro tonale della composizione.
 
 L'unica nota estranea alla scala che incontriamo è la sesta maggiore Sol; questo cromatismo conferisce alla sequenza un lieve sapore dorico, anche se in questo punto sembra inserito quasi esclusivamente per rendere pari il numero di note della scala e far tornare i conti e ottenere due gruppi di 4 note ciascuno\footnote{forse ha più a che fare con tecnica e arrangiamento, da rivedere}.
-
+ 
 \paragraph{}
 A seguito di questo abbiamo la sequenza di accordi arpeggiati discendenti.
 
