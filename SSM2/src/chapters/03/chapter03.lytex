@@ -81,7 +81,7 @@ In queste sezioni le parti sono estremamente semplici: a partire dall'ingresso d
   \musicxmlfile{assets/sheets/FP-B_guit.musicxml}
 \end{sheet}
 
-Le ragioni che possono aver portato Scholz a preferire questa soluzione rispetto ad arrangiamenti più complessi sono molteplici. Senza dubbio, possiamo ipotizzare che Scholz volesse mantenere l'organo vera e unica voce del pezzo, dal momento che la parte di organo (come discusso in \ref{ssubsec:parts-organ}) porta già con sé tutte le informazioni melodico/armoniche necessarie a conferire un senso compiuto al brano. Aggiungere una parte di chitarra molto densa, in questo caso, avrebbe reso molto meno intelligibile la parte dell'organo, a maggior ragione se consideriamo che quest'ultimo fatica a uscire dal mix quando il gruppo entra con l'arrangiamento completo. È probabile che quindi, volendo giocare con l'arrangiamento per alzare il \emph{momentum} del pezzo e dovendo scegliere tra addensare utilizzando chitarra o batteria, Scholz abbia preferito quest'ultima, dal momento che la batteria porta un quantitativo di informazione armonica notevolmente inferiore alla chitarra. Quest'ultima viene usata, per l'appunto, per esaltare i vari cambi di armonia dettati dalla parte di organo, senza mai aggiungere alcunché all'arrangiamento.
+Le ragioni che possono aver portato Scholz a preferire questa soluzione rispetto ad arrangiamenti più complessi sono molteplici. Senza dubbio, possiamo ipotizzare che Scholz volesse mantenere l'organo vera e unica voce del pezzo, dal momento che la parte di organo (come discusso in \ref{ssubsec:parts-organ}) porta già con sé tutte le informazioni melodico/armoniche necessarie a conferire un senso compiuto al brano. Aggiungere una parte di chitarra armonicamente molto densa, in questo caso, avrebbe reso molto meno intelligibile la parte dell'organo, a maggior ragione se consideriamo che quest'ultimo fatica a uscire dal mix quando il gruppo entra con l'arrangiamento completo. È probabile che quindi, volendo giocare con l'arrangiamento per alzare il \emph{momentum} del pezzo e dovendo scegliere tra addensare utilizzando chitarra o batteria, Scholz abbia preferito quest'ultima, dal momento che la batteria porta un quantitativo di informazione armonica notevolmente inferiore alla chitarra. Quest'ultima viene usata, per l'appunto, per esaltare i vari cambi di armonia dettati dalla parte di organo, senza mai aggiungere alcunché all'arrangiamento.
 
 Inoltre, l'uso dei powerchord da parte della chitarra e quindi, come detto, di un uso dell'armonia tipicamente hard rock si pone in netto contrasto con la complessa e bachiana armonia dell'organo; è come se Scholz stesse utilizzando quest'arrangiamento estremamente grezzo delle chitarre per ricordare all'ascoltatore che quello che stiamo sentendo è un pezzo hard rock. Questo tipo di contrasto, peraltro, non può che ricordare il suono dei grandi classici dell'hard rock dei primi anni '70, in particolare dei Deep Purple.
 \begin{sheet}{Chitarra in \(A\), si notino le quinte giuste}
@@ -93,6 +93,18 @@ Come postilla possiamo inoltre segnalare che forse è improprio parlare di bicor
 \subsubsection{Coda}
 
 \subsection{Basso}
+La linea di basso in Foreplay è tra le poche in tutto il disco a non esser stata eseguita da Tom Scholz; come anche Let Me Take You Home Tonight, è opera di Fran Sheenan\cite{wiki:bost_b}. Nel periodo della produzione di questo primo LP Sheehan era senza dubbio il musicista con più anni esperienza all'interno della band\cite{site:thirdstage_sheehan}, e questo ci permette di registrare delle differenze tra il suo approccio nelle parti di basso e quello di Scholz.
+
+\paragraph{Tecnica esecutiva}
+Possiamo anzitutto registrare la diversa tecnica utilizzata da Sheehan e Scholz: il primo infatti suona usando le dita, mentre il secondo predilige l'uso del plettro. 
+
+Questo fatto è un'importante evidenza del background strumentale di Scholz, il quale era primariamente un chitarrista e ha affrontato la composizione delle parti di basso mutuando la sua tecnica dalle 6 alle 4 corde. Ciò non vuol dire che le parti da lui curate e registrate non fossero buone e spesso discretamente interessanti; semplicemente, sono tali da permettere di registrare una differenza queste e quelle di Sheehan, a partire appunto dalla tecnica esecutiva.
+
+Questa situazione, peraltro, era piuttosto tipica per i gruppi pop/rock in via di consolidamento nel periodo degli anni '60/'70, dal momento che il basso era uno strumento relativamente giovane e poco noto a chi si avvicinasse alla musica; in alcuni casi l'approccio chitarristico (che prevedeva, tra le altre cose, l'uso del plettro) venne mantenuto quasi come tratto stilistico (emblematico il caso dei Beatles), in altri il bassista prescelto sarebbe finito con proseguire la transizione e l'esplorazione dello strumento (un esempio a caso, John Deacon per i Queen). 
+
+\paragraph{Scelta di note}
+bla bla quarter notes bla bla bla driving momentum bla bla bla triplets fuyrther driving
+
 \subsection{Batteria}
 
 \section{Analisi armonica}

@@ -28,4 +28,4 @@ for D in *; do
 done
 
 # compile document
-cd .. && latexmk -pdf main.tex
+cd .. && latexmk -xelatex --pdf main.tex
