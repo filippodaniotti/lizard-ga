@@ -99,7 +99,7 @@ Come postilla possiamo inoltre segnalare che forse è improprio parlare di bicor
 \subsubsection{Coda}
 
 \subsection{Basso}
-La linea di basso in Foreplay è tra le poche in tutto il disco a non esser stata eseguita da Tom Scholz; come anche Let Me Take You Home Tonight, è opera di Fran Sheenan\cite{wiki:bost_b}. Nel periodo della produzione di questo primo LP Sheehan era senza dubbio il musicista con più anni esperienza all'interno della band\cite{site:thirdstage_sheehan}, e questo ci permette di registrare delle differenze tra il suo approccio nelle parti di basso e quello di Scholz.
+La linea di basso in Foreplay è tra le poche in tutto il disco a non esser stata eseguita da Tom Scholz; come anche Let Me Take You Home Tonight, è opera di Fran Sheenan\cite{wiki:bost_a}. Nel periodo della produzione di questo primo LP Sheehan era senza dubbio il musicista con più anni esperienza all'interno della band\cite{site:thirdstage_sheehan}, e questo ci permette di registrare delle differenze tra il suo approccio nelle parti di basso e quello di Scholz.
 
 \paragraph{Tecnica esecutiva}
 Possiamo anzitutto registrare la diversa tecnica utilizzata da Sheehan e Scholz: il primo infatti suona usando le dita, mentre il secondo predilige l'uso del plettro. 
@@ -109,19 +109,29 @@ Questo fatto è un'importante evidenza del background strumentale di Scholz, il 
 Questa situazione, peraltro, era piuttosto tipica per i gruppi pop/rock in via di consolidamento nel periodo degli anni '60/'70, dal momento che il basso era uno strumento relativamente giovane e poco noto a chi si avvicinasse alla musica; in alcuni casi l'approccio chitarristico (che prevedeva, tra le altre cose, l'uso del plettro) venne mantenuto quasi come tratto stilistico (emblematico il caso dei Beatles), in altri il bassista prescelto sarebbe finito con proseguire la transizione e l'esplorazione dello strumento (un esempio a caso, John Deacon per i Queen). 
 
 \paragraph{Scelta di note}
-Le scelte operate da Sheehan in questo pezzo sono volte alla semplicità. Il discorso già fatto in \ref{subsec:guitar} rimane valido: la parte di organo rappresenta un brano armonicamente completo di per sé, anche per quanto riguarda la linea di basso eseguita; per questo motivo, Sheehan sceglie di articolare la sua parte raddoppiando all'ottava bassa la linea di basso dell'organo (\ref{sh:FP-A_bass_1}), mantenendone l'andamento cadenzato a note da un quarto quasi del tutto inalterato.
+Le scelte operate da Sheehan in questo pezzo sono volte alla semplicità. Il discorso già fatto in Sec.\ref{subsec:guitar} rimane valido: la parte di organo rappresenta un brano armonicamente completo di per sé, anche per quanto riguarda la linea di basso eseguita; per questo motivo, Sheehan sceglie di articolare la sua parte raddoppiando all'ottava bassa la linea di basso dell'organo (Sp.\ref{sh:FP-A_bass_1}), mantenendone l'andamento cadenzato a note da un quarto quasi del tutto inalterato.
 
 Tralasciando il breve intervento nell'introduzione, l'ingresso vero e proprio del basso avviene a partire dalla seconda ripetizione del giro armonico, fungendo dunque da primo elemento di crescita dell'arrangiamento e preparazione al successivo ingresso di chitarra e batteria nella ripetizione successiva.
 
-In alcuni momenti Sheehan spezza l'andamento cadenzato delle quarter notes e sceglie di esaltare ulteriormente il ritmo a terzine dato dagli arpeggi dell'organo. Questo avviene soprattutto nelle sezioni in cui è presente il gruppo completo, il che li rende piuttosto difficili da individuare consapevolmente, dal momento che il basso viene molto nascosto dalla chitarra e dalla batteria; tuttavia, un ascolto di una traccia isolata\cite{yt:foreplay_isolated_bass} non lascia dubbi e questo dettaglio, seppur sottile, contribuisce notevolmente all'innalzamento  della "tensione ritmica" \textit{(termine che mi sono inventato e che dovrei giustificare)} del pezzo.
+In alcuni momenti Sheehan spezza l'andamento cadenzato delle quarter notes e sceglie di esaltare ulteriormente il ritmo a terzine dato dagli arpeggi dell'organo. Questo avviene soprattutto nelle sezioni in cui è presente il gruppo completo, il che li rende piuttosto difficili da individuare consapevolmente, dal momento che il basso viene molto nascosto dalla chitarra e dalla batteria; tuttavia, un ascolto di una traccia isolata\cite{yt:FP-isolated_bass} non lascia dubbi e questo dettaglio, seppur sottile, contribuisce notevolmente all'innalzamento  della "tensione ritmica" \textit{(termine che mi sono inventato e che dovrei giustificare)} del pezzo.
 \begin{sheet}{Basso nell'ultima ripetizione del giro di \(A\), si notinoi i ribattuti sulle terzine}
   \musicxmlfile{assets/sheets/FP-A_bass_2.musicxml}
 \end{sheet}
 
 L'approccio volto alla semplicità viene mantenuto anche nella coda, in cui Sheehan suona principalmente whole notes con le corde libere per esaltare il clima di maestosità dato dall'organo liturgico.
 
-
 \subsection{Batteria}
+La linea seguita da questa parte di batteria, eseguita da Sib Hashian\cite{wiki:bost_a}, è quella di esaltare, quasi esasperare, l'andamento a terzine di ottavi del pezzo. In quasi tutti i diversi arrangiamenti proposti nelle diverse sezioni, infatti, la batteria mantiene ininterrottamente il pattern proposto dagli arpeggi di organi già a partire dal fade in introduttivo, orchestrandolo di volta in volta su diversi elementi del kit.
+
+Questo diventa evidente già a partire dalle 4 misure che precedono la prima iterazione di \(A\), in cui la batteria esegue il pattern sugli hi-hats, aprendoli con il pedale sul battere del 2 e del 4 come surrogato del colpo di rullante (il pattern seguito è regular time (e non so come dirlo in italiano)).
+\begin{sheet}{Pattern per la prima ripetizione di \(A\)}
+  \musicxmlfile{assets/sheets/FP-A_drums_1.musicxml}
+\end{sheet}
+
+Nella seconda ripetizione abbiamo l'ingresso della grancassa, il cui andamento a quarti conferisce maggiore drive (grrr non so come rendere tutte ste parole in italiano) alla linea del basso elettrico appena entrato.
+\begin{sheet}{Pattern per la seconda ripetizione di \(A\)}
+  \musicxmlfile{assets/sheets/FP-A_drums_2.musicxml}
+\end{sheet}
 
 \section{Analisi armonica}
 \label{sec:analysis}
