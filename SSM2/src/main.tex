@@ -15,6 +15,9 @@
 	{./chapters/04/assets/images/}%
 }
 
+% arara: pdflatex
+% arara: biber
+% arara: latexmk: { clean: partial }
 \begin{document}
 \frontmatter
 	\newgeometry{ignorefoot, bottom = 1cm}

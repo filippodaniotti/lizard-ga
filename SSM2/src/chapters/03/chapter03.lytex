@@ -114,7 +114,7 @@ Le scelte operate da Sheehan in questo pezzo sono volte alla semplicità. Il dis
 Tralasciando il breve intervento nell'introduzione, l'ingresso vero e proprio del basso avviene a partire dalla seconda ripetizione del giro armonico, fungendo dunque da primo elemento di crescita dell'arrangiamento e preparazione al successivo ingresso di chitarra e batteria nella ripetizione successiva.
 
 In alcuni momenti Sheehan spezza l'andamento cadenzato delle quarter notes e sceglie di esaltare ulteriormente il ritmo a terzine dato dagli arpeggi dell'organo. Questo avviene soprattutto nelle sezioni in cui è presente il gruppo completo, il che li rende piuttosto difficili da individuare consapevolmente, dal momento che il basso viene molto nascosto dalla chitarra e dalla batteria; tuttavia, un ascolto di una traccia isolata\cite{yt:FP-isolated_bass} non lascia dubbi e questo dettaglio, seppur sottile, contribuisce notevolmente all'innalzamento  della "tensione ritmica" \textit{(termine che mi sono inventato e che dovrei giustificare)} del pezzo.
-\begin{sheet}{Basso nell'ultima ripetizione del giro di \(A\), si notinoi i ribattuti sulle terzine}
+\begin{sheet}{Basso nell'ultima ripetizione del giro di \(A\), si notino i ribattuti sulle terzine}
   \musicxmlfile{assets/sheets/FP-A_bass_2.musicxml}
 \end{sheet}
 
@@ -125,12 +125,12 @@ La linea seguita da questa parte di batteria, eseguita da Sib Hashian\cite{wiki:
 
 Questo diventa evidente già a partire dalle 4 misure che precedono la prima iterazione di \(A\), in cui la batteria esegue il pattern sugli hi-hats, aprendoli con il pedale sul battere del 2 e del 4 come surrogato del colpo di rullante (il pattern seguito è regular time (e non so come dirlo in italiano)).
 \begin{sheet}{Pattern per la prima ripetizione di \(A\)}
-  \musicxmlfile{assets/sheets/FP-A_drums_1.musicxml}
+  \lilypondfile{assets/sheets/FP-A_drums_1.ly}
 \end{sheet}
 
 Nella seconda ripetizione abbiamo l'ingresso della grancassa, il cui andamento a quarti conferisce maggiore drive (grrr non so come rendere tutte ste parole in italiano) alla linea del basso elettrico appena entrato.
 \begin{sheet}{Pattern per la seconda ripetizione di \(A\)}
-  \musicxmlfile{assets/sheets/FP-A_drums_2.musicxml}
+  \lilypondfile{assets/sheets/FP-A_drums_2.ly}
 \end{sheet}
 
 \section{Analisi armonica}

@@ -26,6 +26,11 @@ for D in *; do
         cd ..
     fi
 done
+cd ..
 
 # compile document
-cd .. && latexmk -xelatex --pdf main.tex
+if [ $1 == "-p" ]; then
+    latexmk -xelatex --pdf main.tex
+else
+    arara main.tex
+fi
