@@ -4,7 +4,7 @@
   <identification>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2021-06-04</encoding-date>
+      <encoding-date>2021-06-08</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="no"/>
@@ -326,7 +326,7 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="5" width="350.65">
+    <measure number="5" width="355.73">
       <print new-system="yes">
         <system-layout>
           <system-margins>
@@ -367,24 +367,26 @@
         </note>
       <harmony print-frame="no">
         <root>
-          <root-step>C</root-step>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
           </root>
         <kind text="5">power</kind>
         </harmony>
-      <note default-x="177.38" default-y="-50.00">
+      <note default-x="178.65" default-y="-60.00">
         <pitch>
-          <step>C</step>
-          <octave>3</octave>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
           </pitch>
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="177.38" default-y="-30.00">
+      <note default-x="178.65" default-y="-40.00">
         <chord/>
         <pitch>
-          <step>G</step>
+          <step>E</step>
           <alter>-1</alter>
           <octave>3</octave>
           </pitch>
@@ -400,7 +402,7 @@
           </root>
         <kind text="5">power</kind>
         </harmony>
-      <note default-x="234.53" default-y="-45.00">
+      <note default-x="237.07" default-y="-45.00">
         <pitch>
           <step>D</step>
           <alter>-1</alter>
@@ -411,7 +413,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="234.53" default-y="-25.00">
+      <note default-x="237.07" default-y="-25.00">
         <chord/>
         <pitch>
           <step>A</step>
@@ -430,7 +432,7 @@
           </root>
         <kind text="5">power</kind>
         </harmony>
-      <note default-x="291.69" default-y="-60.00">
+      <note default-x="295.50" default-y="-60.00">
         <pitch>
           <step>A</step>
           <alter>-1</alter>
@@ -441,7 +443,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="291.69" default-y="-40.00">
+      <note default-x="295.50" default-y="-40.00">
         <chord/>
         <pitch>
           <step>E</step>
@@ -454,126 +456,7 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="6" width="246.93">
-      <harmony print-frame="no">
-        <root>
-          <root-step>B</root-step>
-          <root-alter>-1</root-alter>
-          </root>
-        <kind text="5">power</kind>
-        </harmony>
-      <note default-x="16.50" default-y="-55.00">
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>2</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      <note default-x="16.50" default-y="-35.00">
-        <chord/>
-        <pitch>
-          <step>F</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      <harmony print-frame="no">
-        <root>
-          <root-step>C</root-step>
-          </root>
-        <kind text="5">power</kind>
-        </harmony>
-      <note default-x="73.66" default-y="-50.00">
-        <pitch>
-          <step>C</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      <note default-x="73.66" default-y="-30.00">
-        <chord/>
-        <pitch>
-          <step>G</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      <harmony print-frame="no">
-        <root>
-          <root-step>D</root-step>
-          <root-alter>-1</root-alter>
-          </root>
-        <kind text="5">power</kind>
-        </harmony>
-      <note default-x="130.81" default-y="-45.00">
-        <pitch>
-          <step>D</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      <note default-x="130.81" default-y="-25.00">
-        <chord/>
-        <pitch>
-          <step>A</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      <harmony print-frame="no">
-        <root>
-          <root-step>A</root-step>
-          <root-alter>-1</root-alter>
-          </root>
-        <kind text="5">power</kind>
-        </harmony>
-      <note default-x="187.97" default-y="-60.00">
-        <pitch>
-          <step>A</step>
-          <alter>-1</alter>
-          <octave>2</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      <note default-x="187.97" default-y="-40.00">
-        <chord/>
-        <pitch>
-          <step>E</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      </measure>
-    <measure number="7" width="257.09">
+    <measure number="6" width="252.01">
       <harmony print-frame="no">
         <root>
           <root-step>B</root-step>
@@ -610,7 +493,7 @@
           </root>
         <kind text="5">power</kind>
         </harmony>
-      <note default-x="76.20" default-y="-60.00">
+      <note default-x="74.93" default-y="-60.00">
         <pitch>
           <step>A</step>
           <alter>-1</alter>
@@ -621,7 +504,128 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="76.20" default-y="-40.00">
+      <note default-x="74.93" default-y="-40.00">
+        <chord/>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <harmony print-frame="no">
+        <root>
+          <root-step>D</root-step>
+          <root-alter>-1</root-alter>
+          </root>
+        <kind text="5">power</kind>
+        </harmony>
+      <note default-x="133.35" default-y="-45.00">
+        <pitch>
+          <step>D</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="133.35" default-y="-25.00">
+        <chord/>
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <harmony print-frame="no">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+          </root>
+        <kind text="5">power</kind>
+        </harmony>
+      <note default-x="191.78" default-y="-60.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="191.78" default-y="-40.00">
+        <chord/>
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      </measure>
+    <measure number="7" width="252.01">
+      <harmony print-frame="no">
+        <root>
+          <root-step>B</root-step>
+          <root-alter>-1</root-alter>
+          </root>
+        <kind text="5">power</kind>
+        </harmony>
+      <note default-x="16.50" default-y="-55.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="16.50" default-y="-35.00">
+        <chord/>
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <harmony print-frame="no">
+        <root>
+          <root-step>A</root-step>
+          <root-alter>-1</root-alter>
+          </root>
+        <kind text="5">power</kind>
+        </harmony>
+      <note default-x="74.93" default-y="-60.00">
+        <pitch>
+          <step>A</step>
+          <alter>-1</alter>
+          <octave>2</octave>
+          </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        </note>
+      <note default-x="74.93" default-y="-40.00">
         <chord/>
         <pitch>
           <step>E</step>
@@ -640,7 +644,7 @@
           </root>
         <kind text="5">power</kind>
         </harmony>
-      <note default-x="135.89" default-y="-65.00">
+      <note default-x="133.35" default-y="-65.00">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -651,7 +655,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="135.89" default-y="-45.00">
+      <note default-x="133.35" default-y="-45.00">
         <chord/>
         <pitch>
           <step>D</step>
@@ -670,7 +674,7 @@
           </root>
         <kind text="5">power</kind>
         </harmony>
-      <note default-x="195.59" default-y="-40.00">
+      <note default-x="191.78" default-y="-40.00">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -681,7 +685,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="195.59" default-y="-20.00">
+      <note default-x="191.78" default-y="-20.00">
         <chord/>
         <pitch>
           <step>B</step>
@@ -694,7 +698,7 @@
         <stem>up</stem>
         </note>
       </measure>
-    <measure number="8" width="173.91">
+    <measure number="8" width="168.83">
       <harmony print-frame="no">
         <root>
           <root-step>F</root-step>
@@ -722,7 +726,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="54.65" default-y="-35.00">
+      <note default-x="53.38" default-y="-35.00">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -732,7 +736,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="54.65" default-y="-15.00">
+      <note default-x="53.38" default-y="-15.00">
         <chord/>
         <pitch>
           <step>C</step>
@@ -743,7 +747,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="93.81" default-y="-35.00">
+      <note default-x="91.27" default-y="-35.00">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -753,7 +757,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="93.81" default-y="-15.00">
+      <note default-x="91.27" default-y="-15.00">
         <chord/>
         <pitch>
           <step>C</step>
@@ -764,7 +768,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="132.96" default-y="-35.00">
+      <note default-x="129.15" default-y="-35.00">
         <pitch>
           <step>F</step>
           <octave>3</octave>
@@ -774,7 +778,7 @@
         <type>quarter</type>
         <stem>up</stem>
         </note>
-      <note default-x="132.96" default-y="-15.00">
+      <note default-x="129.15" default-y="-15.00">
         <chord/>
         <pitch>
           <step>C</step>
