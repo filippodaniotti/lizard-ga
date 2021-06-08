@@ -70,7 +70,7 @@
 
 %%% ENVIRONMENTS %%%
 
-% Define a new counter for sheet environment
+% Define a new counter for the sheet environment
 % will reset each time chapter counter is incremented
 \newcounter{sheet}[chapter] 
 \newsavebox{\sheetcaption}
@@ -78,6 +78,7 @@
 	{
 		\refstepcounter{sheet}%     Increment sheet counter
 		\sbox{\sheetcaption}{#1}% 	Save argument (caption)
+		\vspace{.5em}
 		\begin{center}
 		
 	}
@@ -85,5 +86,6 @@
 		\\
 		\vspace{1em}
 		Pentagramma~\thechapter.\thesheet: \usebox{\sheetcaption}
-	\end{center}
-}
+		\end{center}
+		\vspace{1em}
+	}

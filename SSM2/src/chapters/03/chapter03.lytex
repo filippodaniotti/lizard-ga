@@ -133,6 +133,21 @@ Nella seconda ripetizione abbiamo l'ingresso della grancassa, il cui andamento a
   \lilypondfile{assets/sheets/FP-A_drums_2.ly}
 \end{sheet}
 
+Nella terza ripetizione la dinamica del brano cresce notevolmente. Abbiamo già parlato del contributo della chitarra in questo senso e, dando un'occhiata ravvicinata alla parte di batteria, possiamo trovare conferma a quanto detto in Sec.\ref{subsec:guitar}: l'andamento in terzine, in un certo senso precluso alla chitarra, viene conservato in questa sezione e reso ancora più denso dall'uso del crash sul primo elemento di ogni terzina e del rullante nei restanti due elementi.
+\begin{sheet}{Pattern e fill conclusivo per la terza ripetizione di \(A\)}
+  \lilypondfile{assets/sheets/FP-A_drums_3.ly}
+\end{sheet}
+
+L'andamento a terzine viene spezzato solamente nelle prime 4 misure di \(B\). In questa sezione viene ripetuta due volte una frase a mo' di domanda-risposta, dalla costruzione quasi melodica: nella domanda abbiamo una terzina di quarti, che potremmo vedere come un dimezzato del pattern dominante fino a poco tempo prima; nella risposta invece le terzine tornano a ottavi. In entrambe le parti gli ultimi due quarti non contengono alcuna figura irregolare, lasciando un breve attimo di respiro all'ascoltatore prima del climax finale.
+\begin{sheet}{Frase domanda-risposta in \(B\)}
+  \lilypondfile{assets/sheets/FP-B_drums.ly}
+\end{sheet}
+
+Nella coda abbiamo semplicemente dei colpi combinati di cassa e crash nel batterei del primo quarto delle misure, che danno all'ascoltatore un labile riferimenti ritmico all'interno di questa sezione in rubato; per il resto, le battute vengono riempite da un roll sul crash, che viene interrotto bruscamente al termine per lasciare spazio al morbido tappeto di organo che condurrà al fill iniziale di Long Time.
+\begin{sheet}{Batteria nella coda}
+  \lilypondfile{assets/sheets/FP-Q_drums.ly}
+\end{sheet}
+
 \section{Analisi armonica}
 \label{sec:analysis}
 Possiamo quindi iniziare ad analizzare lo sviluppo armonico di Foreplay. La primissima sezione di senso armonico compiuto del brano vede la ripetizione dell'ostinato di organo sopra a una linea di basso discendente.

@@ -1,6 +1,6 @@
 \drums {
-  \tuplet 3/2 { <hh bd>8 hh hh }
-  \tuplet 3/2 { <hhp bd hho>8 hh hh }
-  \tuplet 3/2 { <hh bd>8 hh hh }
-  \tuplet 3/2 { <hhp bd hho>8 hh hh }
+  \tuplet 3/2 { <hhho bd>8 hhho hhho }
+  \tuplet 3/2 { <bd hho>8 hhho hhho }
+  \tuplet 3/2 { <hhho bd>8 hhho hhho}
+  \tuplet 3/2 { <bd hho>8 hhho hhho }
 }
