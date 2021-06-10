@@ -106,7 +106,7 @@ Inoltre, l'uso dei powerchord da parte della chitarra e quindi, come detto, di u
   \musicxmlfile{assets/sheets/FP-A_guit.musicxml}
 \end{sheet}
 
-Come postilla possiamo inoltre segnalare che forse è improprio parlare di bicordi relativamente alla parte eseguita da Scholz in queste sezioni: le quinte considerate, per ogni accordo, sono sempre delle quinte giuste, anche quando vanno a cozzare con la scala di \writechord{Bbm} (come nel caso del Sol naturale nel \writechord{C(5)}), oppure con la stessa parte di organo (in corrispondenza del \writechord{Gdim}). Forse Scholz stava ragionando in maniera melodica, pensando di portare la linea di basso raddoppiata dalla chitarra e arricchita da un'armonizzazione per quinte giuste, piuttosto che armonicamente per accordi. Ad ogni modo non è strettamente rilevante ai fini di un'analsi tecnica e arrangiamento; di questa scelta (e dei problemi che da essa derivano) ci preoccuperemo in sede di analisi armonica (\ref{sec:analysis}).
+Come postilla possiamo inoltre segnalare che forse è improprio parlare di bicordi relativamente alla parte eseguita da Scholz in queste sezioni: le quinte considerate, per ogni accordo, sono sempre delle quinte giuste, anche quando vanno a cozzare con la scala di \writechord{Bbm} (come nel caso del Sol\natural~ nel \writechord{C5}), oppure con la stessa parte di organo (in corrispondenza del \writechord{Gdim}). Forse Scholz stava ragionando in maniera melodica, pensando di portare la linea di basso raddoppiata dalla chitarra e arricchita da un'armonizzazione per quinte giuste, piuttosto che armonicamente per accordi. Ad ogni modo non è strettamente rilevante ai fini di un'analsi tecnica e arrangiamento; di questa scelta (e dei problemi che da essa derivano) ci preoccuperemo in sede di analisi armonica (\ref{sec:analysis}).
 
 \subsubsection{Coda}
 
@@ -199,9 +199,9 @@ Appare evidente che questa progressione pone dei problemi nel momento in cui ci 
 
 Come punto di partenza, ovviamente, noi assumiamo di muoverci nello stesso ambiente tonale impostato nell'introduzione, quindi in Si\flat~minore. In prima battuta questo appare ragionevole, dal momento che la successione di accordi che troviamo nella prima misura siede perfettamente all'interno di un Si\flat~minore:  [Im \flat VII III \flat VII]\footnote{Con \flat VII in primo rivolto per via della linea di basso.}. 
 
-Nella misura successiva, però, il terzo accordo è una triade \writechord{Gdim}, che contiene un evidentissimo Sol naturale che troviamo anche nella linea di basso. Non solo: nella misura successiva lo stesso Sol naturale appare in un \writechord{Cm}, nonché in un \writechord{Eb}.
+Nella misura successiva, però, il terzo accordo è una triade \writechord{Gdim}, che contiene un evidentissimo Sol\natural~ che troviamo anche nella linea di basso. Non solo: nella misura successiva lo stesso Sol\natural~ appare in un \writechord{Cm}, nonché in un \writechord{Eb}.
 
-Sol naturale non è una nota che fa parte della scala di Si\flat~minore; è la sesta maggiore di Si\flat~e qui appare regolarmente in sede del Sol\flat~, sesta minore che ci aspetteremmo di trovare in Si\flat~minore. Cosa sta succedendo, allora? 
+Sol\natural~ non è una nota che fa parte della scala di Si\flat~minore; è la sesta maggiore di Si\flat~e qui appare regolarmente in sede del Sol\flat~, sesta minore che ci aspetteremmo di trovare in Si\flat~minore. Cosa sta succedendo, allora? 
 
 \paragraph{Ipotesi della modulazione indiretta}
 Possiamo vedere questo fenomeno come una breve modulazione indiretta. Diciamo che un cambio di tonalità avviene attraverso una \emph{modulazione indiretta} quando esso coinvolge due tonalità sufficientemente vicine nel circolo delle quinte da avere degli accordi in comune, tali per cui se ne possa scegliere uno (detto \emph{pivot}) da utilizzare per modulare gradualmente verso la tonalità di riferimento. 
@@ -273,5 +273,26 @@ A seguito della prima iterazione di \(B\) qui segue la ripresa dell'introduzione
 La terza piccarda è piuttosto atipica nella musica leggera e nella musica moderna, ma assai diffusa in epoca barocca e, ancora adesso, nella musica liturgica. 
 
 \subsection{Coda}
+\subsubsection{Gruppo completo}
+Nella coda abbiamo di nuovo due progressioni. La prima segue immediatamente la chiusura sulla terza piccarda di cui abbiamo parlato sopra e tutto il gruppo è coinvolto nell'arrangiamento; questa, in un certo senso, va a rilasciare gradualmente la tensione costruita fino a quel momento nel pezzo. Per analizzarla è sufficiente dare un'occhiata alla parte di organo:
+\begin{sheet}{Prima progressione della coda}
+  \musicxmlfile{assets/sheets/FP-Q_organ_1.musicxml}
+\end{sheet}
+
+Si tratta di una progressione di accordi in rubato (senza metronomo) costruita su un pedale di Do, tenuto sia dall'organo sia dal basso elettrico e ribattuta ogni misura. Ci sono svariati elementi che ci fanno pensare che anche qui sia avvenuta una modulazione: molti di questi accordi, infatti, presentano note che non appartengono a Si\flat~minore,come il Re del \writechord{Bb7}, il Sol\natural~del \writechord{Csus4} o l'intero \writechord{G}. 
+
+Tutti questi accordi, però, sono coerenti se consideriamo il centro tonale spostato a Do minore: lo stesso \writechord{Bb}, terza piccarda di Si\flat~minore, ben si siede in Do minore, in quanto \flat VII, e il Si\natural~del\writechord{G} si spiega perfettamente con un interscambio modale con la minore armonica. Il fatto che la nota pedale sia proprio un Do non fa che rafforzare questa tesi.
+
+La scelta degli accordi sembra essere dettata seguendo i toni guida; come abbiamo già visto fare numerose altre volte, è la melodia a guidare le scelte armoniche in questo brano, e non una costruzione di tensione-risoluzione per aree tonali. Il movimento ascendente delle terze\footnote{Nel \writechord{Cm7} il tono guida è la settima minore.} degli accordi di questa progressione, infatti, attraverso cadenze plagali (\writechord{Fm} \writechord{Cm7}, [IVm Im\(^7\)] di Do minore) e cadenze evitate (\writechord{G} \writechord{Bb7}, [V \flat VII] di Do minore), ci porta alla chiusura e rilascio di tensione finale del brano che, nuovamente avviene con la terza piccarda \writechord{C}. A seguito di questo, il gruppo sparisce bruscamente, lasciando spazio all'organo per la sezione di passaggio verso Long Time.
+
+\subsubsection{Tappeto di organo}
+Anche questa progressione può essere spiegata con l'uso dei toni guida per guidare le scelte armoniche tracciate da una linea melodica discendente.
+\begin{sheet}{Seconda progressione della coda}
+  \musicxmlfile{assets/sheets/FP-Q_organ_2.musicxml}
+\end{sheet}
+
+La differenza principale tra la progressione precedente e questa sta nel fatto che, in questo caso, risulta particolarmente arduo parlare di tonalità. Nonostante il giro inizi in \writechord{Cm7} e termini nuovamente con la terza piccarda \writechord{C}, nessuno degli accordi rientra nella tonalità di Do minore; pertanto, conviene davvero pensare la sezione come scritta in armonia non-funzionale e determinata interamente dalla discesa cromatica dei toni guida.
+
+La chiusura in \writechord{C}, oltre a riprendere vagamente il centro tonale fino a prima, ha un ruolo importante nel lancio di Long Time. Questa inizia infatti con un riff di organo in Fa misolidio, per cui il nostro \writechord{C} costituisce una cadenza perfetta ([V - I]) con l'accordo di \writechord{F} che apre il riff di Long Time.
 
 \end{document}
