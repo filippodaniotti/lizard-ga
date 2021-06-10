@@ -21,6 +21,7 @@ A sottolineare ulteriormente che i due brani si sono ritrovati a essere uniti qu
 Foreplay, invece, è uscita come B-side del singolo \emph{Peace of Mind}, rilasciato nell'aprile dello stesso anno\cite{wiki:bost_pom}.
 
 \section{Struttura}
+\label{sec:struct}
 Foreplay si compone di due sezioni principali che chiamiamo \(A\) e \(B\) e vengono eseguite secondo il semplice schema \(ABAB\); queste sono precedute da una breve introduzione e seguite da una coda che funge da raccordo con Long Time, transitando verso quest'ultima senza soluzione di continuità.
 
 \subsubsection*{Introduzione\\ \small{da 0:00 a 0:18}}
@@ -101,10 +102,11 @@ Le ragioni che possono aver portato Scholz a preferire questa soluzione rispetto
 
 Inoltre, l'uso dei powerchord da parte della chitarra e quindi, come detto, di un uso dell'armonia tipicamente hard rock si pone in netto contrasto con la complessa e bachiana armonia dell'organo; è come se Scholz stesse utilizzando quest'arrangiamento estremamente grezzo delle chitarre per ricordare all'ascoltatore che quello che stiamo sentendo è un pezzo hard rock. Questo tipo di contrasto, peraltro, non può che ricordare il suono dei grandi classici dell'hard rock dei primi anni '70, in particolare dei Deep Purple.
 \begin{sheet}{Chitarra in \(A\), si notino le quinte giuste}
+  \label{sh:A_guit}
   \musicxmlfile{assets/sheets/FP-A_guit.musicxml}
 \end{sheet}
 
-Come postilla possiamo inoltre segnalare che forse è improprio parlare di bicordi relativamente alla parte eseguita da Scholz in queste sezioni: le quinte considerate, per ogni accordo, sono sempre delle quinte giuste, anche quando vanno a cozzare con la scala di \writechord{Bbm} (come nel caso del Sol naturale nel \writechord{C(5)}), oppure con la stessa parte di organo (in corrispondenza del \writechord{G(dim)}). Forse Scholz stava ragionando in maniera melodica, pensando di portare la linea di basso raddoppiata dalla chitarra e arricchita da un'armonizzazione per quinte giuste, piuttosto che armonicamente per accordi. Ad ogni modo non è strettamente rilevante ai fini di un'analsi tecnica e arrangiamento; di questa scelta (e dei problemi che da essa derivano) ci preoccuperemo in sede di analisi armonica (\ref{sec:analysis}).
+Come postilla possiamo inoltre segnalare che forse è improprio parlare di bicordi relativamente alla parte eseguita da Scholz in queste sezioni: le quinte considerate, per ogni accordo, sono sempre delle quinte giuste, anche quando vanno a cozzare con la scala di \writechord{Bbm} (come nel caso del Sol naturale nel \writechord{C(5)}), oppure con la stessa parte di organo (in corrispondenza del \writechord{Gdim}). Forse Scholz stava ragionando in maniera melodica, pensando di portare la linea di basso raddoppiata dalla chitarra e arricchita da un'armonizzazione per quinte giuste, piuttosto che armonicamente per accordi. Ad ogni modo non è strettamente rilevante ai fini di un'analsi tecnica e arrangiamento; di questa scelta (e dei problemi che da essa derivano) ci preoccuperemo in sede di analisi armonica (\ref{sec:analysis}).
 
 \subsubsection{Coda}
 
@@ -160,6 +162,7 @@ Nella coda abbiamo semplicemente dei colpi combinati di cassa e crash nel batter
 
 \section{Analisi armonica}
 \label{sec:analysis}
+\subsection{Introduzione}
 Possiamo quindi iniziare ad analizzare lo sviluppo armonico di Foreplay. La primissima sezione di senso armonico compiuto del brano vede la ripetizione dell'ostinato di organo sopra a una linea di basso discendente.
 \begin{sheet}{Figura iniziale}
   \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
@@ -173,24 +176,102 @@ Ad ogni modo, poco importa: trattandosi di due terzine di ottavi a circa 180 bpm
   \musicxmlfile{assets/sheets/FP-intro_bass.musicxml}
 \end{sheet}
 
-Si tratta di una scala di Si\flat  minore naturale che, partendo dalla fondamentale, discende per tutta un'ottava; la tonica Si, inoltre, viene tenuta come pedale, rafforzando l'idea che \writechord{Bbm} sia effettivamente il centro tonale della composizione.
+Si tratta di una scala di Si\flat~minore naturale che, partendo dalla fondamentale, discende per tutta un'ottava; la tonica Si, inoltre, viene tenuta come pedale, rafforzando l'idea che \writechord{Bbm} sia effettivamente il centro tonale della composizione.
 
-L'unica nota estranea alla scala che incontriamo è la sesta maggiore Sol; questo cromatismo conferisce alla sequenza un lieve sapore dorico, anche se in questo punto sembra inserito quasi esclusivamente per rendere pari il numero di note della scala e far tornare i conti e ottenere due gruppi di 4 note ciascuno\footnote{forse ha più a che fare con tecnica e arrangiamento, da rivedere}.
+L'unica nota estranea alla scala che incontriamo è la sesta maggiore Sol; questo cromatismo conferisce alla sequenza un lieve sapore dorico, anche se in questo punto sembra inserito quasi esclusivamente per rendere pari il numero di note della scala e far tornare i conti e ottenere due gruppi di 4 note ciascuno.
  
 \paragraph{}
 A seguito di questo abbiamo la sequenza di accordi arpeggiati discendenti.
-
 \begin{sheet}{Fill di arpeggi discendenti verso la strofa}
   \musicxmlfile{assets/sheets/FP-intro_fill.musicxml}
 \end{sheet}
 
-Nonostante si tratti di triadi complete, possiamo dire che questo fill abbia una funzione più melodica che propriamente armonica; vengono sfruttati i rivolti di \writechord{Bbm} e \writechord{Ab} in modo che il primo elemento delle varie terzine discenda rispetto alla scala di Si\flat minore, andando in un certo senso a riprendere il movimento che era appena stato fatto dalla linea di basso.
+Nonostante si tratti di triadi complete, possiamo dire che questo fill abbia una funzione più melodica che propriamente armonica; vengono sfruttati i rivolti di \writechord{Bbm} e \writechord{Ab} in modo che il primo elemento delle varie terzine discenda rispetto alla scala di Si\flat~minore, andando in un certo senso a riprendere il movimento che era appena stato fatto dalla linea di basso.
 
-\paragraph{}
-La prossima sezione di nostro interesse è quella che potremmo ragionevolmente considerare la strofa del pezzo, segmento più interessente nonché di maggiore difficoltà interpretativa. 
-
+\subsection{Sezione \(A\)}
+\subsubsection{Ripetizioni 1-3}
+Come già detto in \ref{sec:struct}, \(A\) presenta tre ripetizione di un giro armonico e una variazione di quest'ultimo per una quarta ripetizione. Iniziamo con il primo:
 \begin{sheet}{Accordi della strofa}
   \musicxmlfile{assets/sheets/FP-verse_chords_1.musicxml}
 \end{sheet}
+
+Appare evidente che questa progressione pone dei problemi nel momento in cui ci troviamo a determinare la tonalità del pezzo. 
+
+Come punto di partenza, ovviamente, noi assumiamo di muoverci nello stesso ambiente tonale impostato nell'introduzione, quindi in Si\flat~minore. In prima battuta questo appare ragionevole, dal momento che la successione di accordi che troviamo nella prima misura siede perfettamente all'interno di un Si\flat~minore:  [Im \flat VII III \flat VII]\footnote{Con \flat VII in primo rivolto per via della linea di basso.}. 
+
+Nella misura successiva, però, il terzo accordo è una triade \writechord{Gdim}, che contiene un evidentissimo Sol naturale che troviamo anche nella linea di basso. Non solo: nella misura successiva lo stesso Sol naturale appare in un \writechord{Cm}, nonché in un \writechord{Eb}.
+
+Sol naturale non è una nota che fa parte della scala di Si\flat~minore; è la sesta maggiore di Si\flat~e qui appare regolarmente in sede del Sol\flat~, sesta minore che ci aspetteremmo di trovare in Si\flat~minore. Cosa sta succedendo, allora? 
+
+\paragraph{Ipotesi della modulazione indiretta}
+Possiamo vedere questo fenomeno come una breve modulazione indiretta. Diciamo che un cambio di tonalità avviene attraverso una \emph{modulazione indiretta} quando esso coinvolge due tonalità sufficientemente vicine nel circolo delle quinte da avere degli accordi in comune, tali per cui se ne possa scegliere uno (detto \emph{pivot}) da utilizzare per modulare gradualmente verso la tonalità di riferimento. 
+
+Le note e gli accordi che troviamo in questa progressione, per l'appunto, sono tutti contenuti all'interno della scala di Fa minore, una tonalità che si trova immediatamente adiacente a Si\flat~minore nel circolo delle quinte; queste due tonalità condividono, per l'appunto, quasi tutte le note all'infuori del Sol, che è naturale per la prima e bemolle per la seconda.   
+
+Secondo questa interpretazione, quindi, nella seconda battuta starebbe avvenendo una modulazione indiretta da Si\flat~minore a Fa minore il cui pivot sarebbe uno tra gli accordi di \writechord{Bbm} e \writechord{Ab} che immediatamente precedono \writechord{Gdim}; questi, infatti, sono [Im \flat VII] di SI\flat~minore e [IVm III] di Fa minore. A questo punto i problemi armonici sono risolti dal momento che, a partire dal \writechord{Gdim} (II\(^{\textrm{dim}}\)), tutti gli accordi successivi sono perfettamente contenuti all'interno di Fa minore. 
+
+Il fatto che la progressione termini su un \writechord{Fm} tenuto per \meter{4}{4} e che questo sia preceduto da un \writechord{Eb}, formando quindi una cadenza d'inganno, possono essere validi argomenti a favore di questa tesi.
+
+Non dimentichiamo però che questo giro armonico viene ripetuto uguale a sé stesso per 3 volte; questa interpretazione lascia aperto il problema di come considerare la ripresa del giro dal \writechord{Fm} al primo \writechord{Bbm}. 
+
+Certo, possiamo considerarla nuovamente come una modulazione da Fa minore a Si\flat~minore (sia indiretta considerando \writechord{Fm} come Vm di Si\flat~minore, sia diretta), ma sembrerebbe alquanto poco conveniente modulare per appena poco più di una misura. Ci chiediamo, a questo punto, se non sia quasi più conveniente considerare l'intera sezione in tonalità di Fa minore. Questo non porrebbe alcun problema dal punto di vista armonico: abbiamo già sottolineato che tutti gli accordi presenti rientrano perfettamente in tale tonalità. 
+
+Abbiamo però dei problemi nel momento in cui consideriamo la progressione nel contesto del brano: l'introduzione, abbiamo già visto, punta assolutamente al Si\flat~minore come scala di riferimento; la progressione della quarta ripetizione, inoltre, vede comparire il tanto ricercato Sol\flat~e, soprattutto, in \(B\) troviamo la tanto agognata dominante di Si\flat~minore. Tutto questo rende poco conveniente l'interpretazione di un'intera sezione del brano in Fa minore.
+
+Rimane però valida l'idea di vedere queste prime tre ripetizioni di \(A\) con l'ottica di queste continue modulazioni indirette, quasi come se l'armonia, in questa sezione, fluttuasse continuamente tra Si\flat~minore e Fa minore.
+
+\paragraph{Ipotesi del pitch axis}
+Un'altra possibile spiegazione ci viene fornita dal metodo del pitch axis. Questo è sostanzialmente una generalizzazione del concetto delle tonalità parallele: anziché considerare solamente scale maggiori e maggiori con la stessa fondamentale, consideriamo anche tutte le scale modali con stessa fondamentale.
+
+Quindi, possiamo spiegare la presenza di quel Sol\natural~ come un prestito dal Si\flat~dorico, modo subito adiacente al nostro Si\flat~eolio nel pitch axis. Potrebbe essere un'ipotesi ragionevole; d'altronde, almeno per il momento, non abbiamo ancora incontrato alcuna vera dominante in questo pezzo. Quest'ipotesi modale diventa più problematica quando in \(B\) avremo finalmente una dominante e una risoluzione tonale verso Si\flat~minore.
+
+% \paragraph{Ipotesi della dominante secondaria}
+% Un ultimo meccanismo armonico che può venirci in soccorso è quello della dominante secondaria. In una data tonalità, infatti, possiamo avvalerci di delle dominanti altre da quella di riferimento e usare queste dominanti
+
+\paragraph{Armonizzazione per quinte perfette}
+In ultimo, discutiamo di quello che potrebbe essere un enorme complicazione alla nostra analisi armonica ma che, per fortuna, non lo è.
+
+In \ref{subsec:guitar} abbiamo detto che in questa sezione la chitarra va a suonare dei powerchords sul raddoppio della linea di basso, scegliendo sempre le quinte giuste (si riveda Sp.\ref{sh:A_guit}). Quest'ultimo dettaglio non è da poco: armonizzare una linea per quinte giuste può infatti a portare a colpire delle note fuori scala, come ad esempio avviene nel caso del \writechord{C5} con il Sol\natural~(poco male, abbiamo appena speso pagine per giustificare la sua presenza), ma anche nel caso del \writechord{G5} con un Re\natural , una nota completamente non consonante né a Si\flat~minore, né a Fa minore. 
+
+Come detto, questo non è un problema: nonostante in un'armonizzazione la nota piu alta sia preponderante rispetto a quella più bassa, nel caso delle quinte perfette noi continuiamo a percepire la "fondamentale" (mi si passi il termine impreciso) come nota più importante\cite{yt:an_fifths}. 
+
+Il motivo ha a che vedere con la stessa natura fisica dell'intervallo della quinta perfetta. Questa, infatti, appare molto presto nella serie armonica: è il secondo armonico naturale, ossia la prima nota diversa dalla fondamentale, e per questo motivo forma con quest'ultima un rapporto di frequenze di \(\frac{3}{2}\), ossia un rapporto molto semplice. Senza entrare nei dettagli di matematica e fisica acustica legati alla serie armonica, ci interessa semplicemente sapere che intervalli con rapporti di frequenza più semplici sono più stabili e suonano più consonanti e, di conseguenza, fanno sì che le note non emergano singolarmente dall'armonia prodotta.
+
+Tutto ciò si traduce nel fatto che la fondamentale continua a essere ben percepita nonostante l'armonizzazione per quinte perfette e l'apporto di questa è volto esclusivamente a irrobustire lo stesso suono della chitarra, senza che questo comporti l'aggiunta di alcuna informazione armonica rilevante.  
+
+\subsubsection{Quarta ripetizione}
+Nella quarta ripetizione di \(A\) abbiamo una variazione del giro precedente.
+\begin{sheet}{Quarta ripetizione}
+  \musicxmlfile{assets/sheets/FP-verse_chords_2.musicxml}
+\end{sheet}
+
+Questo giro presenta decisamente meno problemi di quello precedente: si tratta di una successione di accordi che, con il calare dei rivolti, arricchisce una linea melodica discendente.
+
+Notiamo però che comunque abbiamo un Sol\natural~sul \writechord{Eb}, penultimo accordo; non possiamo quindi fare a meno di chiederci se non sia opportuno rispolverare tutte le ipotesi che avevamo formulato per spiegare la sua presenza poche righe sopra.
+
+Fortunatamente, in questo caso è tutto molto più semplice. Osserviamo cosa gli segue: subito a seguito abbiamo un \writechord{F}, accordo che presenta un La\natural. Questa nota, a sua volta, non fa parte della scala Si\flat~minore naturale, e normalmente la sua presenza ci rimanda subito a un interscambio modale con la minore armonica associata. Questo senz'ombra di dubbio è valido, dal momento che un \writechord{F}, pur senza la settima, rimane un accordo che risolve su \writechord{Bbm} con rilascio da tensione tale da parlare di tonalità.
+
+In questo caso, però, conviene parlare di un interscambio modale dalla minore melodica; questo, infatti, ci permette di spiegare anche la presenza del Sol\natural , dal momento che la scala di Si\flat~minore melodico comprende sia Sol\natural , sia La\natural. In questo caso, infatti, l'armonia è del tutto determinata dalla melodia ascendente delle ultime due misure, nelle quali Sol\natural~e La\natural~agiscono da toni guida e cercano la risoluzione verso la tonica Si all'inizio della sezione successiva.
+\begin{sheet}{Dettaglio sulla linea melodica}
+  \musicxmlfile{assets/sheets/FP-verse_melody_2.musicxml}
+\end{sheet}
+
+\subsection{Sezione \(B\)}
+A dire il vero, in questa sezione non succede nulla di così rilevante.
+
+In prima battuta abbiamo una formula che alterna i due accordi di \writechord{Bbm} e \writechord{Ab}, guidati da una linea melodica implicitamente determinata dai rivolti e coadiuvata dai diversi movimenti del basso.
+
+Successivamente questo schema, privato del suo andamento melodico, viene di nuovo ripetuto (con i medesimi due accordi) ridcendo la distanza tra gli accordi e riportanto in crescita la dinamica del brano.
+
+Nelle ultime due misure il brano va a chiudersi con una progressione che discendende a partire dalla tonica Si e \emph{tramite l'enclousre gn eb} va a chiudersi sulla dominante\footnote{Di nuovo tecnicamente non è proprio una dominante data l'assenza della settima minore, ma la funzione svolta dall'accordo è chiaramente quella.} \writechord{F}, forte della posticipazione della sensibile La con la sospensione nel \writechord{Fsus4}.
+\begin{sheet}{Cadenza che chiude la sezione \(B\)}
+  \musicxmlfile{assets/sheets/FP-B_chords.musicxml}
+\end{sheet}
+
+A seguito della prima iterazione di \(B\) qui segue la ripresa dell'introduzione e il lancio successivo di \(A\). Dopo la seconda risoluzione, invece, il brano si chiude sulla tonica con una terza piccarda; si tratta di un meccanismo armonico per cui una dominante risolve sulla parallela maggiore della tonalità minore chiamata dalla dominante stessa. Nel nostro caso, infatti, il pezzo si chiude in un \writechord{Bb} anziché in un \writechord{Bbm}. 
+
+La terza piccarda è piuttosto atipica nella musica leggera e nella musica moderna, ma assai diffusa in epoca barocca e, ancora adesso, nella musica liturgica. 
+
+\subsection{Coda}
 
 \end{document}
