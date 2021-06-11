@@ -30,7 +30,7 @@ cd ..
 
 # compile document
 if [[ $1 && $1 == "-p" ]]; then
-    latexmk -xelatex --pdf main.tex
+    latexmk --pdf main.tex
 else
     arara main.tex
 fi
