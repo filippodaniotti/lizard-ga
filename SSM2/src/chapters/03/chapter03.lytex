@@ -61,7 +61,7 @@ La parte di organo scritta da Scholz combina sapientemente due idee: l'uso di tr
 Diamo un'occhiata ad esempio alla figura che l'organo suona durante il fade in del pezzo:
 \begin{sheet}{Figura iniziale}
   \label{sh:parts-organ_fadein}
-  \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
+  \musicxmlfile[notime]{assets/sheets/intro_organ_short.musicxml}
 \end{sheet}
 
 Le introduzioni sono importantissime: sono la prima cosa che arriva all'ascoltatore finale, e pertanto influenzano pesantemente il carattere del pezzo, dal momento che l'ascoltatore sarà forzato a contestualizzare il corpo della composizione in base a quanto anticipato nell'introduzione\cite{yt:8bit_art_introduction}.
@@ -72,17 +72,17 @@ Inoltre, l'elevata velocità del brano (poco meno di 180 bpm) contribuisce a far
 
 Un esempio di questo è la progressione discendente che fa da fill di transizione dall'introduzione alla sezione \(A\): 
 \begin{sheet}{Fill di arpeggi discendenti verso la strofa}
-  \musicxmlfile{assets/sheets/FP-intro_fill.musicxml}
+  \musicxmlfile{assets/sheets/intro_fill.musicxml}
 \end{sheet}
 
 La progressione non è sempre discendente secondo le fondamentali: nella prima misura, ad esempio, vediamo alternarsi un \writechord{Bbm} e un \writechord{Ab}; tuttavia, il rivolto utilizzato è tale per cui la nota al canto forma una linea melodica discendente. Peraltro, la lineache emerge da questa sezione riprende quella che abbiamo sentito nella linea di basso dell'introduzione.
 \begin{sheet}{Linea di basso dell'introduzione}
-  \musicxmlfile{assets/sheets/FP-intro_bass.musicxml}
+  \musicxmlfile{assets/sheets/intro_bass.musicxml}
 \end{sheet}
 
 Ci sono alcuni casi, come detto anche sopra, in cui la nota della linea melodica non è la prima del gruppo irregolare; in quei casi Scholz sfrutta altri espedienti epr rendere sempre evidente all'ascoltatore quale nota deve seguire, come ad esempio usare note non diatoniche, come nel caso del Sol\natural~che troviamo come ultimo elemento della terzina sul \writechord{Gdim}. 
 \begin{sheet}{Arpeggi}
-  \musicxmlfile{assets/sheets/FP-verse_organ_1.musicxml}
+  \musicxmlfile{assets/sheets/verse_organ_1.musicxml}
 \end{sheet}
 
 Non mi dilungherò oltre nel commentare quest'uso dell'armonia a fini melodici: Scholz mantiene queste idee nello sviluppo di tutte le parti del corpo del pezzo, e inoltre ne parleremo più approfonditamente in sede di analisi armonica.
@@ -107,15 +107,15 @@ Inserire uno strumento in un arrangiamento per poco più di 5 secondi è una sce
 
 In Foreplay questo non avviene: il clavinet, infatti, riprende e raddoppia all'ottava superiore la linea di basso del giro, già suonata sia dal basso, sia dall'organo.  
 \begin{sheet}{Linea di clavinet}
-  \label{sh:FP-B_clav}
-  \musicxmlfile{assets/sheets/FP-A_clav.musicxml}
+  \label{sh:B_clav}
+  \musicxmlfile{assets/sheets/A_clav.musicxml}
 \end{sheet}
 Le note eseguite appartengono a una frase già nota e questo, unito al fatto che questa aggiunta rappresenta l'unica variazione rispetto alla prima ripetizione di \(A\), fa sì che l'ascoltatore non incontri difficoltà a contestualizzare la presenza del clavinet.
 
-L'aggiunta del clavinet concorre, assieme anche alla riduzione del numero di iterazioni del giro armonico, ad accelerare la crescita della dinamica del pezzo: a partire dal raddoppiamento stesso della linea di basso fino al suono molto aggressivo, carico di frequenze medie e presenza e privo modulazioni (phaser, tremolo) a patinarlo, persino il La colpito nell'ultimo elemento della terzina che precede il lancio della sezione (segnato come appoggiatura in \ref{sh:FP-A_clav}), tutto sembra comunica all'ascoltatore che la dinamica rimane alta e il brano sta avviandosi verso la sua conclusione.
+L'aggiunta del clavinet concorre, assieme anche alla riduzione del numero di iterazioni del giro armonico, ad accelerare la crescita della dinamica del pezzo: a partire dal raddoppiamento stesso della linea di basso fino al suono molto aggressivo, carico di frequenze medie e presenza e privo modulazioni (phaser, tremolo) a patinarlo, persino il La colpito nell'ultimo elemento della terzina che precede il lancio della sezione (segnato come appoggiatura in \ref{sh:A_clav}), tutto sembra comunica all'ascoltatore che la dinamica rimane alta e il brano sta avviandosi verso la sua conclusione.
 
 \paragraph{Ruolo nascosto}
-A questo punto, però, dobbiamo rimarcare che il mix del pezzo ci ha tratti in inganno: se andiamo a sentire una traccia isolata\cite{yt:FP-isolated_organ} possiamo sentire come l'organo sia presente già a partire dalla terza iterazione del giro di \(A\) e rimane nell'arrangiamento in tutte le sottosezioni di \(A\) e\(B\) in cui la dinamica del brano è alta.
+A questo punto, però, dobbiamo rimarcare che il mix del pezzo ci ha tratti in inganno: se andiamo a sentire una traccia isolata\cite{yt:isolated_organ} possiamo sentire come l'organo sia presente già a partire dalla terza iterazione del giro di \(A\) e rimane nell'arrangiamento in tutte le sottosezioni di \(A\) e\(B\) in cui la dinamica del brano è alta.
 
 In questi momenti, tuttavia, il suo volume all'interno del mix è indiscutibilmente più basso rispetto all'iterazione di cui abbiamo parlato nel paragrafo qui sopra; quale può essere il motivo che ha spinto Scholz a inserire il clavinet in questo modo? Di certo non per addensare l'armonia: il clavinet è uno strumento privo di sustain e un attacco molto deciso e tagliente. 
 
@@ -128,7 +128,7 @@ Le parti di chitarra possono essere convenientemente distinte in due gruppi dist
 \subsubsection{Corpo}
 In queste sezioni le parti sono estremamente semplici: a partire dall'ingresso delle chitarre nella terza iterazione del giro armonico nella prima ripetizione di \(A\), Tom Scholz sceglie di suonare dei powerchords, ovvero dei bicordi prima-quinta; l'uso di questa particolare tipologia di accordo sospeso, in tandem con un suono aggressivo e saturo di armoniche ottenuto grazie all'uso di overdrive, è tra i fondamenti più basilari e, al contempo, riconoscibili delle sonorità hard rock. 
 \begin{sheet}{Come esempio, parte di chitarra in \(B\)}
-  \musicxmlfile{assets/sheets/FP-B_guit.musicxml}
+  \musicxmlfile{assets/sheets/B_guit.musicxml}
 \end{sheet}
 
 Le ragioni che possono aver portato Scholz a preferire questa soluzione rispetto ad arrangiamenti più complessi sono molteplici. Senza dubbio, possiamo ipotizzare che Scholz volesse mantenere l'organo vera e unica voce del pezzo, dal momento che la parte di organo (come discusso in \ref{subsec:parts-organ}) porta già con sé tutte le informazioni melodico/armoniche necessarie a conferire un senso compiuto al brano. Aggiungere una parte di chitarra armonicamente molto densa, in questo caso, avrebbe reso molto meno intelligibile la parte dell'organo, a maggior ragione se consideriamo che quest'ultimo fatica a uscire dal mix quando il gruppo entra con l'arrangiamento completo. È probabile che quindi, volendo giocare con l'arrangiamento per alzare il \emph{momentum} del pezzo e dovendo scegliere tra addensare utilizzando chitarra o batteria, Scholz abbia preferito quest'ultima, dal momento che la batteria porta un quantitativo di informazione armonica notevolmente inferiore alla chitarra. Quest'ultima viene usata, per l'appunto, per esaltare i vari cambi di armonia dettati dalla parte di organo, senza mai aggiungere alcunché all'arrangiamento.
@@ -136,7 +136,7 @@ Le ragioni che possono aver portato Scholz a preferire questa soluzione rispetto
 Inoltre, l'uso dei powerchord da parte della chitarra e quindi, come detto, di un uso dell'armonia tipicamente hard rock si pone in netto contrasto con la complessa e bachiana armonia dell'organo; è come se Scholz stesse utilizzando quest'arrangiamento estremamente grezzo delle chitarre per ricordare all'ascoltatore che quello che stiamo sentendo è un pezzo hard rock. Questo tipo di contrasto, peraltro, non può che ricordare il suono dei grandi classici dell'hard rock dei primi anni '70, in particolare dei Deep Purple.
 \begin{sheet}{Chitarra in \(A\), si notino le quinte giuste}
   \label{sh:A_guit}
-  \musicxmlfile{assets/sheets/FP-A_guit.musicxml}
+  \musicxmlfile{assets/sheets/A_guit.musicxml}
 \end{sheet}
 
 Come postilla possiamo inoltre segnalare che forse è improprio parlare di bicordi relativamente alla parte eseguita da Scholz in queste sezioni: le quinte considerate, per ogni accordo, sono sempre delle quinte giuste, anche quando vanno a cozzare con la scala di \writechord{Bbm} (come nel caso del Sol\natural~ nel \writechord{C5}), oppure con la stessa parte di organo (in corrispondenza del \writechord{Gdim}). Forse Scholz stava ragionando in maniera melodica, pensando di portare la linea di basso raddoppiata dalla chitarra e arricchita da un'armonizzazione per quinte giuste, piuttosto che armonicamente per accordi. Ad ogni modo non è strettamente rilevante ai fini di un'analsi tecnica e arrangiamento; di questa scelta (e dei problemi che da essa derivano) ci preoccuperemo in sede di analisi armonica (\ref{sec:analysis}).
@@ -159,13 +159,13 @@ Questo fatto è un'importante evidenza del background strumentale di Scholz, il 
 Questa situazione, peraltro, era piuttosto tipica per i gruppi pop/rock in via di consolidamento nel periodo degli anni '60/'70, dal momento che il basso era uno strumento relativamente giovane e poco noto a chi si avvicinasse alla musica; in alcuni casi l'approccio chitarristico (che prevedeva, tra le altre cose, l'uso del plettro) venne mantenuto quasi come tratto stilistico (emblematico il caso dei Beatles), in altri il bassista prescelto sarebbe finito con proseguire la transizione e l'esplorazione dello strumento (un esempio a caso, John Deacon per i Queen). 
 
 \paragraph{Scelta di note}
-Le scelte operate da Sheehan in questo pezzo sono volte alla semplicità. Il discorso già fatto in Sec.\ref{subsec:guitar} rimane valido: la parte di organo rappresenta un brano armonicamente completo di per sé, anche per quanto riguarda la linea di basso eseguita; per questo motivo, Sheehan sceglie di articolare la sua parte raddoppiando all'ottava bassa la linea di basso dell'organo (Sp.\ref{sh:FP-A_bass_1}), mantenendone l'andamento cadenzato a note da un quarto quasi del tutto inalterato.
+Le scelte operate da Sheehan in questo pezzo sono volte alla semplicità. Il discorso già fatto in Sec.\ref{subsec:guitar} rimane valido: la parte di organo rappresenta un brano armonicamente completo di per sé, anche per quanto riguarda la linea di basso eseguita; per questo motivo, Sheehan sceglie di articolare la sua parte raddoppiando all'ottava bassa la linea di basso dell'organo (Sp.\ref{sh:A_bass_1}), mantenendone l'andamento cadenzato a note da un quarto quasi del tutto inalterato.
 
 Tralasciando il breve intervento nell'introduzione, l'ingresso vero e proprio del basso avviene a partire dalla seconda iterazione, fungendo dunque da primo elemento di crescita dell'arrangiamento e preparazione al successivo ingresso di chitarra e batteria nell'iterazione successiva.
 
-In alcuni momenti Sheehan spezza l'andamento cadenzato delle quarter notes e sceglie di esaltare ulteriormente il ritmo a terzine dato dagli arpeggi dell'organo. Questo avviene soprattutto nelle sezioni in cui è presente il gruppo completo, il che li rende piuttosto difficili da individuare consapevolmente, dal momento che il basso viene molto nascosto dalla chitarra e dalla batteria; tuttavia, un ascolto di una traccia isolata\cite{yt:FP-isolated_bass} non lascia dubbi e questo dettaglio, seppur sottile, contribuisce notevolmente all'innalzamento  della dinamica del pezzo.
+In alcuni momenti Sheehan spezza l'andamento cadenzato delle quarter notes e sceglie di esaltare ulteriormente il ritmo a terzine dato dagli arpeggi dell'organo. Questo avviene soprattutto nelle sezioni in cui è presente il gruppo completo, il che li rende piuttosto difficili da individuare consapevolmente, dal momento che il basso viene molto nascosto dalla chitarra e dalla batteria; tuttavia, un ascolto di una traccia isolata\cite{yt:isolated_bass} non lascia dubbi e questo dettaglio, seppur sottile, contribuisce notevolmente all'innalzamento  della dinamica del pezzo.
 \begin{sheet}{Basso nell'ultima iterazione del giro di \(A\), si notino i ribattuti sulle terzine}
-  \musicxmlfile{assets/sheets/FP-A_bass_2.musicxml}
+  \musicxmlfile{assets/sheets/A_bass_2.musicxml}
 \end{sheet}
 
 L'approccio volto alla semplicità viene mantenuto anche nella coda, in cui Sheehan suona principalmente whole notes con le corde libere per esaltare il clima di maestosità dato dall'organo liturgico.
@@ -175,27 +175,27 @@ La linea seguita da questa parte di batteria, eseguita da Sib Hashian\cite{wiki:
 
 Questo diventa evidente già a partire dalle 4 misure che precedono la prima iterazione di \(A\), in cui la batteria esegue il pattern sugli hi-hats, aprendoli con il pedale sul battere del 2 e del 4 come surrogato del colpo di rullante (il pattern seguito è regular time (e non so come dirlo in italiano)).
 \begin{sheet}{Pattern per la prima iterazione di \(A\)}
-  \lilypondfile{assets/sheets/FP-A_drums_1.ly}
+  \lilypondfile{assets/sheets/A_drums_1.ly}
 \end{sheet}
 
 Nella seconda iterazione abbiamo l'ingresso della grancassa, il cui andamento a quarti conferisce maggiore drive (grrr non so come rendere tutte ste parole in italiano) alla linea del basso elettrico appena entrato.
 \begin{sheet}{Pattern per la seconda itetrazione di \(A\)}
-  \lilypondfile{assets/sheets/FP-A_drums_2.ly}
+  \lilypondfile{assets/sheets/A_drums_2.ly}
 \end{sheet}
 
 Nella terza iterazione la dinamica del brano cresce notevolmente. Abbiamo già parlato del contributo della chitarra in questo senso e, dando un'occhiata ravvicinata alla parte di batteria, possiamo trovare conferma a quanto detto in Sec.\ref{subsec:guitar}: l'andamento in terzine, in un certo senso precluso alla chitarra, viene conservato in questa sezione e reso ancora più denso dall'uso del crash sul primo elemento di ogni terzina e del rullante nei restanti due elementi.
 \begin{sheet}{Pattern e fill conclusivo per la terza iterazione di \(A\)}
-  \lilypondfile{assets/sheets/FP-A_drums_3.ly}
+  \lilypondfile{assets/sheets/A_drums_3.ly}
 \end{sheet}
 
 L'andamento a terzine viene spezzato solamente nelle prime 4 misure di \(B\). In questa sezione viene ripetuta due volte una frase a mo' di domanda-risposta, dalla costruzione quasi melodica: nella domanda abbiamo una terzina di quarti, che potremmo vedere come un dimezzato del pattern dominante fino a poco tempo prima; nella risposta invece le terzine tornano a ottavi. In entrambe le parti gli ultimi due quarti non contengono alcuna figura irregolare, lasciando un breve attimo di respiro all'ascoltatore prima del climax finale.
 \begin{sheet}{Frase domanda-risposta in \(B\)}
-  \lilypondfile{assets/sheets/FP-B_drums.ly}
+  \lilypondfile{assets/sheets/B_drums.ly}
 \end{sheet}
 
 Nella coda abbiamo semplicemente dei colpi combinati di cassa e crash nel batterei del primo quarto delle misure, che danno all'ascoltatore un labile riferimenti ritmico all'interno di questa sezione in rubato; per il resto, le battute vengono riempite da un roll sul crash, che viene interrotto bruscamente al termine per lasciare spazio al morbido tappeto di organo che condurrà al fill iniziale di Long Time.
 \begin{sheet}{Batteria nella coda}
-  \lilypondfile{assets/sheets/FP-Q_drums.ly}
+  \lilypondfile{assets/sheets/Q_drums.ly}
 \end{sheet}
 
 \section{Analisi armonica}
@@ -203,14 +203,14 @@ Nella coda abbiamo semplicemente dei colpi combinati di cassa e crash nel batter
 \subsection{Introduzione}
 Possiamo quindi iniziare ad analizzare lo sviluppo armonico di Foreplay. La primissima sezione di senso armonico compiuto del brano vede la ripetizione dell'ostinato di organo sopra a una linea di basso discendente.
 \begin{sheet}{Figura iniziale}
-  \musicxmlfile[notime]{assets/sheets/FP-intro_organ_short.musicxml}
+  \musicxmlfile[notime]{assets/sheets/intro_organ_short.musicxml}
 \end{sheet}
 
 Nella sezione precedente abbiamo parlato di come questa figura riesca a gettare efficacemente le basi per lo sviluppo di tutto il brano sotto moltissimi aspetti; questa funzione viene svolta anche per l'armonia, anche se in misura leggermente ridotta. Le note della prima terzina, infatti, sono Re\flat , Fa e Re\flat , segui te da Mi\flat , La\flat  e Do; se il secondo sembra costituire una triade di \writechord{Ab}, è più difficile determinare se il primo gruppo sia da intendere come una triade di  \writechord{Db} (senza la quinta)  di \writechord{Bbm} (senza la tonica) oppure come altro ancora. 
 
 Ad ogni modo, poco importa: trattandosi di due terzine di ottavi a circa 180 bpm, le note non risultano chiaramente distinguibile e, come già detto, questo ostinato costituisce una cellula più per l'aspetto di tempo e ritmo che non per l'aspetto armonico. Ulteriori considerazioni sullo sviluppo armonico richiedono un contesto più strutturato, e questo ci viene subito fornito dalla linea discendente suonata dall'organo e che chiude il lungo fade in introduttivo del pezzo.
 \begin{sheet}{Linea di basso dell'introduzione}
-  \musicxmlfile{assets/sheets/FP-intro_bass.musicxml}
+  \musicxmlfile{assets/sheets/intro_bass.musicxml}
 \end{sheet}
 
 Si tratta di una scala di Si\flat~minore naturale che, partendo dalla fondamentale, discende per tutta un'ottava; la tonica Si, inoltre, viene tenuta come pedale, rafforzando l'idea che \writechord{Bbm} sia effettivamente il centro tonale della composizione.
@@ -220,7 +220,7 @@ L'unica nota estranea alla scala che incontriamo è la sesta maggiore Sol; quest
 \paragraph{}
 A seguito di questo abbiamo la sequenza di accordi arpeggiati discendenti.
 \begin{sheet}{Fill di arpeggi discendenti verso la strofa}
-  \musicxmlfile{assets/sheets/FP-intro_fill.musicxml}
+  \musicxmlfile{assets/sheets/intro_fill.musicxml}
 \end{sheet}
 
 Nonostante si tratti di triadi complete, possiamo dire che questo fill abbia una funzione più melodica che propriamente armonica; vengono sfruttati i rivolti di \writechord{Bbm} e \writechord{Ab} in modo che il primo elemento delle varie terzine discenda rispetto alla scala di Si\flat~minore, andando in un certo senso a riprendere il movimento che era appena stato fatto dalla linea di basso.
@@ -229,7 +229,7 @@ Nonostante si tratti di triadi complete, possiamo dire che questo fill abbia una
 \subsubsection{Iterazioni 1-3}
 Come già detto in \ref{sec:struct}, \(A\) presenta tre iterazioni di un giro armonico e una variazione di quest'ultimo per una quarta iterazione. Iniziamo con il primo:
 \begin{sheet}{Accordi della strofa}
-  \musicxmlfile{assets/sheets/FP-verse_chords_1.musicxml}
+  \musicxmlfile{assets/sheets/verse_chords_1.musicxml}
 \end{sheet}
 
 Appare evidente che questa progressione pone dei problemi nel momento in cui ci troviamo a determinare la tonalità del pezzo. 
@@ -279,7 +279,7 @@ Tutto ciò si traduce nel fatto che la fondamentale continua a essere ben percep
 \subsubsection{Quarta ripetizione}
 Nella quarta ripetizione di \(A\) abbiamo una variazione del giro precedente.
 \begin{sheet}{Quarta ripetizione}
-  \musicxmlfile{assets/sheets/FP-verse_chords_2.musicxml}
+  \musicxmlfile{assets/sheets/verse_chords_2.musicxml}
 \end{sheet}
 
 Questo giro presenta decisamente meno problemi di quello precedente: si tratta di una successione di accordi che, con il calare dei rivolti, arricchisce una linea melodica discendente.
@@ -290,7 +290,7 @@ Fortunatamente, in questo caso è tutto molto più semplice. Osserviamo cosa gli
 
 In questo caso, però, conviene parlare di un interscambio modale dalla minore melodica; questo, infatti, ci permette di spiegare anche la presenza del Sol\natural , dal momento che la scala di Si\flat~minore melodico comprende sia Sol\natural , sia La\natural. In questo caso, infatti, l'armonia è del tutto determinata dalla melodia ascendente delle ultime due misure, nelle quali Sol\natural~e La\natural~agiscono da toni guida e cercano la risoluzione verso la tonica Si all'inizio della sezione successiva.
 \begin{sheet}{Dettaglio sulla linea melodica}
-  \musicxmlfile{assets/sheets/FP-verse_melody_2.musicxml}
+  \musicxmlfile{assets/sheets/verse_melody_2.musicxml}
 \end{sheet}
 
 \subsection{Sezione \(B\)}
@@ -302,7 +302,7 @@ Successivamente questo schema, privato del suo andamento melodico, viene di nuov
 
 Nelle ultime due misure il brano va a chiudersi con una progressione che discendende a partire dalla tonica Si e \emph{tramite l'enclousre gn eb} va a chiudersi sulla dominante\footnote{Di nuovo tecnicamente non è proprio una dominante data l'assenza della settima minore, ma la funzione svolta dall'accordo è chiaramente quella.} \writechord{F}, forte della posticipazione della sensibile La con la sospensione nel \writechord{Fsus4}.
 \begin{sheet}{Cadenza che chiude la sezione \(B\)}
-  \musicxmlfile{assets/sheets/FP-B_chords.musicxml}
+  \musicxmlfile{assets/sheets/B_chords.musicxml}
 \end{sheet}
 
 A seguito della prima ripetizione di \(B\) qui segue la ripresa dell'introduzione e il lancio successivo di \(A\). Dopo la seconda risoluzione, invece, il brano si chiude sulla tonica con una terza piccarda; si tratta di un meccanismo armonico per cui una dominante risolve sulla parallela maggiore della tonalità minore chiamata dalla dominante stessa. Nel nostro caso, infatti, il pezzo si chiude in un \writechord{Bb} anziché in un \writechord{Bbm}. 
@@ -313,7 +313,7 @@ La terza piccarda è piuttosto atipica nella musica leggera e nella musica moder
 \subsubsection{Gruppo completo}
 Nella coda abbiamo di nuovo due progressioni. La prima segue immediatamente la chiusura sulla terza piccarda di cui abbiamo parlato sopra e tutto il gruppo è coinvolto nell'arrangiamento; questa, in un certo senso, va a rilasciare gradualmente la tensione costruita fino a quel momento nel pezzo. Per analizzarla è sufficiente dare un'occhiata alla parte di organo:
 \begin{sheet}{Prima progressione della coda}
-  \musicxmlfile{assets/sheets/FP-Q_organ_1.musicxml}
+  \musicxmlfile{assets/sheets/Q_organ_1.musicxml}
 \end{sheet}
 
 Si tratta di una progressione di accordi in rubato (senza metronomo) costruita su un pedale di Do, tenuto sia dall'organo sia dal basso elettrico e ribattuta ogni misura. Ci sono svariati elementi che ci fanno pensare che anche qui sia avvenuta una modulazione: molti di questi accordi, infatti, presentano note che non appartengono a Si\flat~minore, come il Re del \writechord{Bb7}, il Sol\natural~del \writechord{Csus4} o l'intero \writechord{G}. 
@@ -325,7 +325,7 @@ La scelta degli accordi sembra essere dettata seguendo i toni guida; come abbiam
 \subsubsection{Tappeto di organo}
 Anche questa progressione può essere spiegata con l'uso dei toni guida per guidare le scelte armoniche tracciate da una linea melodica discendente.
 \begin{sheet}{Seconda progressione della coda}
-  \musicxmlfile{assets/sheets/FP-Q_organ_2.musicxml}
+  \musicxmlfile{assets/sheets/Q_organ_2.musicxml}
 \end{sheet}
 
 La differenza principale tra la progressione precedente e questa sta nel fatto che, in questo caso, risulta particolarmente arduo parlare di tonalità. Nonostante il giro inizi in \writechord{Cm7} e termini nuovamente con la terza piccarda \writechord{C}, nessuno degli accordi rientra nella tonalità di Do minore; pertanto, conviene davvero pensare la sezione come scritta in armonia non-funzionale e determinata interamente dalla discesa cromatica dei toni guida.
