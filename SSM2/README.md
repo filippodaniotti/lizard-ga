@@ -33,7 +33,7 @@ it comes with a built-in LaTeX integration capability.
 
 It happens to be a separate module - `lilypond-book` - that can process a LaTeX
 file with Lilypond code embedded (it must have `.lytex` extension) and generate a
-normal `.tex` file that can be compiled normally by your favorite LaTeX compiler
+normal `.tex` file that can be compiled as usual with your favorite LaTeX compiler
 and will output a document with the embedded sheet music as vector graphics.
 
 This is obviously super cool, but how can I turn my sheet music written in
