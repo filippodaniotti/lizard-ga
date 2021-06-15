@@ -136,7 +136,7 @@
 
 
 \section{Informazioni preliminari}
-More than a Feeling è la traccia di apertura del primo disco omonimo della band; il pezzo ha un significato particolare perché è con questa demo che, a seguito di un lungo periodo di rifiuti durato 6 anni, Tom Scholz è riuscito ad assicurarsi un contratto per la produzione di un album con la Epic Records\cite{site:mtaf_ew}\cite{site:bost_album_archive}. Fa parte di quelle canzoni che Scholz ha composto e registrato con Jim Masdea nel suo seminterrato\cite{site:thirdstage_interview} e parla dell'effetto che una vecchia canzone può avere se risentita\cite{site:bost_album_archive}. 
+More than a Feeling è la traccia di apertura del primo disco omonimo della band; il pezzo ha un significato particolare perché è con questa demo che, a seguito di un lungo periodo di rifiuti durato 6 anni, Tom Scholz è riuscito ad assicurarsi un contratto per la produzione di un album con la Epic Records\cite{site:mtaf_ew}\cite{site:bost_album_archive}. Fa parte di quelle canzoni che Scholz ha composto e registrato con Jim Masdea nel suo seminterrato\cite{site:thirdstage_interview} ed è una ballad che parla delle emozioni suscitate che una vecchia canzone è ancora in grado di suscitare\cite{site:bost_album_archive}. 
 
 \paragraph{Il singolo}
 More than a Feeling è stata il singolo di lancio del disco stesso (settembre 1976) e ha raggiunto la posizione numero 5 nella \emph{Billboard Hot 100}\cite{wiki:bost_mtaf}. Inizialmente Scholz non nutriva alcuna sperava in un successo commerciale del progetto, ma dovette richiedersi quando, nel suo ufficio all'interno di Polaroid, iniziarono ad arrivare persone dicendogli che nella radio stava passando la sua canzone\cite{site:mtaf_ew}. A distanza di quasi 40 anni, More Than a Feeling continua a essere considerata molto importante (è stata inserita lista delle \emph{500 Songs that shaped Rock and Roll} secondo la \emph{Rock and Roll hall of fame}), nonché popolare (sono ancora numerosissime le cover, ed è stata inserita nella colonna sonora di molti videogiochi a sfondo musicale come Guitar Hero, Rock Band e Rocksmith\cite{wiki:bost_mtaf}).
@@ -190,6 +190,12 @@ A seguito di questo (3:42) abbiamo nuovamente il fill di chitarra del lancio del
 L'ultimo ritornello non è in alcun modo dissimile dai precedenti due, se non per il fatto che non abbiamo la chiusura nell'accordo non diatonico e il giro armonico viene ripetuto ad libitum nella chiusura in fade out del pezzo.
 
 \section{Testo}
+\subsection{Significato e simbologia}
+More Than a Feeling racconta dell'effetto che risentire una vecchia canzone a distanza di anni può suscitare. Associare delle canzoni a dei momenti della propria vita è un fatto piuttosto comune: senza chiamare in causa studi e strumenti statistici, possiamo ragionevolente credere che a chiunque, prima o poi, sia capitato di sentire le prime note di una canzone e subito vedersi riportato indietro a una certa estate e, magari, rivedere l'azzurro del cielo di una giornata particolarmente felice (\emph{"as clear as the Sun in the summer sky}\footnote{"[E tuttavia conservo quel ricordo], chiaro come il sole nel cielo d'estate...", quarto verso della seconda strofa.}), oppure percepire gli odori di una sera in compagnia. È proprio l'universalità di questo messaggio che rende il testo di Scholz così evocativo: è un canovaccio in cui chiunque può vedere dipinta la propria storia. In tal senso possiamo ritenere non casuale l'estrema semplicità metrica del componimento (le strofe sono infatti molto brevi presentano tutte la medesima struttura di 4 versi a rima alternata), nonché l'utilizzo di una cornice narrativa in prima persona
+
+\subsection{Riferimenti autobiografici}
+Scholz ha dichiarato di non considerarlo un testo autobiografico in senso stretto, dal momento persone ed eventi citati, già di per sé vaghi, sono di fantasia\cite{site:mtaf_ew}. Tuttavia, la Marianne citata nei ritornelli è una donna realmente esistita: Scholz ha raccontato infatti che quando aveva circa 9 anni ha incontrato una cugina più vecchia, la quale gli sembrava "la ragazza più bella che avesse mai conosciuto" e per cui ha avuto una breve ma intensa infatuazione\cite{site:mtaf_ew}. Scholz ha inoltre dichiarato di essersi parzialmente ispirato a quanto provato alla fine di una relazione dei tempi del liceo\cite{wiki:bost_mtaf} (\emph{"I closed my eyes and she slipped away"}\footnote{"Ho chiuso gli occhi e lei si è dileguata, quarto verso della terza strofa.}). (NON SONO PER NIENTE SICURO DI VOLER AGGIUNGERE QUESTA FRASE QUI) L'utilizzo di personaggi femminili fittizi per colorire dei fatti autobiografici rimanda peraltro a uno stilema estremamente diffuso e ha una tradizione che attraversa, oltre all'universo letterario della musica leggera (quasi banale), anche numerosissimi autori e correnti ((IN PARTICOLARE QUESTA PARENTESI)si pensi alla Silvia di Leopardi).
+
 \section{Tecnica e arrangiamento}
 \subsection{Voce}
 \subsection{Seconde voci}
@@ -198,5 +204,8 @@ L'ultimo ritornello non è in alcun modo dissimile dai precedenti due, se non pe
 \subsection{Basso}
 \subsection{Batteria}
 \section{Analisi armonica}
+\subsection{Sezioni \(A\)}
+\subsection{Sezioni \(B\)}
+\subsection{Special}
 
 \end{document}
