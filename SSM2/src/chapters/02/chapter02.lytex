@@ -241,6 +241,24 @@ Inoltre, poiché l'insieme di note che costituiscono Re misolidio è il medesimo
 \end{sheet}
 
 \subsection{Sezioni \(B\)}
+\subsubsection{Teoria del loop}
+\subsubsection{Sostituzione di tritono}
+Il corpo del ritornello si chiude con un accordo non diatonico che interrompe il loop a metà. L'accordo in question è un \writechord{Eb}.
+
+La prima cosa che notiamo è che, a differenza degli accordi del loop che che lo precede, questo accordo è chiaramente una triade completa. Mentre infatti nel loop tutti gli accordi erano suonati come powerchord dalle chitarre e raramente resi completi di terza da altri strumenti, in questo caso la voce va a chiudere la frase esattamente sulla terza maggiore, sì da non lasciarci dubbi in merito a quale accordo ci stia davanti.
+\begin{sheet}{Voce e armonia alla chiusura del corpor del ritornello}
+    \musicxmlfile{assets/sheets/B-vox_2.musicxml}
+\end{sheet}
+
+Per la prima volta incontriamo in questo brano un interscambio modale: \writechord{Eb}, infatti, proviene direttamente dalla parallela minore di Sol, rispetto alla quale è perfettamente diatonico (è infatti il \flat bVI di Sol minore).
+
+Il fatto che questo \writechord{Eb} sieda su una misura per sé e gli venga fatto coincidere un piccolo break tenuto contribuisce a rompere la placidità che avevamo conquistato nel loop appena terminato, e questa transizione risulta ancora più evidente perché, nonostante avessimo già incontrato uno spostamento del centro tonale tra la strofa e il preritornello, quest'ultimo è stato molto dolce e graduale. In questo caso invece Scholz vuole mettere in chiaro che, in questo punto della sua composizione, il passaggio è molto netto.
+
+A riprova di questo è il fatto che il \writechord{Eb} conduce un cambio di tonalità. Possiamo contestualizzarne la funzione, infatti, come sostituzione di tritono: a seguito di questo, infatti, il pezzo modula in Re maggiore per la coda, e il nostro \writechord{Eb} sta quindi sostituindo un \writechord{A7}, che sarebbe la dominante (V\(^7\)) di Re. Il fatto che il primo accordo del giro successivo è un \writechord{Em7} contribuisce a restituire un piccolo quantitativo di fluidità al passaggio, che altrimenti davvero eccessivamente brusco.
+
+\subsubsection{Coda}
+
+
 \subsection{Special}
 
 \end{document}
