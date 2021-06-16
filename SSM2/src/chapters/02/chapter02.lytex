@@ -205,6 +205,27 @@ Scholz ha dichiarato di non considerarlo un testo autobiografico in senso strett
 \subsection{Batteria}
 \section{Analisi armonica}
 \subsection{Sezioni \(A\)}
+Iniziamo questa dissertazione con l'analisi delle strofe. L'armopnia della prima parte delle strofe è determinata per buona parte dal riff arpeggiato delle chitarre, che sentiamo già a partire dal fade in introduttivo.
+\begin{sheet}{Riff di chitarra di \(A\)}
+    \label{sh:A-guit_1_notab}
+    \musicxmlfile{assets/sheets/A-guit_1_notab.musicxml}
+\end{sheet}
+Qui è opportuno discutere subito in merito alla questione della tonalita del brano. Può capitare di leggere delle analisi che inquadrano More Than a Feeling come un brano in Sol maggiore (tra gli altri, la stessa pagina di Wikipedia\cite{wiki:bost_mtaf}). Questa interpretazione ha di certo alcuni elementi a favore, in particolare nel ritornello, come vedremo a tempo debito, ma io ritengo che sia una spiegazione semplicistica di quanto avviene nel brano.
+
+È certamente vero che tutte le note eseguite dalla chitarra nel riff sono diatoniche a Sol maggiore; tuttavia, non possiamo non osservare che un'intera misura (metà della durata del riff) è occupata da un accordo di \writechord{D}, a cui seguono \writechord{C5(add9)}, \writechord{G/B} e \writechord{G} secondo uno schema \meter{3+3+2}{8}. Lo spazio preso dalla fondamentale Re è molto maggiore di quello occupato dalla fondamentale Sol, che appare per un solo quarto, poco di più se consideriamo il primo rivolto \writechord{G/B}, ma un primo rivolto suona tonalmente meno risolto di un primo. Il punto del discorso è proprio questo: la progressione armonica è tale che il \writechord{G} non suoni per nulla come un accordo dell'area tonale di riposo. Questo fatto, unito all'assenza di una dominante e una risoluzione, rende difficile parlare di tonalità di Sol maggiore.
+
+In Sp.\ref{sh:A-guit_1_notab} ho utilizzato l'armatura di chiave di Re/Si minore. Questo perché ritengo che la migliore interpretazione armonica che possiamo dare è che la sezione in questione sia modale in Re misolidio. La cadenza plagale Sol - Re ([IV - I] di Re misolidio) non è certo una risoluzione, ma ci dà la sensazione di essere tornati all'inizio dell'iterazione di un giro armonico.
+
+La situazione diventa ancora più chiara con l'ingresso della voce: la prima frase eseguita, infatti, va a chiudere in un Re che ci suona in tutto e per tutto "a riposo" e si conferma quindi come centro armonico del brano.
+\begin{sheet}{Prima frase della voce}
+    \musicxmlfile{assets/sheets/A-vox_1_harm.musicxml}
+\end{sheet}
+
+Per fugare eventuali dubbi sul modo misolidio, la frase di risposta a questa va subito a colpire un Do\natural , per cui possiamo mostrarci convinti della robustezza della nostra analisi.
+\begin{sheet}{Prima frase della voce}
+    \musicxmlfile{assets/sheets/A-vox_2_harm.musicxml}
+\end{sheet}
+
 \subsection{Sezioni \(B\)}
 \subsection{Special}
 
