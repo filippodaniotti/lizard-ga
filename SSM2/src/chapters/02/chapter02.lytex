@@ -205,6 +205,7 @@ Scholz ha dichiarato di non considerarlo un testo autobiografico in senso strett
 \subsection{Batteria}
 \section{Analisi armonica}
 \subsection{Sezioni \(A\)}
+\subsubsection{Strofa}
 Iniziamo questa dissertazione con l'analisi delle strofe. L'armopnia della prima parte delle strofe è determinata per buona parte dal riff arpeggiato delle chitarre, che sentiamo già a partire dal fade in introduttivo.
 \begin{sheet}{Riff di chitarra di \(A\)}
     \label{sh:A-guit_1_notab}
@@ -224,6 +225,19 @@ La situazione diventa ancora più chiara con l'ingresso della voce: la prima fra
 Per fugare eventuali dubbi sul modo misolidio, la frase di risposta a questa va subito a colpire un Do\natural , per cui possiamo mostrarci convinti della robustezza della nostra analisi.
 \begin{sheet}{Prima frase della voce}
     \musicxmlfile{assets/sheets/A-vox_2_harm.musicxml}
+\end{sheet}
+
+\subsubsection{Preritornello}
+Tom Scholz usa la breve sezione di intermezzo \(A \to B\) (da qui in poi preritornello) per spostare il centro amronico da Re a Sol in preparazione del ritornello stesso. Diamo un'occhiata alla parte di chitarra:
+\begin{sheet}{Chitarra nel preritornello}
+    \musicxmlfile{assets/sheets/A-guit_2_notab.musicxml}
+\end{sheet}
+La modulazione potrebbe a ragione essere considerata indiretta: quel 
+\writechord{Cmaj9}, infatti, siede perfettamente nelle note che compongono Re misolidio (sarebbe il suo \flat VII\(^{\textrm{maj}9}\)) e quindi anche in quelle di Sol (IV\(^{\textrm{maj}9}\)), ed è pertanto un buon candidato a essere considerato come accordo \emph{pivot}, nonostante il suono degli accordi \writechord{Xmaj9} non siano i più rappresentativi del tipico suono misolidio. 
+
+Inoltre, poiché l'insieme di note che costituiscono Re misolidio è il medesimo che costituisce Sol maggiore, diventa quasi risibile da parte nostra parlare di modulazioni e accordi pivot. Quello che sta avvenendo sembra più uno spostamento del centro modale da misolidio a ionico ed è molto più sottile di quello che avremmo in una modulazione tra due centri tonali diversi. Questo ipotetico spostamento sarebbe coadiuvato anche dalla voce, dal momento che l'ultima frase della strofa va a terminare in un Si, il quale è la nota sul terzo grado di Sol maggiore e pertanto nota caratteristica. A confermare che in questa parte siamo decisamente in Sol abbiamo il movimento dei bassi, che scendono diatonicamente per andare a terminare in una cadenza perfetta composta (\writechord{Am7/G} - \writechord{D} - \writechord{G}, [IIm\(^7\) - V - I] di Sol), nonché il fill di chitarra solista che lancia il ritornello, che va a scendere diatonicamente verso la fondamentale Sol.
+\begin{sheet}{Preritornello, voci e armonie}
+    \musicxmlfile{assets/sheets/A-voxguit_1.musicxml}
 \end{sheet}
 
 \subsection{Sezioni \(B\)}

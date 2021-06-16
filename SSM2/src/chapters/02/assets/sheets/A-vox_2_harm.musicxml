@@ -32,7 +32,7 @@
     </defaults>
   <part-list>
     <score-part id="P1">
-      <part-name print-pbject="no"></part-name>
+      <part-name></part-name>
       <score-instrument id="P1-I1">
         <instrument-name>Hammond Organ</instrument-name>
         </score-instrument>
@@ -46,7 +46,7 @@
       </score-part>
     </part-list>
   <part id="P1">
-    <measure number="1" width="534.70">
+    <measure number="1" width="550.07">
       <print>
         <system-layout>
           <system-margins>
@@ -103,7 +103,7 @@
         <stem>up</stem>
         <beam number="1">begin</beam>
         </note>
-      <note default-x="173.96" default-y="-25.00">
+      <note default-x="175.88" default-y="-25.00">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -114,7 +114,7 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         </note>
-      <note default-x="225.24" default-y="-25.00">
+      <note default-x="229.08" default-y="-25.00">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -125,7 +125,7 @@
         <stem>up</stem>
         <beam number="1">continue</beam>
         </note>
-      <note default-x="276.51" default-y="-20.00">
+      <note default-x="282.28" default-y="-20.00">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -140,7 +140,7 @@
           <tied type="start"/>
           </notations>
         </note>
-      <note default-x="327.79" default-y="-20.00">
+      <note default-x="335.48" default-y="-20.00">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -155,7 +155,7 @@
           <tied type="stop"/>
           </notations>
         </note>
-      <note default-x="379.07" default-y="-25.00">
+      <note default-x="388.68" default-y="-25.00">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -170,7 +170,7 @@
           <tied type="start"/>
           </notations>
         </note>
-      <note default-x="430.35" default-y="-25.00">
+      <note default-x="441.88" default-y="-25.00">
         <pitch>
           <step>A</step>
           <octave>3</octave>
@@ -185,7 +185,7 @@
           <tied type="stop"/>
           </notations>
         </note>
-      <note default-x="481.62" default-y="-20.00">
+      <note default-x="495.08" default-y="-20.00">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -197,17 +197,12 @@
         <beam number="1">end</beam>
         </note>
       </measure>
-    <measure number="2" width="443.87">
+    <measure number="2" width="428.50">
       <harmony print-frame="no">
         <root>
           <root-step>C</root-step>
           </root>
-        <kind text="5" parentheses-degrees="yes">power</kind>
-        <degree>
-          <degree-value>9</degree-value>
-          <degree-alter>0</degree-alter>
-          <degree-type>add</degree-type>
-          </degree>
+        <kind text="sus2">suspended-second</kind>
         </harmony>
       <note default-x="18.04" default-y="-15.00">
         <pitch>
@@ -222,7 +217,7 @@
         <stem>down</stem>
         <beam number="1">begin</beam>
         </note>
-      <note default-x="101.04" default-y="-10.00">
+      <note default-x="98.03" default-y="-10.00">
         <pitch>
           <step>D</step>
           <octave>4</octave>
@@ -243,7 +238,7 @@
           <bass-step>B</bass-step>
           </bass>
         </harmony>
-      <note default-x="184.04" default-y="-20.00">
+      <note default-x="178.02" default-y="-20.00">
         <pitch>
           <step>B</step>
           <octave>3</octave>
@@ -265,7 +260,7 @@
         <kind>major</kind>
         <offset>4</offset>
         </harmony>
-      <note default-x="245.47" default-y="-20.00">
+      <note default-x="237.23" default-y="-20.00">
         <pitch>
           <step>B</step>
           <octave>3</octave>
