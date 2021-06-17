@@ -257,7 +257,21 @@ Il fatto che questo \writechord{Eb} sieda su una misura per sé e gli venga fatt
 A riprova di questo è il fatto che il \writechord{Eb} conduce un cambio di tonalità. Possiamo contestualizzarne la funzione, infatti, come sostituzione di tritono: a seguito di questo, infatti, il pezzo modula in Re maggiore per la coda, e il nostro \writechord{Eb} sta quindi sostituindo un \writechord{A7}, che sarebbe la dominante (V\(^7\)) di Re. Il fatto che il primo accordo del giro successivo è un \writechord{Em7} contribuisce a restituire un piccolo quantitativo di fluidità al passaggio, che altrimenti davvero eccessivamente brusco.
 
 \subsubsection{Coda}
+Il \writechord{Eb}, poiché sostituisce la dominante \writechord{A7}, potrebbe benissimo andare a risolvere in \writechord{D} e chiudere la parentesi armonica in cui ci troviamo. Questo però non succede: Scholz sceglie infatti di transitare gradualemte dal ritornello alla strofa andando a farci costruire delle aspettative circa la risoluzione stessa, per poi posticiparla.
 
+Al \writechord{Eb}, infatti, segue un \writechord{Em7}, che è II,\(^7\) di Re. A questo punto abbiamo una successione \writechord{Em7} - \writechord{A} ([IIm\(^7\) - V] di Re), cui ci aspettiamo possa seguire un \writechord{D} conclusivo. anche la voce sembra andare in questa direzione, dal momento che esegue una linea discendente che va a terminare sulla fondamentale Re.
+
+\paragraph{Coda in \(\mathcal{B}1 \to \mathcal{A}2\)}
+Ma di nuovo dobbiamo attendere, perché l'accordo su cui si siede il Re della voce non è un \writechord{D}, bensì un \writechord{G}, IV di Re. Da questo parte una linea che discende diatonica e va a sedersi sulla tonica. Il fatto che non ci sia una vera e propria risoluzione ci prepara al ritorno alla strofa la quale, ricordiamolo, ha come centro modale Re misolidio.
+\begin{sheet}{Voce e armonie nella coda}
+    \musicxmlfile{assets/sheets/B-vox_3.musicxml}
+\end{sheet}
+
+\paragraph{Coda in \(\mathcal{B}2 \to \textrm{special}\)}
+Dopo il secondo ritornello abbiamo una variazione: la discesa cromatica, infatti, parte dal \flat VIm \writechord{Bm} e va a chiudere su un \writechord{Asus4} - \writechord{A}. In questo caso Scholz sta cercando una progressione per transitare verso lo special che, a differenza della strofa, è tonale; per questo motivo abbiamo una cadenza perfetta \writechord{A} - \writechord{D} nel passaggio, a differenza della variazione della plagale \writechord{G/E} - \writechord{D} che abbiamo incontrato sopra. 
+\begin{sheet}{Voce e accordi nella coda \(\mathcal{B}2 \to \textrm{special}\)}
+    \musicxmlfile{assets/sheets/B-vox_4.musicxml}
+\end{sheet}
 
 \subsection{Special}
 
