@@ -274,5 +274,8 @@ Dopo il secondo ritornello abbiamo una variazione: la discesa cromatica, infatti
 \end{sheet}
 
 \subsection{Special}
+\begin{sheet}{Eeeeee}
+    \musicxmlfile{assets/sheets/s-lead_bass_harm.musicxml}
+\end{sheet}
 
 \end{document}
