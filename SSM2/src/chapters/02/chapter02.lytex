@@ -274,8 +274,14 @@ Dopo il secondo ritornello abbiamo una variazione: la discesa cromatica, infatti
 \end{sheet}
 
 \subsection{Special}
-\begin{sheet}{Eeeeee}
+La progressione dello special con assolo di chitarra è forse la sezione armonicamente più semplice del pezzo. La sezione copre complessivamente 10 misure: le prime 8 possono essere suddivise in 4 progressioni di accordi, ciascuna delle quali estende per 2 misure; nelle ultime due misure della sezione, invece, abbiamo una ripresa della frase diatonica discendente da Sol a Re che già abbiamo visto nella coda di \(B1\) che, anche in questo caso, è utile a raccordare la sezione uscente con la strofa.
+
+Le prime 3 progressioni del corpo dell'assolo sono fondamentalmente molto simili: tutte possono essere ricondotte a una struttura del tipo [ I - IV - I - V ] in tonalità di Re maggiore. I movimenti del basso, tuttavia, creano dei rivolti che sono sempre leggermente diversi ogni volta: queste leggere microvariazioni contribuiscono a rendere sempre vivo l'interesse armonico di una  progressione che, altrimenti, risulterebbe quasi banale. Ecco così che nella prima ripetizione abbiamo un \writechord{D/F#} seguito da un \writechord{A/E}; nella terza ripetizione, invece, il secondo \writechord{D} viene sostituito dal diatonicamente equivalente \writechord{Bm7} (appartengono entrambi all'area di tonica).
+\begin{sheet}{Armonia del solo}
     \musicxmlfile{assets/sheets/s-lead_bass_harm.musicxml}
 \end{sheet}
+
+
+La quarta progressione, invece, è [ I - VIm - IIm\(^7\) - V ], ossia il cosiddetto "giro armonico" di Sol, che con il suo [ IIm\(^7\) - V ] sembra prepararci a una risoluzione sulla tonica \writechord{D}; come già nella coda di \(B1\), invece, andiamo a sederci sul IV \writechord{G}, per poi andare a chiudere discendento diatonicamente verso la fondamentale della strofa modale.
 
 \end{document}

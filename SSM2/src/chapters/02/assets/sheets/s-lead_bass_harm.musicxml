@@ -4,7 +4,7 @@
   <identification>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2021-06-19</encoding-date>
+      <encoding-date>2021-06-21</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="no"/>
@@ -1963,7 +1963,7 @@
         </note>
       <harmony print-frame="no">
         <root>
-          <root-step>G</root-step>
+          <root-step>D</root-step>
           </root>
         <kind>major</kind>
         <bass>
@@ -1986,12 +1986,9 @@
         </note>
       <harmony print-frame="no">
         <root>
-          <root-step>G</root-step>
+          <root-step>E</root-step>
           </root>
-        <kind>major</kind>
-        <bass>
-          <bass-step>E</bass-step>
-          </bass>
+        <kind text="m7">minor-seventh</kind>
         </harmony>
       <note default-x="282.69" default-y="-40.00">
         <pitch>
