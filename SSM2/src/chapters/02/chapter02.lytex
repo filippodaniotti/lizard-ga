@@ -5,12 +5,6 @@
 
 \begin{document}
 \chapter{More Than a Feeling}
-
-% --------------APPUNTI BEATO----------------
-
-% Notevole che il pezzo inizi con un fade in 
-
-
 % la seconda è una chitarra elettrica, nascosta sotto l'attacco della 12 
 % corde ma che fornisce ulteriore contorno a livello di armonici; 
 
@@ -18,8 +12,6 @@
 % po' di roba, beato parla di attenuatori e roba
 
 % nell'intro di soono degli armonici con whammy
-
-% il suono del basso è molto grosso, compresso, è proprio figo
 
 % Fill di batteria, straight 16th, great fill
 
@@ -32,10 +24,6 @@
 
 % Nella C part usa il falsetto su "eyes" e poi full voice su "away"
 
-% Inoltre quell'away crea un Cmaj9, con 9 al canto, dissonanza figa
-
-% Nel lancio del ritornello il basso fa fill su 16th notes, james jamerson
-% kind of thing, really melodic and moving
 
 % C'è la frasedi chitarra, ma soprattutto il pick scratch, super ripreso negli
 % anni 80 (ma anche di recente dai muse); inoltre, la frase viene raddoppiata anche
@@ -63,9 +51,6 @@
 
 % Hand claps
 
-
-% sezione di uscita in Em, con passaggi di basso molto fighi
-
 % si rientra sul riff, dove la chitarra e il basso enfatizzano le note della melodia
 % dell'arpeggio-riff rispettivamente con armonici naturali e andando all'ottava alta
 
@@ -77,9 +62,6 @@
 
 
 % Brad delp prende due note in falsetto, d e e, come facesse colazione
-
-% durante il solo il basso si muove un po' in giro, legato, sedicesimi veloci
-
 
 % terza strofa chill build, casino, licks, poi altre note in falsetto altissime
 % armonizzate con la chitarra
@@ -93,9 +75,6 @@
 
 % Variazione ritmica con kick e crash di batteria
 
-% Basso ottava bassa?\cite{yt:beato_mtf}
-
-% -------------FINE APPUNTI BEATO ---------------
 \section{Informazioni preliminari}
 More than a Feeling è la traccia di apertura del primo disco omonimo della band; il pezzo ha un significato particolare perché è con questa demo che, a seguito di un lungo periodo di rifiuti durato 6 anni, Tom Scholz è riuscito ad assicurarsi un contratto per la produzione di un album con la Epic Records\cite{site:mtaf_ew}\cite{site:bost_album_archive}. Fa parte di quelle canzoni che Scholz ha composto e registrato con Jim Masdea nel suo seminterrato\cite{site:thirdstage_interview} ed è una ballad che parla delle emozioni suscitate che una vecchia canzone è ancora in grado di suscitare\cite{site:bost_album_archive}. 
 
@@ -185,6 +164,8 @@ armonici
 
 segue l'acustica
 
+pick scratch
+
 suono, eq a piramide
 
 solista: armonizzazioni
@@ -193,7 +174,7 @@ fill terza strofa
 
 \subsection{Chitarra acustica}
 \paragraph{Produzione}
-In More Than a Feeling abbiamo due tracce di chitarra acustica, incisioni multiple di una medesima parte\cite{yt:mtaf_isolated}. Si tratta di una chitarra a 12 corde, scelta piuttosto in linea con quello che era il suono delle produzioni della prima metà degli anni '70, dai gruppi più sulla linea hard rock/prog fino alla produzione folk e al cantautorato: le avevano usate infatti i Led Zeppelin (\emph{Stairway to heaven}), i Queen (\emph{'39}), i Genesis, i The Eagles (\emph{Hotel California}), gli America (\emph{A Horse With No Name}) e Bob Dylan (\emph{Hurricane}).
+In More Than a Feeling abbiamo due tracce di chitarra acustica, incisioni multiple di una medesima parte\cite{yt:matf-isolated}. Si tratta di una chitarra a 12 corde, scelta piuttosto in linea con quello che era il suono delle produzioni della prima metà degli anni '70, dai gruppi più sulla linea hard rock/prog fino alla produzione folk e al cantautorato: erano state utilizzate dai Led Zeppelin (\emph{Stairway to heaven}), dai Queen (\emph{'39}), dai Genesis, dai The Eagles (\emph{Hotel California}), dagli America (\emph{A Horse With No Name}) e da Bob Dylan (\emph{Hurricane}).
 
 \paragraph{Strofa}
 Nelle strofe \(A\) la chitarra esegue il celeberrimo riff, dal quale vengono definiti progressione armonica e pattern ritmico per tutta la sezione. Il  riff è costruito con arpeggi di accordi in prima posizione, suonati lasciando vibrare le corde; nella seconda misura, inoltre, troviamo una discesa diatonica sui bassi costruita su un metro \meter{3+3+2}{8}.
@@ -215,7 +196,7 @@ Durante l'assolo gli accordi vengono eseguiti in posizione aperta, al pari della
 Nella coda dei ritornelli le chitarre acustiche lavorano in tandem con le chitarre elettriche, eseguendo sostanzialmente la medesima parte e agendo quindi come mero rinforzo in termini di armoniche.
 
 \subsection{Basso}
-Il basso in More Than a Feeling è stato suonato da Tom Scholz\cite{wiki:bost_mtaf} e si può facilmente evincere da alcune caratteristiche tipiche del bassista autodidatta che intende mutuare la tecnica costruita sulla chitarra, tra cui l'uso del plettro (riconoscibile dall'attacco tipico che conferisce allo strumento\cite{yt:mtaf_isolated}) e di numerosi piccoli fill e passaggi coi legati.
+Il basso in More Than a Feeling è stato suonato da Tom Scholz\cite{wiki:bost_mtaf} e si può facilmente evincere da alcune caratteristiche tipiche del bassista autodidatta che intende mutuare la tecnica costruita sulla chitarra, tra cui l'uso del plettro (riconoscibile dall'attacco tipico che conferisce allo strumento\cite{yt:matf-isolated}) e di numerosi piccoli fill e passaggi coi legati.
 
 Ciononostante, Scholz mantiene comunque un buon equilibrio tra parti più movimentate e dense (preritornelli, code, assolo) e sezioni invece più regolari e sparse (strofe).
 
@@ -245,19 +226,28 @@ Possiamo ritrovare tutto questo nella linea dell'assolo, dove Scholz sfrutta arp
 \end{sheet}
 
 \subsection{Batteria}
-fill
+Come la maggior parte delle parti di batteria del disco, la traccia di More Than a Feeling è stata inizialmente preparata da Jim Masdea durante gli anni di lavorazione con Scholz nel seminterrato, ma successivamente registrata dallo session man Sib Hashian\cite{wiki:bost_mtaf}. 
 
-sidestick
+\subsubsection{Strofe}
+La batteria entra con un fill a quartine di sedicesimi sul rullante, secondo uno schema attorno al quale verrà costruita la maggior parte dei fill nel resto del brano. 
 
-rullante per tirare
+A seguito di questo abbiamo il pattern ritmico principale della strofa, caratterizzato dall'utilizzo di un sidestick molto riverberato\cite{yt:beato_mtaf} in sostituzione del colpo di rullante vero e proprio. L'utilizzo del sidestick ha l'effetto di mantenere una dinamica molto bassa e controllata, quasi placida, coerentemente al racconto che sta facendo la voce nella prima strofa del brano (il brano inizia infatti con il verso \emph{"I woke up this morning..."}\footnote{"Questa mattina mi sono alzato...}). 
 
-handclaps
+Altro elemento che caratterizza questo pattern molto semplice è la presenza di un colpo di cassa sul levare del secondo quarto della misura, necessario al fine di allinearsi a basso e chitarre nell'esaltazione del metro \meter{3+3+2}{8} della progressione armonica della strofa. Questo andamento viene mantenuto regolarmente per tutte le sezioni \(A\) e per le code di \(B\), tanto che non risulterebbe fuori luogo utilizzare \meter{3+3+2}{8} come time signature per tali sezioni.
+\begin{sheet}{Fill iniziale e pattern della strofa}
+    \lilypondfile{assets/sheets/A-drums_1.ly}
+\end{sheet}
 
-paccata di riverbero
+La parte eseguita nel ritornello non si discosta molto da quella che abbiamo visto nella strofa. L'ingresso del colpo di rullante al posto del sidestick è il più notevole elemento di aumento di dinamica e il pattern ritmico della cassa viene leggermente variato per meglio sedersi con il metro del ritornello, non più \meter{3+3+2}{8} ma un più comune \meter{4}{4}. 
 
-semplice nel ritornello
+Abbiamo anche una lieve variazione nel pattern del rullante: ogni due misure, infatti, viene aggiunto un colpo di rullante anche sul terzo quarto. Questo contribuisce a rendere il pezzo più mobile, meno seduto, e prepara efficacemente ai fill di rullante che inframmezzano la sezione.
 
-accenti, melody driven
+Abbiamo anche l'aggiunta di una percussione piuttosto atipica: su ogni quarto di battuta, infatti, abbiamo dei battiti di mano (\emph{handclaps}), forse la percussione che più fa risaltare questo ritornello.
+
+Permettiamoci inoltre di apprezzare i tanto azzeccati quanto delicati interventi sui piatti nel passaggio \(B1 \to A2\).
+ 
+semplice nel solo
+
 
 \section{Analisi armonica}
 \subsection{Sezioni \(A\)}
