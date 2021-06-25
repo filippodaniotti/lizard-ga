@@ -1,18 +1,58 @@
-tambustaff = {
-  \override Staff.StaffSymbol.line-positions = #'( 0 )
-  \override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
-  \set DrumStaff.instrumentName = #"Tambourine"
+\paper {
+    right-margin = 34\mm
+    left-margin = 34\mm
+    bottom-margin = 10\mm
 }
 
-\new DrumStaff {
-  \tambustaff
-  \set DrumStaff.drumStyleTable = #(alist->hash-table mydrums)
+up = \drummode {
+  cymc8 hh hh hh hh hh hh hh
+  hh hh hh hh hh hh hh hh
+  hh hh hh hh hh hh hh hh
+  hh hh hh hh
+}
 
-  \drummode {
-    tamb8. tamb16 tamb8 tamb tamb tamb |
-    tamb4. tamb8 tamb tamb |
-    % the trick with the scaled duration and the shorter rest
-    % is neccessary for the correct ending of the trill-span!
-    tamb2.*5/6 \startTrillSpan s8 \stopTrillSpan |
+down = \drummode {
+  bd4 sn4 bd8 bd sn4 
+  bd8. bd16 sn8 bd <bd sn> bd16 bd sn8 bd
+  bd4 sn4 bd8 bd sn4 
+  bd8. bd16 sn8 bd sn16 sn bd8 sn16 sn sn sn
+}
+
+hc = \drummode {
+  cb4 cb cb cb
+  cb4 cb cb cb
+  cb4 cb cb cb
+  cb4 cb cb cb
+}
+
+\new StaffGroup <<
+  \new DrumStaff <<
+  \new DrumVoice { 
+      \voiceOne 
+        \up
+    }
+  \new DrumVoice { 
+      \voiceTwo 
+        \down 
   }
-}
+>> 
+  \new DrumStaff \with {
+      drumStyleTable = #percussion-style
+      \override StaffSymbol.line-count = #1
+      \override BarLine.bar-extent = #'(-1 . 1)
+    }
+    <<
+      \hc
+    >>
+>>
+
+% \new DrumStaff <<
+%   \new DrumVoice { 
+%       \voiceOne 
+%         \up
+%     }
+%   \new DrumVoice { 
+%       \voiceTwo 
+%         \down 
+%   }
+% >> 

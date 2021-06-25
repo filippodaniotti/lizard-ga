@@ -1,7 +1,3 @@
-up = \drummode {
-    
-}
-
 \drums {
   \acciaccatura sn8 sn8 tomml tomfh sn16 sn
   sn sn tommh tommh tomml tomml tomfh tomfh

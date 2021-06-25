@@ -238,16 +238,30 @@ Altro elemento che caratterizza questo pattern molto semplice è la presenza di 
     \lilypondfile{assets/sheets/A-drums_1.ly}
 \end{sheet}
 
+\subsubsection{Ritornelli e soli}
 La parte eseguita nel ritornello non si discosta molto da quella che abbiamo visto nella strofa. L'ingresso del colpo di rullante al posto del sidestick è il più notevole elemento di aumento di dinamica e il pattern ritmico della cassa viene leggermente variato per meglio sedersi con il metro del ritornello, non più \meter{3+3+2}{8} ma un più comune \meter{4}{4}. 
 
 Abbiamo anche una lieve variazione nel pattern del rullante: ogni due misure, infatti, viene aggiunto un colpo di rullante anche sul terzo quarto. Questo contribuisce a rendere il pezzo più mobile, meno seduto, e prepara efficacemente ai fill di rullante che inframmezzano la sezione.
 
 Abbiamo anche l'aggiunta di una percussione piuttosto atipica: su ogni quarto di battuta, infatti, abbiamo dei battiti di mano (\emph{handclaps}), forse la percussione che più fa risaltare questo ritornello.
+\begin{sheet}{Prime due misure del ritornello}
+    \lilypondfile{assets/sheets/B-drums_1.ly}
+\end{sheet}
 
-Permettiamoci inoltre di apprezzare i tanto azzeccati quanto delicati interventi sui piatti nel passaggio \(B1 \to A2\).
- 
-semplice nel solo
+Nella coda del ritornello la dinamica cala: il rullante cede il posto di nuovo al sidestick, gli handclaps spariscono e viene reintrodotto un pattern su un \meter{3+3+2}{8}; per distendere ulteriormente l'atmosfera, gli hi-hats chiusi vengono sostituiti con dei più delicati colpi sul ride. Permettiamoci inoltre di apprezzare i tanto azzeccati quanto delicati interventi sui piatti nella ripresa dell'introduzione su \(B1 \to A2\).
+\begin{sheet}{Coda del ritornello e transizione \(B1 \to A2\)}
+    \lilypondfile{assets/sheets/B-drums_2.ly}
+\end{sheet}
 
+Il pattern eseguito nello special è forse il più semplice di tutto il pezzo, scelta probabilmente dettata dalla volontà di lasciare ampio margine al basso di prodigarsi in fill e suddivisioni ritmiche più ardite.
+\begin{sheet}{Pattern base nello special}
+    \lilypondfile{assets/sheets/S-drums.ly}
+\end{sheet}
+
+L'ultima osservazione che possiamo fa è nell'ultimo ritornello. I ritornelli precedenti, a seguito della dodicesima misura, avevano un break sulla tredicesima in corrispondenza dell'accordo di \writechord{Eb}, a seguito del quale avevamo la coda di transizione verso strofa o special; in quest'ultimo, invece, il giro di accordi si ripete ad libitum fino al fade out del pezzo, e per segnalare questa differenza all'ascoltatore il gruppo, guidato dalla batteria, esegue una variazione ritmica con accenti sul levare dei sedicesimi, secondo uno schema \meter{3+3+2}{16}, una sorta di raddoppio del \meter{3+3+2}{8} che domina altri momenti del pezzo.
+\begin{sheet}{Variazione ritmica nell'ultimo ritornello}
+    \lilypondfile{assets/sheets/B-drums_3.ly}
+\end{sheet}
 
 \section{Analisi armonica}
 \subsection{Sezioni \(A\)}
