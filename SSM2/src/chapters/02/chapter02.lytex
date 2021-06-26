@@ -1,21 +1,15 @@
 \documentclass[class=book, crop=false, oneside, 12pt]{standalone}
 \usepackage{standalone}
 \usepackage{../../style}
-\graphicspath{{./assets/images/}}
+\graphicspath{{../assets/images/}}
 
 \begin{document}
 \chapter{More Than a Feeling}
 % la seconda è una chitarra elettrica, nascosta sotto l'attacco della 12 
 % corde ma che fornisce ulteriore contorno a livello di armonici; 
 
-% Tom scholz vabb si costruiva il gear e aveva pure una compagnia e hanno fatto un
-% po' di roba, beato parla di attenuatori e roba
 
 % nell'intro di soono degli armonici con whammy
-
-% Fill di batteria, straight 16th, great fill
-
-% Per la strofa va sul sidestick con una paccata di riverbero
 
 % La linea vocale ha struttura ABAC, in cui ogni elemento ha chiaramente una 
 % domanda e una risposta
@@ -28,10 +22,6 @@
 % C'è la frasedi chitarra, ma soprattutto il pick scratch, super ripreso negli
 % anni 80 (ma anche di recente dai muse); inoltre, la frase viene raddoppiata anche
 % da brad delp in falsetto
-
-% poi boh c'è il fill
-
-% Il primo giro di ritornello è strumentale, strano eh? 
 
 % Il suono della chitarra ritornello del ritornello è equalizzato puntando tutto sulle
 % medie: la forma dell'eq è quasi a piramide, è esattamente il contrario di come vengono
@@ -47,18 +37,9 @@
 % terze con la melodia che scende e si muove abbastanza, andando a dare più colore ai
 % semplici accordi del loop
 
-% poi c'è il loop
-
-% Hand claps
-
-% si rientra sul riff, dove la chitarra e il basso enfatizzano le note della melodia
 % dell'arpeggio-riff rispettivamente con armonici naturali e andando all'ottava alta
 
-
 % nella seconda strofa varia molto di più il ritmo delle risposte
-
-% Apprezziamo le microvariazioni di una stessa parte, che con il copypaste non
-% possiamo ottenere
 
 
 % Brad delp prende due note in falsetto, d e e, come facesse colazione
@@ -66,15 +47,10 @@
 % terza strofa chill build, casino, licks, poi altre note in falsetto altissime
 % armonizzate con la chitarra
 
-% Ultimo bridge verso il chorus, con frase di chitarra più lunga
-
 % ultimo ritornello, niente chiusura in Eb, le frasi di delp risolvono sulla
 % tonica, tiene un'armonizzazione tipo per 20 minuti fino al fade out
 
 % Coda di riverbero sulla voce
-
-% Variazione ritmica con kick e crash di batteria
-
 \section{Informazioni preliminari}
 More than a Feeling è la traccia di apertura del primo disco omonimo della band; il pezzo ha un significato particolare perché è con questa demo che, a seguito di un lungo periodo di rifiuti durato 6 anni, Tom Scholz è riuscito ad assicurarsi un contratto per la produzione di un album con la Epic Records\cite{site:mtaf_ew}\cite{site:bost_album_archive}. Fa parte di quelle canzoni che Scholz ha composto e registrato con Jim Masdea nel suo seminterrato\cite{site:thirdstage_interview} ed è una ballad che parla delle emozioni suscitate che una vecchia canzone è ancora in grado di suscitare\cite{site:bost_album_archive}. 
 
@@ -301,7 +277,30 @@ Inoltre, poiché l'insieme di note che costituiscono Re misolidio è il medesimo
 \end{sheet}
 
 \subsection{Sezioni \(B\)}
-\subsubsection{Teoria del loop}
+\subsubsection{Loop}
+Il corpo principale del ritornello è una progressione di 4 accordi in Sol maggiore che si ripetono ciclicamente (un cosiddetto loop). Gli accordi in questione sono \writechord{G} - \writechord{C} - \writechord{Em} - \writechord{D}, secondo quindi lo schema [ I - IV - VIm - V ].
+\begin{sheet}{Loop del ritornello}
+    \musicxmlfile{assets/sheets/B-chords.musicxml}
+\end{sheet} 
+
+L'analisi di loop come questo è molto più interessante di come possa apparire inizialmente. Nonostante non vi sia alcun problema nell'applicare a queste progressioni la nostra consueta analisi per aree tonali, almeno in teoria, questa rischia di restituirci un risultato non particolarmente soddisfacente. Possiamo infatti dire che \writechord{G} è l'accordo di tonica, il suo quarto grado \writechord{C} è un accordo di sottodominante e \writechord{G} (escludendo momentaneamente il passaggio per \writechord{Em}), V grado, è la dominante che rilascia la tensione e ci riporta a \writechord{G}; risulterebbe quindi del tutto simile alla "Doo-Wop progression" ([ I - VIm - IV - V ]), progressione comunissima nella musica degli anni '50 e dalla quale differirebbe solo per la posizione del VIm, il quale però non altera significativamente la direzione armonica che otteniamo dall'analisi per aree tonali.
+
+Il problema è che in loop come questo l'alternanza tensione-risoluzione avviene in tempi rapidissimi, sull'ordine dei pochi secondi. Questo non è abbastanza per creare la tensione necessaria per ottenere una grandde risoluzione, e il fatto che si ripetano ciclicamente fa sì che tutti questi piccoli momenti di tensione-risoluzione tendano a fluidificarsi e apparire come un blocco armonico eterogeneo ma compatto\cite{yt:12t-loop_3}. Il risultato è che i loop di accordi, nel loro uso moderno, sono volti più a creare ambiente e atmosfera che non a raccontare una storia\cite{yt:12t-loop_2}.
+
+Quindi, quale potrebbe essere l'approccio migliore da seguire per analizzare il loop nel ritornello di More Than a Feeling? Nonostante si tratti di un campo non ancora ben coperto dalla ricerca, alcune proposte sono state fatte\cite{yt:12t-loop_1}\cite{yt:pt-loop}\cite{pdf:anti_circles_prog}; in particolare, io penso che il modello presentato dal musicologo Philip Tagg \cite{site:tagg_site}\cite{site:tagg_article} si presti bene a spiegare quanto avviene in More Than a Feeling.
+
+Il modello di Tagg (applicato a loop di 4 accordi) prevede che la funzione di ciascun accordo sia determinata esclusiamente dalla sua posizione all'interno del loop ed è quindi dipendente dalla struttura metrica dello stesso, anziché dalla struttura armonica in relazione alla tonica. Gli accordi nella progressione vengono chiamati, in ordine, "tonal chord", "outgoing chord", "medial chord" e"incoming chord". I nomi sono autoesplicativi: il primo viene assunto a priori come centro tonale della progressione, il secondo ha la funzione di allontanarci dal tonal, il medial chord rappresenta un punto di stasi intermedio e l'incoming chord ha lo scopo di dirigere il ritorno al tonic chord. I due accordi di "peso" maggiore sarebbero quindi il tonal e il medial.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.5\textwidth,keepaspectratio]{tagg_chord_loop_schema.png}
+    \caption{Schema del modello di Tagg}
+    \label{fig:tagg_chord_loop}
+\end{figure}
+
+Se quindi andiamo a inserire i nostri accordi in questo schema otteniamo che \writechord{G} è il tonal chord, \writechord{C} l'outgoing chord, \writechord{Em} il medial chord e \writechord{D} l'incoming chord. I due accordi più importanti di questo loop sarebbero quindi \writechord{G} e \writechord{Em} e questo, reintroducendo l'analisi per aree tonali, ci permette di trarre alcune conclusioni sulla funzione di questo loop.
+
+Dall'analisi del preritornello abbiamo ragione di dire di essere in Sol maggiore: tale sezione termina infatti in \writechord{D} e il fill di chitarra va a scendere diatonicamente a Sol maggiore verso Sol stesso. Assunto questo, analizziamo il tonal chord e il medial chord del loop: \writechord{G} e \writechord{Em} appartengono entrambi all'area di tonica e sono pertanto due accordi molto stabili, di riposo, che non introducono movimenti significativi e differiscono leggermente per un diverso "colore armonico" (\writechord{Em} è leggermente piu scuro a causa della presenza della terza minore). Questo vuol dire che il loop, nel complesso armonico e metamusicale (mi si passi il termine ampolloso), è stabile: in questo momento del brano non c'è una storia avvincente da raccontare, ma il narratore è rapito dalle sue memorie e dal calderone dolceamaro (reso, appunto dall'alternanza di \writechord{G} e \writechord{Em}) delle sensazioni scaturite dall'aver risentito quella vecchia canzone. Questo momento viene interrotto bruscamente dal riaffiorare del ricordo di quella Marianne e della sua partenza, perfettamente reso dall'interruzione del loop a metà con un \writechord{Eb}.
+
 \subsubsection{Sostituzione di tritono}
 Il corpo del ritornello si chiude con un accordo non diatonico che interrompe il loop a metà. L'accordo in question è un \writechord{Eb}.
 
