@@ -5,19 +5,12 @@
 
 \begin{document}
 \chapter{More Than a Feeling}
-% la seconda è una chitarra elettrica, nascosta sotto l'attacco della 12 
-% corde ma che fornisce ulteriore contorno a livello di armonici; 
-
-
-% nell'intro di soono degli armonici con whammy
-
 % La linea vocale ha struttura ABAC, in cui ogni elemento ha chiaramente una 
 % domanda e una risposta
 
 % Plus anche la voce ha un po' di sovraincisioni
 
 % Nella C part usa il falsetto su "eyes" e poi full voice su "away"
-
 
 % C'è la frasedi chitarra, ma soprattutto il pick scratch, super ripreso negli
 % anni 80 (ma anche di recente dai muse); inoltre, la frase viene raddoppiata anche
@@ -40,7 +33,6 @@
 % dell'arpeggio-riff rispettivamente con armonici naturali e andando all'ottava alta
 
 % nella seconda strofa varia molto di più il ritmo delle risposte
-
 
 % Brad delp prende due note in falsetto, d e e, come facesse colazione
 
@@ -135,19 +127,6 @@ c'è un respiro dopo di quello, non è del tutto inumano dai
 
 ah e ha anche una chitarra che ingrossa ulteriormente il suono
 
-\subsection{Chitarra elettrica}
-armonici
-
-segue l'acustica
-
-pick scratch
-
-suono, eq a piramide
-
-solista: armonizzazioni
-
-fill terza strofa
-
 \subsection{Chitarra acustica}
 \paragraph{Produzione}
 In More Than a Feeling abbiamo due tracce di chitarra acustica, incisioni multiple di una medesima parte\cite{yt:matf-isolated}. Si tratta di una chitarra a 12 corde, scelta piuttosto in linea con quello che era il suono delle produzioni della prima metà degli anni '70, dai gruppi più sulla linea hard rock/prog fino alla produzione folk e al cantautorato: erano state utilizzate dai Led Zeppelin (\emph{Stairway to heaven}), dai Queen (\emph{'39}), dai Genesis, dai The Eagles (\emph{Hotel California}), dagli America (\emph{A Horse With No Name}) e da Bob Dylan (\emph{Hurricane}).
@@ -170,6 +149,24 @@ Nel corpo dei vari ritornelli e nel solo la chitarra esegue gli accordi basi del
 Durante l'assolo gli accordi vengono eseguiti in posizione aperta, al pari della strofa; nei ritornelli, invece, Scholz esegue degli accordi barré, allineandosi allo schema dei powerchord eseguiti dalle chitarre elettriche e completandoli.
 
 Nella coda dei ritornelli le chitarre acustiche lavorano in tandem con le chitarre elettriche, eseguendo sostanzialmente la medesima parte e agendo quindi come mero rinforzo in termini di armoniche.
+
+\subsection{Chitarra elettrica}
+\subsubsection{Chitarra ritmica}
+Le parti di chitarra elettrica in More Than a Feeling sono state naturalmente scritte ed eseguite da Scholz\cite{wiki:bost_mtaf}; inoltre, come anche voci e chitarre acustiche, ciascuna delle tracce di chitarra è stata registrata due volte.
+
+La chitarra elettrica entra fin da subito: ancora prima della prima strofa \(A1\), infatti, possiamo sentire degli armonici naturali accompagnati dall'uyso della leva del tremolo che, assieme al basso, esaltano la linea e l'andamento \meter{3+3+2}{8} impostato dal riff di chitarra acustica.
+
+Ma non solo: ascoltando in solo le chitarre dal multitraccia originale\cite{yt:beato_mtaf} possiamo infatti sentire una seconda chitarra elettrica che raddoppia il riff arpeggiato delle acustiche a 12 corde;il connubio di chitarre acustiche ed elettriche costituisce un elemento caratteristico del tipico suono dei Boston e di questo primo disco in particolare.
+
+Al lancio del ritornello abbiamo un'altro elemento caratteristico di questo brano: il glissato fatto con la tecnica del pick scratch e condito dalle modulazioni dell'hyperspace pedal. Non era una tecnica comune negli anni '70, ma verrà ripresa estensivamente dai chitarristi hard rock/heavy metal degli anni '80 fino anche ai giorni nostri (ad esempio dai Muse in \emph{Hysteria} o \emph{Reapers}).
+
+Caratteristico è anche il suono delle chitarre nel riff sui powerchord del ritornello, estremamente tagliente e massiccio. Questo suono è stato ottenuto con le multiple incisioni, l'utilizzo del Rockman (l'amplificatore autocostruito da Tom Scholz) e dal tipo di equalizzazione scelto: si tratta di chitarre molto mediose, soprattutto sugli 800Hz, e povere di basse e alte, secondo una forma nel diagramma dello spettro che è simile a una piramide (il contrario di quanto troviamo solitamente in altri generi, come il metal). Questo dettaglio in particolare spinge molto in avanti le chitarre nel mix e a farle saltare ben fuori dalle acustiche.
+
+\subsubsection{Chitarra solista}
+Nel solo di chitarra emerge il passato di studi classici di Scholz. L'assolo in questione è molto costruito attorno alle frasi melodiche piuttosto che sul groove, e molti altri elementi che caratterizzano gli assoli rock di matrice blues di quegli anni sono infatti o assenti (come ad esempio la costruzione del solo su scala pentatonica), oppure adattati al tipo di suono più classico inseguito da Scholz. Ad esempio, Scholz riprende l'uso dei legati (hammer-on e pull-off) e dei bending per rendere sulla chitarra il tipico suono di un mordente bachiano\cite{wiki:bost_a}. Altro elemento notevole è l'uso massiccio di armonizzazioni per terze maggiori, che rende ancora più marcato l'uso del modo maggiore. Tutti questi elementi avvicinano le scelte melodiche di Scholz a quelle del suono prog della prima metà degli anni '70 che a quelle dei gruppi hard rock.
+\begin{sheet}{Assolo di chitarra con armonizzazioni}
+    \musicxmlfile{assets/sheets/S-guit.musicxml}
+\end{sheet}
 
 \subsection{Basso}
 Il basso in More Than a Feeling è stato suonato da Tom Scholz\cite{wiki:bost_mtaf} e si può facilmente evincere da alcune caratteristiche tipiche del bassista autodidatta che intende mutuare la tecnica costruita sulla chitarra, tra cui l'uso del plettro (riconoscibile dall'attacco tipico che conferisce allo strumento\cite{yt:matf-isolated}) e di numerosi piccoli fill e passaggi coi legati.
@@ -287,7 +284,7 @@ L'analisi di loop come questo è molto più interessante di come possa apparire 
 
 Il problema è che in loop come questo l'alternanza tensione-risoluzione avviene in tempi rapidissimi, sull'ordine dei pochi secondi. Questo non è abbastanza per creare la tensione necessaria per ottenere una grandde risoluzione, e il fatto che si ripetano ciclicamente fa sì che tutti questi piccoli momenti di tensione-risoluzione tendano a fluidificarsi e apparire come un blocco armonico eterogeneo ma compatto\cite{yt:12t-loop_3}. Il risultato è che i loop di accordi, nel loro uso moderno, sono volti più a creare ambiente e atmosfera che non a raccontare una storia\cite{yt:12t-loop_2}.
 
-Quindi, quale potrebbe essere l'approccio migliore da seguire per analizzare il loop nel ritornello di More Than a Feeling? Nonostante si tratti di un campo non ancora ben coperto dalla ricerca, alcune proposte sono state fatte\cite{yt:12t-loop_1}\cite{yt:pt-loop}\cite{pdf:anti_circles_prog}; in particolare, io penso che il modello presentato dal musicologo Philip Tagg \cite{site:tagg_site}\cite{site:tagg_article} si presti bene a spiegare quanto avviene in More Than a Feeling.
+Quindi, quale potrebbe essere l'approccio migliore da seguire per analizzare il loop nel ritornello di More Than a Feeling? Nonostante si tratti di un campo non ancora ben coperto dalla ricerca, alcune proposte sono state fatte\cite{yt:12t-loop_1}\cite{yt:pt-loop}\cite{pdf:anti_circles_prog}; in particolare, io ritengo che il modello presentato dal musicologo Philip Tagg \cite{site:tagg_site}\cite{site:tagg_article} si presti bene a spiegare quanto avviene in More Than a Feeling.
 
 Il modello di Tagg (applicato a loop di 4 accordi) prevede che la funzione di ciascun accordo sia determinata esclusiamente dalla sua posizione all'interno del loop ed è quindi dipendente dalla struttura metrica dello stesso, anziché dalla struttura armonica in relazione alla tonica. Gli accordi nella progressione vengono chiamati, in ordine, "tonal chord", "outgoing chord", "medial chord" e"incoming chord". I nomi sono autoesplicativi: il primo viene assunto a priori come centro tonale della progressione, il secondo ha la funzione di allontanarci dal tonal, il medial chord rappresenta un punto di stasi intermedio e l'incoming chord ha lo scopo di dirigere il ritorno al tonic chord. I due accordi di "peso" maggiore sarebbero quindi il tonal e il medial.
 \begin{figure}[H]
@@ -299,7 +296,7 @@ Il modello di Tagg (applicato a loop di 4 accordi) prevede che la funzione di ci
 
 Se quindi andiamo a inserire i nostri accordi in questo schema otteniamo che \writechord{G} è il tonal chord, \writechord{C} l'outgoing chord, \writechord{Em} il medial chord e \writechord{D} l'incoming chord. I due accordi più importanti di questo loop sarebbero quindi \writechord{G} e \writechord{Em} e questo, reintroducendo l'analisi per aree tonali, ci permette di trarre alcune conclusioni sulla funzione di questo loop.
 
-Dall'analisi del preritornello abbiamo ragione di dire di essere in Sol maggiore: tale sezione termina infatti in \writechord{D} e il fill di chitarra va a scendere diatonicamente a Sol maggiore verso Sol stesso. Assunto questo, analizziamo il tonal chord e il medial chord del loop: \writechord{G} e \writechord{Em} appartengono entrambi all'area di tonica e sono pertanto due accordi molto stabili, di riposo, che non introducono movimenti significativi e differiscono leggermente per un diverso "colore armonico" (\writechord{Em} è leggermente piu scuro a causa della presenza della terza minore). Questo vuol dire che il loop, nel complesso armonico e metamusicale (mi si passi il termine ampolloso), è stabile: in questo momento del brano non c'è una storia avvincente da raccontare, ma il narratore è rapito dalle sue memorie e dal calderone dolceamaro (reso, appunto dall'alternanza di \writechord{G} e \writechord{Em}) delle sensazioni scaturite dall'aver risentito quella vecchia canzone. Questo momento viene interrotto bruscamente dal riaffiorare del ricordo di quella Marianne e della sua partenza, perfettamente reso dall'interruzione del loop a metà con un \writechord{Eb}.
+Dall'analisi del preritornello abbiamo ragione di dire di essere in Sol maggiore: tale sezione termina infatti in \writechord{D} e il fill di chitarra va a scendere diatonicamente a Sol maggiore verso Sol stesso. Assunto questo, analizziamo il tonal chord e il medial chord del loop: \writechord{G} e \writechord{Em} appartengono entrambi all'area di tonica e sono pertanto due accordi molto stabili, di riposo, che non introducono movimenti significativi e differiscono leggermente per un diverso "colore armonico" (\writechord{Em} è leggermente piu scuro a causa della presenza della terza minore). Questo vuol dire che il loop, nel complesso armonico e metamusicale (mi si passi il termine ampolloso), è stabile: in questo momento del brano non c'è una storia avvincente da raccontare, abbiamo semplicemente il racconto del narratore rapito dalle sue memorie e dal calderone dolceamaro (reso, appunto dall'alternanza di \writechord{G} e \writechord{Em}) delle sensazioni scaturite dall'aver risentito quella vecchia canzone. Questo momento viene interrotto bruscamente dal riaffiorare del ricordo di quella Marianne e della sua partenza, perfettamente reso dall'interruzione del loop a metà con un \writechord{Eb}.
 
 \subsubsection{Sostituzione di tritono}
 Il corpo del ritornello si chiude con un accordo non diatonico che interrompe il loop a metà. L'accordo in question è un \writechord{Eb}.
