@@ -5,44 +5,6 @@
 
 \begin{document}
 \chapter{More Than a Feeling}
-% La linea vocale ha struttura ABAC, in cui ogni elemento ha chiaramente una 
-% domanda e una risposta
-
-% Plus anche la voce ha un po' di sovraincisioni
-
-% Nella C part usa il falsetto su "eyes" e poi full voice su "away"
-
-% C'è la frasedi chitarra, ma soprattutto il pick scratch, super ripreso negli
-% anni 80 (ma anche di recente dai muse); inoltre, la frase viene raddoppiata anche
-% da brad delp in falsetto
-
-% Il suono della chitarra ritornello del ritornello è equalizzato puntando tutto sulle
-% medie: la forma dell'eq è quasi a piramide, è esattamente il contrario di come vengono
-% tipicamente trattate le chitarre nel metal
-
-% Di nuovo, c'è la chitarra acustica 12 corde con un'eq simile (?) che rafforza
-% l'elettrica nel ritornello, tutto hard panned
-
-% Gran lavoro con voce e armonie vocali nel ritornello: sul secondo accordo (C) lui
-% prende un fa\#, che crea un \#11 che è molto figo
-
-% poi c'è il contrasto tra le armonie vocali che fanno un controcanto armonizzato per
-% terze con la melodia che scende e si muove abbastanza, andando a dare più colore ai
-% semplici accordi del loop
-
-% dell'arpeggio-riff rispettivamente con armonici naturali e andando all'ottava alta
-
-% nella seconda strofa varia molto di più il ritmo delle risposte
-
-% Brad delp prende due note in falsetto, d e e, come facesse colazione
-
-% terza strofa chill build, casino, licks, poi altre note in falsetto altissime
-% armonizzate con la chitarra
-
-% ultimo ritornello, niente chiusura in Eb, le frasi di delp risolvono sulla
-% tonica, tiene un'armonizzazione tipo per 20 minuti fino al fade out
-
-% Coda di riverbero sulla voce
 \section{Informazioni preliminari}
 More than a Feeling è la traccia di apertura del primo disco omonimo della band; il pezzo ha un significato particolare perché è con questa demo che, a seguito di un lungo periodo di rifiuti durato 6 anni, Tom Scholz è riuscito ad assicurarsi un contratto per la produzione di un album con la Epic Records\cite{site:mtaf_ew}\cite{site:bost_album_archive}. Fa parte di quelle canzoni che Scholz ha composto e registrato con Jim Masdea nel suo seminterrato\cite{site:thirdstage_interview} ed è una ballad che parla delle emozioni suscitate che una vecchia canzone è ancora in grado di suscitare\cite{site:bost_album_archive}. 
 
@@ -106,30 +68,38 @@ Scholz ha dichiarato di non considerarlo un testo autobiografico in senso strett
 
 \section{Tecnica e arrangiamento}
 \subsection{Voce e cori}
-Inizia un po' con una bedroom voice, gentle, good guy and intimate Modulazione
-È già double tracked fin dalla primissima linea
-notevole interpretazione, quasi attoriale/dastorytelling (closed my eyes and i slipped away)
+La parte vocale in More Than a Feeling è stata eseguita da Brad Delp\cite{wiki:bost_a} ed rappresenta certamente un'interpretazione degna di nota. Oltre alla linea vocale principale, Delp ha registratoa nche due tracce di backing vocals; tutte e tre le parti sono state registrate con due incisioni.
 
-Ultimately the song has an intimate nature
+\subsubsection{Strofe}
+Nelle strofe lo sviluppo della linea melodica segue una struttura di schema ABAC, e ciascuna di queste 4 frasi è a sua volta strutturata come domanda-risposta.
+\begin{sheet}{Dettaglio sulla prima frase del brano}
+    \musicxmlfile{assets/sheets/A-vox_2.musicxml}
+\end{sheet}
 
-Super vocal production, looks like bohemian rhapsody
+Nelle prime tre frasi Delp sceglie di utilizzare un timbro vocale molto molto delicato, quasi sussurrato, che ben si sposa alla natura intima di quanto raccontato nel pezzo e all'arrangiamento morbido che lo sostiene.
+\begin{sheet}{Voce nella prima strofa}
+    \musicxmlfile{assets/sheets/A-vox_1.musicxml}
+\end{sheet} 
 
-Sta usando un sacco di mix voice nel ritornello, non è proprio petto
+Nella frase C possiamo invece apprezzare il grande controllo di Delp della propria voce: sfrutta infatti l'arpeggio di \writechord{D} in primo rivolto per innalzare l'intensità drammatica e terminare con il Re su \emph{eyes} in falsetto, per poi cambiare registro e terminare la frase con timbro molto più pieno e potente su \emph{away}.
 
-walking away; shift from chest to head
+Un dettaglio molto ingegnoso è l'utilizzo della voce per ingrossare il fill di chitarra del lancio del ritornello; si tratta di una sfumatura quasi impercettibile da sentire senza l'ausilio di una traccia isolata\cite{yt:mtaf-isolated}, ma di certo peculiare.
 
-usa tre stili: una soft voice (cfr billie eilish, torna di moda), una mix voice
-e una full, complete and powerful head voice
+Questo espediente viene utilizzato anche nel verso opposto. In \(A3\), nel preritornello, Delp arriva a cantare un Re\(_4\) e un Mi\(_4\), entrambe raddoppiate all'ottava alta dalle backing vocals; è proprio in corrispondenza di queste si introduce la chitarra solista a rendere ancora più imponente il muro sonoro creato dalle sovraincisioni della voce di Delp. Peraltro, da una traccia isolata possiamo anche sentire come Delp probabilmente non abbia registrato l'intera linea \emph{She slipped away} in maniera contigua, ma ci sia stato un taglio per permettergli di riprendere respiro proprio in corrispondenza di quel Re\(_4\)\cite{yt:ktva_vocals_analysis} 
 
-sull'away del primo ritornello c'è una delle sovraincisioni un po' calanti
+\subsubsection{Ritornelli}
+Nei ritornelli, eseguiti prevalentemente in una voce mista che sta a metà tra quella sussurrata della strofa e quella piena dei momenti più concitati, abbiamo un perfetto equilibrio tra le frasi della voce principale e le risposte delle backing vocals, che siedono sull'armonia in maniera perfettamente complementare e arricchirla di tutti quei movimenti e sfumature che nel loop di accordi, per la sua stessa struttura\ref{sec:harm-loop}, non possiede. Se guardiamo ad esempio nella prima frase, notiamo che la voce principale colpisce un Fa\sharp~che siede su un \writechord{C}, restituendoci il suono vagamente lidio di un \writechord{C5add#11}.
+\begin{sheet}{Prima frase della voce nel ritornello}
+    \musicxmlfile{assets/sheets/B-vox_1.musicxml}
+\end{sheet}
 
-c'è un respiro dopo di quello, non è del tutto inumano dai
+Notiamo anche i controcanti delle backing vocals: l'uso di armonizzazioni per terze minori produce un suono pieno, potente e molto chiaro, che resitituisce altro colore alle semplici triadi del loop e si allinea perfettamente all'uso del modo maggiore e delle armonizzazioni nelle parti di chitarra.
 
-ah e ha anche una chitarra che ingrossa ulteriormente il suono
+Delp non dimentica di lasciarci una grande prova vocale anche sul finale del pezzo: assieme alle backing vocals, infatti, riesce a tenere il Sol colpito dall'ultima frase della voce per più di 20 secondi, arrivando a coprire anche il fade out finale grazie al lungo riverbero applicato.
 
 \subsection{Chitarra acustica}
 \paragraph{Produzione}
-In More Than a Feeling abbiamo due tracce di chitarra acustica, incisioni multiple di una medesima parte\cite{yt:matf-isolated}. Si tratta di una chitarra a 12 corde, scelta piuttosto in linea con quello che era il suono delle produzioni della prima metà degli anni '70, dai gruppi più sulla linea hard rock/prog fino alla produzione folk e al cantautorato: erano state utilizzate dai Led Zeppelin (\emph{Stairway to heaven}), dai Queen (\emph{'39}), dai Genesis, dai The Eagles (\emph{Hotel California}), dagli America (\emph{A Horse With No Name}) e da Bob Dylan (\emph{Hurricane}).
+In More Than a Feeling abbiamo due tracce di chitarra acustica, incisioni multiple di una medesima parte\cite{yt:mtaf-isolated}. Si tratta di una chitarra a 12 corde, scelta piuttosto in linea con quello che era il suono delle produzioni della prima metà degli anni '70, dai gruppi più sulla linea hard rock/prog fino alla produzione folk e al cantautorato: erano state utilizzate dai Led Zeppelin (\emph{Stairway to heaven}), dai Queen (\emph{'39}), dai Genesis, dai The Eagles (\emph{Hotel California}), dagli America (\emph{A Horse With No Name}) e da Bob Dylan (\emph{Hurricane}).
 
 \paragraph{Strofa}
 Nelle strofe \(A\) la chitarra esegue il celeberrimo riff, dal quale vengono definiti progressione armonica e pattern ritmico per tutta la sezione. Il  riff è costruito con arpeggi di accordi in prima posizione, suonati lasciando vibrare le corde; nella seconda misura, inoltre, troviamo una discesa diatonica sui bassi costruita su un metro \meter{3+3+2}{8}.
@@ -275,6 +245,7 @@ Inoltre, poiché l'insieme di note che costituiscono Re misolidio è il medesimo
 
 \subsection{Sezioni \(B\)}
 \subsubsection{Loop}
+\label{sec:harm-loop}
 Il corpo principale del ritornello è una progressione di 4 accordi in Sol maggiore che si ripetono ciclicamente (un cosiddetto loop). Gli accordi in questione sono \writechord{G} - \writechord{C} - \writechord{Em} - \writechord{D}, secondo quindi lo schema [ I - IV - VIm - V ].
 \begin{sheet}{Loop del ritornello}
     \musicxmlfile{assets/sheets/B-chords.musicxml}
