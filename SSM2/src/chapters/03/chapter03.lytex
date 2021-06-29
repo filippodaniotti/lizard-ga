@@ -234,7 +234,7 @@ Come già detto in \ref{sec:struct}, \(A\) presenta tre iterazioni di un giro ar
 
 Appare evidente che questa progressione pone dei problemi nel momento in cui ci troviamo a determinare la tonalità del pezzo. 
 
-Come punto di partenza, ovviamente, noi assumiamo di muoverci nello stesso ambiente tonale impostato nell'introduzione, quindi in Si\flat~minore. In prima battuta questo appare ragionevole, dal momento che la successione di accordi che troviamo nella prima misura siede perfettamente all'interno di un Si\flat~minore:  [Im - \flat VII - III - \flat VII]\footnote{Con \flat VII in primo rivolto per via della linea di basso.}. 
+Come punto di partenza, ovviamente, noi assumiamo di muoverci nello stesso ambiente tonale impostato nell'introduzione, quindi in Si\flat~minore. In prima battuta questo appare ragionevole, dal momento che la successione di accordi che troviamo nella prima misura siede perfettamente all'interno di un Si\flat~minore:  [ Im - \flat VII - III - \flat VII ]\footnote{Con \flat VII in primo rivolto per via della linea di basso.}. 
 
 Nella misura successiva, però, il terzo accordo è una triade \writechord{Gdim}, che contiene un evidentissimo Sol\natural~ che troviamo anche nella linea di basso. Non solo: nella misura successiva lo stesso Sol\natural~ appare in un \writechord{Cm}, nonché in un \writechord{Eb}.
 
@@ -245,7 +245,7 @@ Possiamo vedere questo fenomeno come una breve modulazione indiretta. Diciamo ch
 
 Le note e gli accordi che troviamo in questa progressione, per l'appunto, sono tutti contenuti all'interno della scala di Fa minore, una tonalità che si trova immediatamente adiacente a Si\flat~minore nel circolo delle quinte; queste due tonalità condividono, per l'appunto, quasi tutte le note all'infuori del Sol, che è naturale per la prima e bemolle per la seconda.   
 
-Secondo questa interpretazione, quindi, nella seconda battuta starebbe avvenendo una modulazione indiretta da Si\flat~minore a Fa minore il cui pivot sarebbe uno tra gli accordi di \writechord{Bbm} e \writechord{Ab} che immediatamente precedono \writechord{Gdim}; questi, infatti, sono [Im - \flat VII] di SI\flat~minore e [IVm - III] di Fa minore. A questo punto i problemi armonici sono risolti dal momento che, a partire dal \writechord{Gdim} (II\(^{\textrm{dim}}\)), tutti gli accordi successivi sono perfettamente contenuti all'interno di Fa minore. 
+Secondo questa interpretazione, quindi, nella seconda battuta starebbe avvenendo una modulazione indiretta da Si\flat~minore a Fa minore il cui pivot sarebbe uno tra gli accordi di \writechord{Bbm} e \writechord{Ab} che immediatamente precedono \writechord{Gdim}; questi, infatti, sono [ Im - \flat VII ] di SI\flat~minore e [ IVm - III ] di Fa minore. A questo punto i problemi armonici sono risolti dal momento che, a partire dal \writechord{Gdim} (II\(^{\textrm{dim}}\)), tutti gli accordi successivi sono perfettamente contenuti all'interno di Fa minore. 
 
 Il fatto che la progressione termini su un \writechord{Fm} tenuto per \meter{4}{4} e che questo sia preceduto da un \writechord{Eb}, formando quindi una cadenza d'inganno, possono essere validi argomenti a favore di questa tesi.
 
@@ -320,7 +320,7 @@ Si tratta di una progressione di accordi in rubato (senza metronomo) costruita s
 
 Tutti questi accordi, però, sono coerenti se consideriamo il centro tonale spostato a Do minore: lo stesso \writechord{Bb}, terza piccarda di Si\flat~minore, ben si siede in Do minore, in quanto \flat VII, e il Si\natural~del\writechord{G} si spiega perfettamente con un interscambio modale con la minore armonica. Il fatto che la nota pedale sia proprio un Do non fa che rafforzare questa tesi.
 
-La scelta degli accordi sembra essere dettata seguendo i toni guida; come abbiamo già visto fare numerose altre volte, è la melodia a guidare le scelte armoniche in questo brano, e non una costruzione di tensione-risoluzione per aree tonali. Il movimento ascendente delle terze\footnote{Nel \writechord{Cm7} il tono guida è la settima minore.} degli accordi di questa progressione, infatti, attraverso cadenze plagali (\writechord{Fm} \writechord{Cm7}, [IVm - Im\(^7\)] di Do minore) e cadenze evitate (\writechord{G} \writechord{Bb7}, [V - \flat VII] di Do minore), ci porta alla chiusura e rilascio di tensione finale del brano che, nuovamente avviene con la terza piccarda \writechord{C}. A seguito di questo, il gruppo sparisce bruscamente, lasciando spazio all'organo per la sezione di passaggio verso Long Time.
+La scelta degli accordi sembra essere dettata seguendo i toni guida; come abbiamo già visto fare numerose altre volte, è la melodia a guidare le scelte armoniche in questo brano, e non una costruzione di tensione-risoluzione per aree tonali. Il movimento ascendente delle terze\footnote{Nel \writechord{Cm7} il tono guida è la settima minore.} degli accordi di questa progressione, infatti, attraverso cadenze plagali (\writechord{Fm} \writechord{Cm7}, [ IVm - Im\(^7\)] di Do minore) e cadenze evitate (\writechord{G} \writechord{Bb7}, [ V - \flat VII ] di Do minore), ci porta alla chiusura e rilascio di tensione finale del brano che, nuovamente avviene con la terza piccarda \writechord{C}. A seguito di questo, il gruppo sparisce bruscamente, lasciando spazio all'organo per la sezione di passaggio verso Long Time.
 
 \subsubsection{Tappeto di organo}
 Anche questa progressione può essere spiegata con l'uso dei toni guida per guidare le scelte armoniche tracciate da una linea melodica discendente.
@@ -330,6 +330,6 @@ Anche questa progressione può essere spiegata con l'uso dei toni guida per guid
 
 La differenza principale tra la progressione precedente e questa sta nel fatto che, in questo caso, risulta particolarmente arduo parlare di tonalità. Nonostante il giro inizi in \writechord{Cm7} e termini nuovamente con la terza piccarda \writechord{C}, nessuno degli accordi rientra nella tonalità di Do minore; pertanto, conviene davvero pensare la sezione come scritta in armonia non-funzionale e determinata interamente dalla discesa cromatica dei toni guida.
 
-La chiusura in \writechord{C}, oltre a riprendere vagamente il centro tonale fino a prima, ha un ruolo importante nel lancio di Long Time. Questa inizia infatti con un riff di organo in Fa misolidio, per cui il nostro \writechord{C} costituisce una cadenza perfetta ([V - I]) con l'accordo di \writechord{F} che apre il riff di Long Time.
+La chiusura in \writechord{C}, oltre a riprendere vagamente il centro tonale fino a prima, ha un ruolo importante nel lancio di Long Time. Questa inizia infatti con un riff di organo in Fa misolidio, per cui il nostro \writechord{C} costituisce una cadenza perfetta ([ V - I ]) con l'accordo di \writechord{F} che apre il riff di Long Time.
 
 \end{document}
