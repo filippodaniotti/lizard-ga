@@ -68,6 +68,10 @@
 	sorting=ynt
 ]{biblatex}
 
+%%% COMMANDS %%%
+
+\newcommand{\parenth}[2][]{#1(#2#1)}
+
 %%% ENVIRONMENTS %%%
 
 % Define a new counter for the sheet environment
@@ -85,7 +89,7 @@
 	{
 		\\
 		\vspace{1em}
-		Pentagramma~\thechapter.\thesheet: \usebox{\sheetcaption}
+		Spartito~\thechapter.\thesheet: \usebox{\sheetcaption}
 		\end{center}
 		\vspace{1em}
 	}
