@@ -4,7 +4,7 @@
   <identification>
     <encoding>
       <software>MuseScore 3.6.2</software>
-      <encoding-date>2021-03-26</encoding-date>
+      <encoding-date>2021-07-03</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="no"/>
@@ -52,14 +52,14 @@
       </score-part>
     </part-list>
   <part id="P1">
-    <measure number="1" width="244.77">
+    <measure number="1" width="228.45">
       <print>
         <system-layout>
           <system-margins>
             <left-margin>50.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <top-system-distance>70.00</top-system-distance>
+          <top-system-distance>170.00</top-system-distance>
           </system-layout>
         </print>
       <attributes>
@@ -91,7 +91,7 @@
           </notations>
         </note>
       </measure>
-    <measure number="2" width="138.59">
+    <measure number="2" width="123.43">
       <note default-x="13.96" default-y="0.00">
         <pitch>
           <step>A</step>
@@ -120,8 +120,8 @@
           </notations>
         </note>
       </measure>
-    <measure number="3" width="129.28">
-      <note default-x="17.08" default-y="-5.00">
+    <measure number="3" width="114.65">
+      <note default-x="19.00" default-y="-5.00">
         <pitch>
           <step>G</step>
           <octave>3</octave>
@@ -131,7 +131,7 @@
         <type>whole</type>
         <accidental>natural</accidental>
         </note>
-      <note default-x="17.08" default-y="5.00">
+      <note default-x="19.00" default-y="5.00">
         <chord/>
         <pitch>
           <step>B</step>
@@ -149,8 +149,8 @@
           </notations>
         </note>
       </measure>
-    <measure number="4" width="129.28">
-      <note default-x="13.00" default-y="-5.00">
+    <measure number="4" width="113.93">
+      <note default-x="13.96" default-y="-5.00">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -160,7 +160,7 @@
         <voice>1</voice>
         <type>whole</type>
         </note>
-      <note default-x="13.00" default-y="5.00">
+      <note default-x="13.96" default-y="5.00">
         <chord/>
         <pitch>
           <step>B</step>
@@ -178,7 +178,49 @@
           </notations>
         </note>
       </measure>
-    <measure number="5" width="178.95">
+    <measure number="5" width="127.80">
+      <note default-x="13.00" default-y="5.00">
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>1</voice>
+        <type>whole</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+          </notations>
+        </note>
+      <backup>
+        <duration>4</duration>
+        </backup>
+      <note default-x="13.96" default-y="-10.00">
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      <note default-x="69.98" default-y="-15.00">
+        <pitch>
+          <step>E</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>2</voice>
+        <type>half</type>
+        <stem>down</stem>
+        </note>
+      </measure>
+    <measure number="6" width="127.80">
       <note default-x="13.00" default-y="5.00">
         <pitch>
           <step>B</step>
@@ -196,50 +238,29 @@
       <backup>
         <duration>4</duration>
         </backup>
-      <note default-x="13.96" default-y="-10.00">
-        <pitch>
-          <step>F</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>2</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        </note>
-      <note default-x="54.76" default-y="-15.00">
-        <pitch>
-          <step>E</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-          </pitch>
-        <duration>1</duration>
-        <voice>2</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        </note>
-      <note default-x="95.56" default-y="-20.00">
+      <note default-x="13.96" default-y="-20.00">
         <pitch>
           <step>D</step>
           <alter>-1</alter>
           <octave>3</octave>
           </pitch>
-        <duration>1</duration>
+        <duration>2</duration>
         <voice>2</voice>
-        <type>quarter</type>
+        <type>half</type>
         <stem>down</stem>
         </note>
-      <note default-x="136.35" default-y="-25.00">
+      <note default-x="69.98" default-y="-25.00">
         <pitch>
           <step>C</step>
           <octave>3</octave>
           </pitch>
-        <duration>1</duration>
+        <duration>2</duration>
         <voice>2</voice>
-        <type>quarter</type>
+        <type>half</type>
         <stem>down</stem>
         </note>
       </measure>
-    <measure number="6" width="157.69">
+    <measure number="7" width="142.53">
       <note default-x="13.00" default-y="-30.00">
         <pitch>
           <step>B</step>
@@ -267,6 +288,14 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>half</type>
+        </note>
+      <backup>
+        <duration>4</duration>
+        </backup>
+      <note>
+        <rest measure="yes"/>
+        <duration>4</duration>
+        <voice>2</voice>
         </note>
       </measure>
     </part>
