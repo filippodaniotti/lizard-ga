@@ -4,9 +4,9 @@ of songs. This means that a lot of embedded sheet music is required in order
 to provide the reader with enough context so they can follow along effectively
 without having to listen to the songs.
 
-This was tougher than I could ever thought: it turns out that there are very
-few resources and tools for people who choose LaTeX for their music typesetting.
-There are a few LaTeX packages for that, but honestly they scale pretty bad and
+This was tougher than I first thought. It turns out that there are very
+few resources and tools for the people who choose LaTeX for their music typesetting.
+There is a bunch of LaTeX packages for that, but honestly they scale pretty bad and
 are not well suited for larger projects. 
 
 Moreover, I strongly wanted to take advantage of the speed and ease of use of 
@@ -27,23 +27,23 @@ how it goes.
 Eventually, I landed on Lilypond: it is a music notation software that relies on
 a plain text syntax (pretty similar to LaTeX, actually) rather than a WYSIWYG UI.
 
-Of course learning yet another music notation software was never my intention 
+Of course, learning yet another music notation software was never my intention 
 (especially a markup code based one), but Lilypond has a pretty cool feature:
 it comes with a built-in LaTeX integration capability.
 
-It happens to be a separate module - `lilypond-book` - that can process a LaTeX
+There is a separate module - `lilypond-book` - that can process a LaTeX
 file with Lilypond code embedded (it must have `.lytex` extension) and generate a
-normal `.tex` file that can be compiled as usual with your favorite LaTeX compiler
+standard `.tex` file that can be compiled as usual with your favorite LaTeX compiler
 and will output a document with the embedded sheet music as vector graphics.
 
 This is obviously super cool, but how can I turn my sheet music written in
 Musescore or Sibelius into a file readable by `lilypond-book`?
 
 ## MusicXML
-Normally, each music notation software saves the current project in a proprietary
+Usually, each music notation software saves the current project in a proprietary
 format (`.sib`, `.mcsx`), which ensures the best performances possible but clearly
-is not compatible with third-party applications. Information could be shared
-across different music software through the `midi` format, which works great
+may not be compatible with third-party applications. Information could be shared
+across different music softwares through the `midi` format, which works great
 when it comes to carry information for sound to be played by synthesizers or VSTs 
 but not that much when notes are supposed to be displayed on paper.
 
@@ -56,7 +56,7 @@ files!
 
 Now we have it: we can write our sheet music in our favorite WYSIWYG music
 notation software, save it to `.musicxml` and import it in our LaTeX project
-as high quality, light weight vector graphics, and still be able to easily edit
+as high quality, light-weight vector graphics, and still be able to easily edit
 it in the future.
 
 ## The build script
@@ -73,7 +73,7 @@ Make sure to import the correct path in your entry point if you have a multiple
 source project and you save the `lilypond-book` output in a child directory!
 
 ## To all the Windows users
-Switch to Linux for this. I am 70% a Windows user myself, but even after 3 
+Switch to Linux for this. I am (actually was) 70% a Windows user myself, but even after 3 
 days of try hard I really couldn't get this setup to work on Windows, whereas
 it immediately worked with zero extra configuration when I tried it on Ubuntu
 on WSL, hence I decided that this was a task for my 30% Unix personality.
@@ -128,5 +128,5 @@ you have to do is
 
 Done! Now everything should work as expected.
 
-### Chord spelling
+<!-- ### Chord spelling -->
 
