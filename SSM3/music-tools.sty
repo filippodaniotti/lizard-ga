@@ -1,0 +1,33 @@
+%%% PACKAGES %%%
+
+\usepackage[nofragment,insert=systems]{lyluatex}
+% \usepackage{lilyglyphs}
+
+%%% COMMANDS %%%
+
+\directlua{chords = require("chords")}
+\newcommand\chord[1]{
+	\luadirect{chords.writechord("#1")}
+}
+
+%%% ENVIRONMENTS %%%
+
+% Define a new counter for the sheet environment
+% will reset each time chapter counter is incremented
+\newcounter{sheet}[chapter] 
+\newsavebox{\sheetcaption}
+\newenvironment{sheet} [1]
+	{
+		\refstepcounter{sheet}%     Increment sheet counter
+		\sbox{\sheetcaption}{#1}% 	Save argument (caption)
+		\vspace{.5em}
+		\begin{center}
+		
+	}
+	{
+		\\
+		\vspace{1em}
+		Spartito~\thechapter.\thesheet: \usebox{\sheetcaption}
+		\end{center}
+		\vspace{1em}
+	}

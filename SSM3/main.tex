@@ -1,0 +1,25 @@
+\documentclass[a4paper,12pt,oneside]{book}
+
+\usepackage{style}
+\usepackage{music-tools}
+\addbibresource{refs.bib}
+
+\graphicspath{%
+	{./chapters/titlepage/images/}%
+}
+
+% arara: lualatex
+% arara: biber
+% arara: latexmk: { clean: partial }
+\begin{document}
+    \frontmatter
+    \import{./chapters/titlepage/}{titlepage}
+    \tableofcontents
+
+    \mainmatter
+    \import{./chapters/01/}{chapter01}
+
+
+
+
+\end{document}
