@@ -6,11 +6,13 @@
 
 \graphicspath{%
 	{./chapters/titlepage/images/}%
+	{./chapters/01/assets/images/}%
 }
 
 % arara: lualatex
 % arara: biber
-% arara: latexmk: { clean: partial }
+% arara: lualatex
+% arara: lualatex
 \begin{document}
     \frontmatter
     \import{./chapters/titlepage/}{titlepage}
