@@ -1,0 +1,21 @@
+\documentclass{standalone}
+\usepackage{booktabs}
+
+% arara: pdflatex
+% arara: latexmk: { clean: partial }
+\begin{document}
+    \begin{tabular}{l l l}
+        \toprule
+        \textbf{No.} & \textbf{Titolo} & \textbf{Durata} \\
+        \midrule
+        \(1\)            & \emph{Pigs on the Wing (Part 1)}     & \(1:24\) \\
+        \(2\)       & \emph{Dogs}   & \(17:04\) \\
+        \midrule
+        \(1\)   & \emph{Pigs (Three Different Ones)}    & \(11:28\)\\ 
+        \(2\) & \emph{Sheeps}     & \(10:20\)\\
+        \(3\)    & \emph{Pigs on the Wing (Part 1)}    & \(1:24\) \\
+        \midrule
+        {} & {} & \(41:40\) \\
+        \bottomrule
+    \end{tabular}
+\end{document}
