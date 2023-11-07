@@ -2,16 +2,18 @@
 
 \usepackage{style}
 \usepackage{glossary}
+
 % \usepackage{music-tools}
 \addbibresource{refs.bib}
 
 \graphicspath{%
-	{./chapters/titlepage/images/}%
-	{./chapters/01/assets/images/}%
-	{./chapters/02/assets/images/}%
+{./chapters/titlepage/images/}%
+{./chapters/01/assets/images/}%
+{./chapters/02/assets/images/}%
 }
 
 % arara: lualatex
+% arara: makeglossaries
 % arara: biber
 % arara: lualatex
 % arara: lualatex
@@ -19,12 +21,25 @@
     \frontmatter
     \import{./chapters/titlepage/}{titlepage}
     \tableofcontents
+    \printglossary[type=\acronymtype, title=Nomenclatura, toctitle=Nomenclatura]
 
+    \cleardoublepage
+    \addcontentsline{toc}{chapter}{\listfigurename}
+    \listoffigures
+    
+    \cleardoublepage
+    \addcontentsline{toc}{chapter}{\listtablename}
+    \listoftables
+    
     \mainmatter
     \import{./chapters/01/}{chapter01}
     \import{./chapters/02/}{chapter02}
     \import{./chapters/03/}{chapter03}
     \import{./chapters/04/}{chapter04}
     \import{./chapters/05/}{chapter05}
+    
+    
+    \backmatter
+	\printbibliography[heading=bibintoc, title={Bibliografia}]
 
 \end{document}

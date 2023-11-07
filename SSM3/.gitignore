@@ -52,6 +52,14 @@
 # lyluatex temp files
 tmp-ly/
 
+# glossaries
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
 ### vscode ###
 .vscode/
 .devcontainer/
