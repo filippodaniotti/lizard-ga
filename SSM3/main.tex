@@ -21,8 +21,7 @@
     \frontmatter
     \import{./chapters/titlepage/}{titlepage}
     \tableofcontents
-    \printglossary[type=\acronymtype, title=Nomenclatura, toctitle=Nomenclatura]
-
+    
     \cleardoublepage
     \addcontentsline{toc}{chapter}{\listfigurename}
     \listoffigures
@@ -41,5 +40,6 @@
     
     \backmatter
 	\printbibliography[heading=bibintoc, title={Bibliografia}]
+    \printglossary[type=\acronymtype, title=Acronimi e nomenclature, toctitle=Acronimi]
 
 \end{document}
