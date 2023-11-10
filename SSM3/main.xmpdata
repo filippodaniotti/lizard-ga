@@ -1,0 +1,15 @@
+\Author{Filippo Daniotti}
+\Title{Animals, Pink Floyd}
+\Language{Italian \sep English}
+\Keywords{Music \sep Pink Floyd \sep Animals}
+\Publisher{Self-Published}
+
+\Copyright{Copyright \copyright 2023 "Filippo Daniotti"}
+
+\Subject{
+  Description of the PDF's subject
+}
+% \Date{2022-02-26}
+\PublicationType{pamphlet}
+\Source{https://github.com/filippodaniotti/lizard-ga/SSM3/src/main.tex}
+\URLlink{https://github.com/filippodaniotti/lizard-ga/SSM3/src/main.tex}

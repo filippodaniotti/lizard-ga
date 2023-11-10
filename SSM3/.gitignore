@@ -60,6 +60,10 @@ tmp-ly/
 *.glo
 *.gls
 *.ist
+
+# xmp metadata
+*.xmpi
+
 ### vscode ###
 .vscode/
 .devcontainer/
