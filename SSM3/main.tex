@@ -1,22 +1,28 @@
+% arara: lualatex: { shell: true }
+% arara: makeglossaries
+% arara: biber
+% arara: lualatex: { shell: true }
+% arara: lualatex: { shell: true }
 \documentclass[a4paper,12pt,oneside]{book}
 
 \usepackage{style}
 \usepackage{glossary}
-
-% \usepackage{music-tools}
 \addbibresource{refs.bib}
 
+\def\isCompiledFromMain{}
+\usepackage{music-tools}
+
 \graphicspath{%
-{./chapters/titlepage/images/}%
-{./chapters/01/assets/images/}%
-{./chapters/02/assets/images/}%
+    {./chapters/titlepage/images/}%
+    {./chapters/01/assets/images/}%
+    {./chapters/02/assets/images/}%
 }
 
-% arara: lualatex
-% arara: makeglossaries
-% arara: biber
-% arara: lualatex
-% arara: lualatex
+\setluaoption{ly}{includepaths}{
+    ,./chapters/03/assets/scores/%
+    ,./chapters/04/assets/scores/%
+}
+
 \begin{document}
     \frontmatter
     \import{./chapters/titlepage/}{titlepage}

@@ -4,8 +4,11 @@
 % \usepackage{lilyglyphs}
 
 %%% COMMANDS %%%
-
-\directlua{chords = require("chords")}
+\ifdefined\isCompiledFromMain
+	\directlua{chords = require("chords")}
+\else
+	\directlua{chords = require("../../chords")}
+\fi
 \newcommand\chord[1]{
 	\luadirect{chords.writechord("#1")}
 }
@@ -27,7 +30,7 @@
 	{
 		\\
 		\vspace{1em}
-		Spartito~\thechapter.\thesheet: \usebox{\sheetcaption}
+		Pentagramma~\thechapter.\thesheet: \usebox{\sheetcaption}
 		\end{center}
 		\vspace{1em}
 	}

@@ -1,0 +1,29 @@
+% arara: lualatex: { shell: true }
+% arara: latexmk: { clean: partial }
+\documentclass[class=book, crop=false, oneside, 12pt]{standalone}
+\usepackage{standalone}
+\usepackage{../../style}
+\usepackage{../../glossary}
+
+\let\isCompiledFromMain\undefined
+\usepackage{../../music-tools}
+
+\graphicspath{{./assets/images/}}
+\ifdefined\isCompiledFromMain
+\else
+    \setluaoption{ly}{includepaths}{./assets/scores/}
+\fi
+
+
+\begin{document}
+    \chapter{Pigs on the Wing}
+    
+    \begin{sheet}{Accordi}
+        \lilypondfile{./potw-chords.ly}
+    \end{sheet}
+
+    \section{Struttura}
+    \section{Tecnica e arrangiamento}
+    \section{Analisi armonica}
+
+\end{document}
