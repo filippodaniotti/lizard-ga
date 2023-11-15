@@ -22,7 +22,7 @@ local function parse_chord_serial(serial)
 
     -- tex.sprint(string.upper(fundamental))
     -- tex.sprint(minor)
-    tex.sprint(chord_table[1])
+    tex.sprint(string.upper(chord_table[1]))
     if chord_table[2] ~= nil and chord_table[2] ~= "_" then
         tex.sprint([[$^{\textrm{]]..chord_table[2]..[[}}$]])
     end

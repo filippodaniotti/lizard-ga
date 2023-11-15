@@ -1,5 +1,5 @@
 %%% PACKAGES %%%
-
+\usepackage{gchords}
 \usepackage[nofragment,insert=systems]{lyluatex}
 % \usepackage{lilyglyphs}
 
@@ -9,7 +9,7 @@
 \else
 	\directlua{chords = require("../../chords")}
 \fi
-\newcommand\chord[1]{
+\newcommand\writechord[1]{
 	\luadirect{chords.writechord("#1")}
 }
 
