@@ -1,7 +1,10 @@
 %%% PACKAGES %%%
 \usepackage{gchords}
-\usepackage[nofragment,insert=systems]{lyluatex}
+\usepackage{lyluatex}
 % \usepackage{lilyglyphs}
+
+\usepackage[minimal]{leadsheets}
+\useleadsheetslibraries{musicsymbols}
 
 %%% COMMANDS %%%
 \ifdefined\isCompiledFromMain
@@ -30,7 +33,7 @@
 	{
 		\\
 		\vspace{1em}
-		Pentagramma~\thechapter.\thesheet: \usebox{\sheetcaption}
+		Rigo~\thechapter.\thesheet: \usebox{\sheetcaption}
 		\end{center}
 		\vspace{1em}
 	}
