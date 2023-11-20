@@ -18,12 +18,7 @@
 \begin{document}
     \chapter{Pigs on the Wing}
     
-    % \begin{sheet}{Accordi}
-    %     \lilypondfile{./potw-chords.ly}
-    % \end{sheet}
-
-    % \chord{t}{3,2,o,o,3,3}{\writechord{g,7}}
-
+    % come vedremo è tutto in funzione del testo
     \section{Introduzione}
     \label{sec:03-intro}
     brano diviso in due parti chiusura apertura disco
@@ -97,17 +92,42 @@
 
     \section{Tecnica e arrangiamento}
     \label{sec:03-arrangement}
-    arrangiamento chitarra e voce, cfr if, wish you were here, qui nella sua forma più essenziale
-    accompagnamento di chitarra strumming, accordi aperti, nessun arpeggio né temi
-    grande attenzione all'elemento ritmico, ambiguità nel metro impiegato e grande variabilità
-    metro musicale in piena funzione del testo
-    in part 1 claudicante, con misure tagliate, in part 2 più regolare, più stabile come loro
+    Per quanto riguarda l'arrangiamento, il brano è essenziale: si tratta di una ballad acustica in cui la chitarra acustica e la voce sono gli unici elementi presenti. La scelta della ballad acustica come stile e struttura compositiva non è un unicum nella produzione discografica dei Floyd: alcuni esempi che possiamo riportare sono If (\acrshort{ahm}), Green Is the Colour (\acrshort{more}), Wish You Were Here (\acrshort{wywh}). Tuttavia, \acrshort{pw1} e \acrshort{pw2} si distinguono fra questi brani. In primo luogo, la durata degli altri brani sopra riportati è quella di una canzone standard (tra i tre e i cinque minuti), mentre \acrshort{pw1} e \acrshort{pw2} sono brani di 1 minuto e mezzo circa. Conseguentemente, a differenza  degli altri brani che presentano una struttura, a differenza del nostro brano che non ha una vera e propria struttura (si veda Sec.\ref{sec:03-structure}). In secondo luogo, i brani sopra riportati hanno un arrangiamento più ricco, con l'aggiunta di altri strumenti (basso, batteria, pianoforte), mentre invece \acrshort{pw1} e \acrshort{pw2} sono eseguiti solo con chitarra acustica e voce. Infine, la parte di chitarra acustica negli altri brani ha una qualche sorta di elaborazione (If è costruita su arpeggi, Wish You Were Here combina un tema con lo strumming degli accordi); in \acrshort{pw1} e \acrshort{pw2}, invece, gli accordi sono eseguiti in semplice strumming. Inoltre, come si vede in Fig.\ref{fig:03-chords}, gli accordi scelti sono tutti diteggiati in prima posizione, o con minime variazioni di essi (le varie sospensioni). Si potrebbe affermare senza grande timore di smentita che \acrshort{pw1} e \acrshort{pw2} sono tra i brani più semplici dal punto di vista esecutivo nella produzione discografica dei Floyd.
+    
+    \begin{figure}
+        \subimport{./assets/figures/}{chord_diagrams.tex}
+        \caption{Diagrammi degli accordi e diteggiature usati nel brano.}
+        \label{fig:03-chords}
+    \end{figure}
 
-    solo di snowy white...
+    Possiamo ragionevolmente ipotizzare che Waters abbia scelto un arrangiamento così essenziale per prevenire ogni possibile distrazione dal testo, vero protagonista di un brano che si puo considerare, a tutti gli effetti, una poesia cantata. Questa necessita è ulteriormente motivata dalla divisione in due atti del brano: per una comprensione piena del messagio che Waters vuole lanciare, e infatti necessario tenere a mente il testo di entrambe le parti. Infine, la durata estremamente ridotta non avrebbe comunque dato spazio a grandi sviluppi strumentali, per cui la scelta di un arrangiamento così semplice, per quanto anticonvenzionale, è più che solida. 
 
+    Bisogna però essere cauti nel bollare questo brano come banale. Se infatti  tecnica e arrangiamento  non risultano particolarmente interessanti, il metro riserva ben altre sorprese. Di primo acchito, si potrebbe dire che il brano è in \meter{4}{4}. Nonostante le prime misure del brano siano perfettamente scomponibili in tale metro, ci possiamo subito rendere conto che il pattern ritmico dello strumming e l'accentazione vanno meglio descritte con una suddivisione \meter{3+3+2}{8} dove nei primi \meter{6}{8} abbiamo l'accordo principale della misura, mentre negli ultimi \meter{2}[8] abbiamo un accordo di abbellimento (ne discuteremo più approfonditamente in Sec.\ref{sec:03-harmony}). 
+    
+    \begin{sheet}{Pattern ritmico dell'introduzione}
+        \lilypondfile{./potw-rhythm_intro.ly}
+        \label{sheet:potw-rhythm_intro}
+    \end{sheet}
+
+    Questo pattern ritmico viene mantenuto per tutta la prima metà del brano (sezioni Intro e Linea 1), ma viene successivamente abbandonato. Non solo: viene abbandonato anche il metro stesso. In rapida successione, tra Linea 2 e Linea 3, si susseguono \meter{3+3+2}{8}, \meter{3}{4}, \meter{3}{8}, \meter{6}{8} e \meter{5}{8}.
+
+    \begin{sheet}{Mentro nelle sezioni Linea 2 e Linea 3 in \acrshort{pw1}.}
+        \lilypondfile{./potw1-rhythm_line23.ly}
+        \label{sheet:potw1-rhythm_line23}
+    \end{sheet}
+    
+    La scelta di usare questa notazione per il metro può apparire come un tentativo da parte nostra di far apparire il brano ritmicamente molto più complesso di come in realtà non sia. Tuttavia, riteniamo che la nostra notazione metrica sia assolutamente coerente con le scelte fatte da Waters e con l'analisi fatta precedentemente su tecnica e arrangiamento. La chiave per comprendere queste scelte è, ancora una volta, il dare priorità assoluta all'elemento lirico: relativamente alla tecnica/arrangiamento, questo si è declinato in un arrangiamento spartano ed essenziale; relativamente al metro, questo si è declinato nel fatto che il metro e le durate delle misure di piegano e si adattano al testo di Waters, e non viceversa. Non solo, ma il metro si adatta anche alla semantica: nel verso \gquotes{Occasionally glancing up through the rain}, l'alzare lo sguardo viene reso musicalmente cambiando il pattern ritmico dal precedente ternario \meter{3+3+2}{8} al binario \meter{3}{4}. Similmente, in \gquotes{Wondering which of the buggers to blame} la misura da \meter{5}{8} rende l'andamento armonico claudicante, a simboleggiare l'affanno e la lotta portata avanti dall'essere umano. A conferma dell'importanza e sinergia tra l'elemento lirico e ritmico, vediamo in Rg.\ref{sheet:potw2-rhythm_line23} che in \acrshort{pw2} molte delle misure tagliate di cui sopra vengono arrotondate al metro "regolare" (come si dice?) più vicino e rendono pertanto l'andatura più regolare, in accordo con il contenuto più sereno di \acrshort{pw2}.
+
+    \begin{sheet}{Mentro nelle sezioni Linea 2 e Linea 3 in \acrshort{pw2}.}
+        \lilypondfile{./potw2-rhythm_line23.ly}
+        \label{sheet:potw2-rhythm_line23}
+    \end{sheet}
+
+    % solo di snowy white...
+    
     \section{Analisi armonica}
     \label{sec:03-harmony}
-    L'introduzione del brano è costituita da un vamp di due accordi, un \writechord{G} e un \writechord{C}, rispettivamente della durata di \meter{6}{8} e \meter{2}{8}. Questo vamp viene ripetuto per 4 misure (Rg.\ref{sheet:potw-chords_intro}), per poi essere ripreso in chiusura del brano. 
+    L'introduzione del brano è costituita da un vamp di due accordi, un \writechord{G} e un {\writechord{C},} rispettivamente della durata di \meter{6}{8} e \meter{2}{8}. Questo vamp viene ripetuto per 4 misure (Rg.\ref{sheet:potw-chords_intro}), per poi essere ripreso in chiusura del brano. 
     \begin{sheet}{Progressione dell'introduzione}
         \lilypondfile{./potw-chords_intro.ly}
         \label{sheet:potw-chords_intro}
@@ -141,7 +161,7 @@
         \label{sheet:potw1-chords_line2}
     \end{sheet}
 
-    In seguito a queste due misure di \writechord{A,7}, infatti, abbiamo (Rg.\ref{sheet:potw-chords_line2} una progressione [ I - IV - V - I ] in Sol maggiore che, in quanto contiene la cadenza perfetta [ V - I ], rafforza sia la tesi del fatto che questo brano sia tonale e non modale, sia la tesi che il centro tonale sia Sol maggiore. La scelta del \writechord{A,7}, in quest'ottica, non sembra avere una motivazione chiara, quasi come se fosse casuale; tuttavia, è possibile che proprio questo straniamento sia la sensazione che Waters voleva trasmettere in un verso dove il narratore descrive un'umanità che, senza l'affetto reciproco, si sente persa e confusa, un'umanità in cui \gquotes{would zig-zag our way through the boredom and pain}\footnote{\gquotes{si andrebbe avanti a zig-zag tra noia e dolore}}.
+    In seguito a queste due misure di \writechord{A,7}, infatti, abbiamo (Rg.\ref{sheet:potw-chords_line2}) una progressione [ I - IV - V - I ] in Sol maggiore che, in quanto contiene la cadenza perfetta [ V - I ], rafforza sia la tesi del fatto che questo brano sia tonale e non modale, sia la tesi che il centro tonale sia Sol maggiore. La scelta del \writechord{A,7}, in quest'ottica, non sembra avere una motivazione chiara, quasi come se fosse casuale; tuttavia, è possibile che proprio questo straniamento sia la sensazione che Waters voleva trasmettere in un verso dove il narratore descrive un'umanità che, senza l'affetto reciproco, si sente persa e confusa, un'umanità in cui \gquotes{would zig-zag our way through the boredom and pain}\footnote{\gquotes{si andrebbe avanti a zig-zag tra noia e dolore}}.
 
     Vediamo quindi un uso dell'elemento armonico completamente al servizio dell'elemento lirico: allo straniamento suscitato da \writechord{A,7} segue subito un ritorno sul tracciato prestabiliti dettato dalla progressione più tonale che si possa scegliere, che ha il sapore di uno di quei pochi momenti di stabilità della vita umana in cui  \gquotes{occasionally glancing up through the rain}\footnote{\gquotes{alzando lo sguardo nella pioggia di tanto in tanto}}.
 

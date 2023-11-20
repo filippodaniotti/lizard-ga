@@ -8,12 +8,11 @@ harmonies = \chordmode {
   \time 6/8
   a2.:m 
 
-  \compoundMeter #'((3 3 2 8))
-  d2.:7 d4:7sus4
-  d2.:7 d4:7sus4
+  d2:7 d4:7sus4
+  d2.:7 
 
-  g1
-  g1
+  g2.
+  g2.
 
 
 }
@@ -26,11 +25,10 @@ rhythms = \relative c' {
   \time 6/8
   a'2. 
 
-  \compoundMeter #'((3 3 2 8))
-  d2. d4
-  d2. d4
-  g1 
-  g1\fermata
+  d2. 
+  d2. 
+  g2. 
+  g2.\fermata
   \bar "|."
 }
 

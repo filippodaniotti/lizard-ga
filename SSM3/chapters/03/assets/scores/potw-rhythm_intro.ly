@@ -1,15 +1,10 @@
 \version "2.22"
 
-\header {
-  tagline = ##f
-}
 
 harmonies = \chordmode {
   \set majorSevenSymbol = \markup { maj7 }
 
-  % line 1
-  c2. c4:sus4
-  c2. c4:sus4
+  % intro
   g2. c4
   g2. c4
 
@@ -17,16 +12,13 @@ harmonies = \chordmode {
 }
 
 rhythms = \relative c' {
-  \compoundMeter #'((3 3 2 8))
+    \compoundMeter #'((3 3 2 8))
   \clef treble
   \key g \major
-  % verse
-  \repeat volta 2 { 
-    c'4. 4. 4
-    c4. 4. 4
-    g4. 4. c4
-    g4. 4. c4
-  }
+  % intro
+  g'8 g16 g g8 g8 g16 g g8 c16 c c c
+  g8 g16 g g8 g8 g16 g g8 c16 c c c
+  \break
 }
 
 <<

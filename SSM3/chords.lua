@@ -24,13 +24,13 @@ local function parse_chord_serial(serial)
     -- tex.sprint(minor)
     tex.sprint(chord_table[1])
     if chord_table[2] ~= nil and chord_table[2] ~= "_" then
-        tex.sprint([[$^{\textrm{]]..chord_table[2]..[[}}$]])
+        tex.sprint([[\(^{\textrm{]]..chord_table[2]..[[}}\)]])
     end
     if chord_table[3] ~= nil and chord_table[3] ~= "_" then
         tex.sprint(chord_table[3])
     end
     if chord_table[4] ~= nil and chord_table[4] ~= "_" then
-        tex.sprint([[$_{\textrm{/]]..chord_table[4]..[[}}$]])
+        tex.sprint([[{$_{\textrm{/]]..chord_table[4]..[[}}$}]])
     end
 end
 

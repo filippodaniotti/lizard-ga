@@ -1,10 +1,31 @@
 %%% PACKAGES %%%
-\usepackage{gchords}
+% \usepackage{gchords}
 \usepackage{lyluatex}
 % \usepackage{lilyglyphs}
 
 \usepackage[minimal]{leadsheets}
 \useleadsheetslibraries{musicsymbols}
+
+% package chordbox requires two fixes:
+% 1. https://github.com/sfranzen/chordbox/issues/1
+% 2. https://tex.stackexchange.com/questions/659133/undefined-control-sequence-with-chordbox-using-xelatex
+\usepackage{chordbox}
+% \pgfkeys{/chordbox/text on node=none}
+% \tikzset{chordbox/.append style={scale=1.0}}
+\pgfkeys{/chordbox/name/.code=\writechord{#1}}
+\usepackage{etoolbox}
+\patchcmd{\chordboxenv}
+  {\StrBehind{\pdflastmatch 0}{>}[\num]}% don't need that anymore
+  {}{}{\errmessage{Oh no.}}
+\patchcmd{\chordboxenv}
+  {\ifnum\pdfmatch{^[0-9]+}{\fret}=1}
+  {%
+    \StrBefore{\fret:}{:}[\num]% we've got it here now anyway
+    % could be x, could be a number, let's test it:
+    \IfDecimal{\num}{\def\chordboxresult{1}}{\def\chordboxresult{0}}%
+    \ifnum\chordboxresult=1
+  }
+  {}{\errmessage{Oh no.}}
 
 %%% COMMANDS %%%
 \ifdefined\isCompiledFromMain

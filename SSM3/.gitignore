@@ -61,6 +61,10 @@ tmp-ly/
 *.gls
 *.ist
 
+# misc
+*.tmp
+*.xref
+
 # xmp metadata
 *.xmpi
 
