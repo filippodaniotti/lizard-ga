@@ -130,8 +130,14 @@
         \lilypondfile{./potw2-rhythm_line23.ly}
         \label{sheet:potw2-rhythm_line23}
     \end{sheet}
+    
+    L'assolo di Snowy White è piuttosto semplice e melodico, privo di virtuosismi: è prevalentemente costruito sulla scala maggiore, utilizza arpeggi e insiste sulle note degli accordi anche per l'intera misura, sfruttando l'articolazione data da bending e vibrati per mantenere il solo interessante. L'elemento più interessante è forse dato dall'utilizzo del Fa naturale nelle prime due misure del solo, sopra al \writechord{C}, in una frase legata. Non è l'unica occorrenza di Fa naturale all'interno di questo brano, ma qui viene utilizzato a fini melodici, in una sezione dove il centro tonale è chiaramente Sol maggiore. In questo senso, l'uso del Fa naturale conferisce a queste frasi un sottile sapore misolidio.
+    
+    \begin{sheet}{Prime quattro misure dell'assolo.}
+        \lilypondfile{./potw-phrases_solo.ly}
+        \label{sheet:potw-phrases_solo}
+    \end{sheet}
 
-    % solo di snowy white...
     
     \section{Analisi armonica}
     \label{sec:03-harmony}
@@ -143,8 +149,7 @@
     
     In queste poche battute ci sono svariati elementi che fanno pendere il centro tonale verso Sol maggiore: il primo accordo è un \writechord{G}, la durata degli accordi è tale da rendere il \writechord{C} quasi un accordo di passaggio, più simile a un abbellimento del \writechord{G} che non un accordo che porta l'armonia in qualche direzione. Infine, la cadenza plagale che si crea tra il \writechord{C} e il \writechord{G} ([ IV - I ]) è una cadenza molto blanda, e rafforza quindi la stabilità del \writechord{G} e l'ipotesi che possa essere il centro tonale del brano. Tuttavia, a causa dell'assenza di una dominante \writechord{D,7}, in questo stadio non è ancora possibile determinarlo.
 
-    La progressione (Rg.\ref{sheet:potw1-chords_line1}) che abbiamo per i primi due versi  è simile alla progressione dell'introduzione, ma le prime due misure traslano lo il vamp di una quarta: al posto di \writechord{G} e \writechord{C} abbiamo rispettivamente \writechord{C} e \writechord{C,_,sus4}. La durata ritmica degli accordi rimane invariata, pertanto possiamo considerare \writechord{C,_,sus4} un abbellimento del precedente \writechord{C} per lo stesso motivo di cui sopra, nonostante l'uso del Fa naturale, non diatonico a Sol maggiore. Le successive due misure, invece, riprendono il vamp non traslato.
-
+    La progressione (Rg.\ref{sheet:potw1-chords_line1}) che abbiamo per i primi due versi  è simile alla progressione dell'introduzione, ma le prime due misure traslano il vamp di una quarta: al posto di \writechord{G} e \writechord{C} abbiamo rispettivamente \writechord{C} e \writechord{C,_,sus4}. La durata ritmica degli accordi rimane invariata, pertanto possiamo considerare \writechord{C,_,sus4} un abbellimento del precedente \writechord{C} per lo stesso motivo di cui sopra, nonostante l'uso del Fa naturale, non diatonico a Sol maggiore. Le successive due misure, invece, riprendono il vamp non traslato. 
     
     \begin{sheet}{Progressione della sezione Linea 1 in \acrshort{pw1}}
         \lilypondfile{./potw1-chords_line1.ly}
@@ -157,7 +162,13 @@
         \lilypondfile{./potw2-chords_line1.ly}
         \label{sheet:potw2-chords_line1}
     \end{sheet}
+
+    Astraendo la progressione dai dettagli, possiamo notare che la progressione  fino a questo punto riprende le prime 8 misure di un blues a 12 battute: abbiamo infatti quattro misure di \writechord{G} ([ I - I - I - I]), due misure di \writechord{C} e due misure di \writechord{G} ([ IV - IV - I - I]). Tuttavia, anziché proseguire con la canonica conclusione [ V - IV - I - I ], il gruppo [ IV - IV - I - I ] viene ripetuto e, come vedremo, la progressione prende tutt'altra direzione.
+
     
+    Il fatto di iniziare una progressione armonica con un accordo di sottodominante (in questo caso \writechord{C}) le conferisce un carattere di leggero moto. Notiamo inoltre che la frase della voce recita solamente metà del verso (\gquotes{If you didn't care}, nel caso della prima ripetizione) e l'ultima nota della frase  cade sul battere del primo quarto della prima misura della progressione; abbiamo poi una seconda frase che recita la seconda metà del verso (\gquotes{what happens to me}). Il verso viene quindi lasiato a metà, sospeso, durante l'accordo di sottodominante, per poi essere completato durante l'accordo di tonica, giustificando quindi il ruolo dell'accordo di sottodominante come motore per questa progressione.
+
+
     Fino a questo momento l'armonia del brano è rimasta stabile intorno al centro tonale di Sol maggiore; la situazione cambia nel verso successivo. Abbiamo infatti due misura di \writechord{A,7}. Contestualizzare questo accordo non è semplice: rispetto all tonica, si tratta di un [ \writechord{II,7} ] e contiene quindi un Do\sharp~ non diatonico a Sol maggiore e, a differenza del Fa naturale di cui abbiamo parlato prima, questo accordo viene tenuto per due misure, per cui non può essere inquadrato come un accordo di passaggio o un abbellimento. Di seguito, alcune potenziali giustificazioni per l'uso di questo accordo:
     \begin{itemize}
         \item \emph{dominante secondaria}: \writechord{A,7} potrebbe essere usato per preparare una modulazione verso Re maggiore che, tuttavia, non avviene;
@@ -180,13 +191,20 @@
         \label{sheet:potw1-chords_line3}
     \end{sheet}
 
-    A questo punto, come in ogni storia, abbiamo la realizzazione finale (Rg.\ref{sheet:potw1-chords_line4}). In questo caso l'accordo che la supporta è un \writechord{D,7}, dominante secondaria di La minore che riporta l'armonia verso il centro tonale iniziale di Sol maggiore e, al contempo, conferma quest'ultimo come tonalità del brano. Se estendiamo il raggio di analisi possiamo anche considerare il \writechord{Am} che precede il \writechord{D,7}, che avrebbe quindi la funzione di accordo pivot e sopratonica secondaria, risultando quindi in un uso della cadenza composta tipica del jazz del [ IIm - \writechord{V,7}, I ]. Questa progressione è quindi un esempio di modulazione indiretta, in cui il \writechord{Am} funge da ponte tra le due tonalità.
+    A questo punto, come in ogni storia, abbiamo la realizzazione finale (Rg.\ref{sheet:potw1-chords_line4}). In questo caso l'accordo che la supporta è un \writechord{D}. Normalmente, un \writechord{D,7} sarebbe molto piu appropriato, in quanto sarebbe dominante secondaria di La minore e potrebbe quindi riportare l'armonia verso il centro tonale iniziale di Sol maggiore e, al contempo, confermare quest'ultima come tonalità del brano. In questo caso, però l'accordo è una triade semplice. Pur non possedendo la stessa tensione armonica della rispettiva quadriade, la triade in questo caso esercita comunque la funzione di dominante: la nota al canto è la sensibile Fa\sharp~ che risolve nel successivo \writechord{G} nella tonica Sol. 
+    
+    Se estendiamo il raggio di analisi possiamo anche considerare il \writechord{Am} che precede il \writechord{D}, che avrebbe quindi la funzione di accordo pivot e sopratonica secondaria, risultando quindi in un uso della cadenza composta tipica del jazz del [ IIm - V - I ]. Questa progressione è quindi un esempio di modulazione indiretta, in cui il \writechord{Am} funge da ponte tra le due tonalità.
 
-    \begin{sheet}{Progressione della sezione Finale; la prima misura è l'ultima della sezione Linea 3.}
+    \begin{sheet}{Progressione della sezione Finale.}
         \lilypondfile{./potw1-chords_line4.ly}
         \label{sheet:potw1-chords_line4}
     \end{sheet}
+    
+    La progressione dell'assolo riprende la maggior parte degli elementi armonici che abbiamo visto finora. In particolare, l'assolo inizia con due ripetizioni della progressione armonica della sezione Linea 1 (quindi [ IV - IV - I - I ]), leggermente alterata per seguire il metro che nell'assolo è \meter{6}{8}. Sono rimossi anche gli accordi di abbellimento. Il solo prosegue usando un vamp [ IIm - V ], che viene ripetuto tre volte, seguito da una ripresa della discesa diatonica (vedi Rg.\ref{sheet:potw1-rhythm_line23}). L'assolo termina con quattro misure che riprendono il vamp dell'introduzione, questa volta nel metro originale \meter{3+3+2}{8}.
 
-
+    \begin{sheet}{Progressione dell'assolo.}
+        \lilypondfile{./potw-chords_solo.ly}
+        \label{sheet:potw-chords_solo}
+    \end{sheet}
 
 \end{document}

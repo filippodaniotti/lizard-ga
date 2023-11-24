@@ -8,8 +8,8 @@ harmonies = \chordmode {
   \time 6/8
   a2.:m 
 
-  d2:7 d4:7sus4
-  d2.:7 
+  d2: d4:sus4
+  d2.:
 
   g2.
   g2.

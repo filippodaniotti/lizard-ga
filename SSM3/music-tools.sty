@@ -45,6 +45,8 @@
 \newsavebox{\sheetcaption}
 \newenvironment{sheet} [1]
 	{
+		% \par\nobreak\vfil\penalty0\vfilneg\vtop\bgroup % prevents page break
+
 		\refstepcounter{sheet}%     Increment sheet counter
 		\sbox{\sheetcaption}{#1}% 	Save argument (caption)
 		\vspace{.5em}
@@ -53,8 +55,10 @@
 	}
 	{
 		\\
-		\vspace{1em}
+		\vspace{.2em}
 		Rigo~\thechapter.\thesheet: \usebox{\sheetcaption}
 		\end{center}
 		\vspace{1em}
+
+		% \par\xdef\tpd{\the\prevdepth}\egroup\prevdepth=\tpd
 	}
