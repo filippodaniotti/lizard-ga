@@ -1,3 +1,5 @@
+% arara: lualatex: { shell: true }
+% arara: latexmk: { clean: partial }
 \documentclass[class=book, crop=false, oneside, 12pt]{standalone}
 \usepackage{standalone}
 \usepackage{../../style}
@@ -8,10 +10,6 @@
 % \provideboolean{isCompiledFromMain}
 % \setboolean{isCompiledFromMain}{false}
 
-
-% arara: lualatex
-% arara: biber
-% arara: latexmk: { clean: partial }
 \begin{document}
     \chapter{Animals}
     Decimo album in studio dei Pink Floyd, \acrlong{anm} è stato pubblicato il 21 gennaio 1977 nel Regno Unito e il mese successivo negli Stati Uniti. È stato prodotto dagli stessi Pink Floyd e registrato da Brian Humphries, assistito da Peter James. La copertina è stata realizzata da Roger Waters, con la collaborazione di Storm Thorgerson, Aubrey Powell e Howard Bartrop. Ha raggiunto la seconda posizione nella \emph{UK albums} e la terza nella \emph{US Billboard 200} e ha venduto complessivamente oltre 6 milioni di copie.

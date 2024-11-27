@@ -68,6 +68,9 @@ tmp-ly/
 # xmp metadata
 *.xmpi
 
+# floats
+*.sht
+
 ### vscode ###
 .vscode/
 .devcontainer/

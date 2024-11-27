@@ -27,14 +27,18 @@
     \frontmatter
     \import{./chapters/titlepage/}{titlepage}
     \tableofcontents
-    
     \cleardoublepage
-    \addcontentsline{toc}{chapter}{\listfigurename}
-    \listoffigures
     
-    \cleardoublepage
-    \addcontentsline{toc}{chapter}{\listtablename}
-    \listoftables
+    \begingroup
+        \let\clearpage\relax
+        \let\cleardoublepage\relax
+        \listoffigures    
+        \addcontentsline{toc}{chapter}{\listfigurename}
+        \listoftables
+        \addcontentsline{toc}{chapter}{\listtablename}
+        \listof{sheet}{Elenco dei pentagrammi}
+        \addcontentsline{toc}{chapter}{Elenco dei pentagrammi}
+    \endgroup
     
     \mainmatter
     \import{./chapters/01/}{chapter01}

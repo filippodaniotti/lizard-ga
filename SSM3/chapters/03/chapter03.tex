@@ -117,30 +117,38 @@
 
     Bisogna però essere cauti nel bollare questo brano come banale. Se infatti  tecnica e arrangiamento  non risultano particolarmente interessanti, il metro riserva ben altre sorprese. Di primo acchito, si potrebbe dire che il brano è in \meter{4}{4}. Nonostante le prime misure del brano siano perfettamente scomponibili in tale metro, ci possiamo subito rendere conto che il pattern ritmico dello strumming e l'accentazione vanno meglio descritte con una suddivisione ternaria, con una misura di \meter{6}{8} seguita da una di \meter{2}{8}; tuttavia, per mantenere la cellula ritmica e armonica del vamp inalterata, impiegheremo la notazione metrica combinata   \meter{3+3+2}{8}. Nei primi \meter{3+3}{8} viene suonato l'accordo principale della misura, mentre negli ultimi \meter{2}{8} viene suonato un accordo di abbellimento (ne discuteremo più approfonditamente in Sec.\ref{sec:03-harmony}). 
     
-    \begin{sheet}{Pattern ritmico dell'introduzione}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw-rhythm_intro.ly}
+        \caption{Pattern ritmico dell'introduzione.}
         \label{sheet:potw-rhythm_intro}
     \end{sheet}
 
     Questo pattern ritmico viene mantenuto per tutta la prima metà del brano (sezioni Intro e Linea 1), ma viene successivamente abbandonato. Non solo: viene abbandonato anche il metro stesso. In rapida successione, tra Linea 2 e Linea 3, si susseguono \meter{3+3+2}{8}, \meter{3}{4}, \meter{3}{8}, \meter{6}{8} e \meter{5}{8}.
 
-    \begin{sheet}{Mentro nelle sezioni Linea 2 e Linea 3 in \acrshort{pw1}.}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw1-rhythm_line23.ly}
+        \caption{Mentro nelle sezioni Linea 2 e Linea 3 in \acrshort{pw1}.}
         \label{sheet:potw1-rhythm_line23}
     \end{sheet}
     
     La scelta di usare questa notazione per il metro può apparire come un tentativo da parte nostra di far apparire il brano ritmicamente più complesso di come in realtà non sia. Tuttavia, riteniamo che la nostra notazione metrica sia assolutamente coerente con le scelte fatte da Waters e con l'analisi fatta precedentemente su tecnica e arrangiamento. La chiave per comprendere queste scelte è, ancora una volta, la volontà di dare priorità assoluta all'elemento lirico. Relativamente alla tecnica/arrangiamento, questa si declina in un arrangiamento spartano ed essenziale; relativamente al metro, si declina ubvece nel fatto che il metro e le durate delle misure di piegano e si adattano al testo di Waters, e non viceversa. Non solo, ma il metro si adatta anche alla semantica: nel verso \gquotes{Occasionally glancing up through the rain}, l'alzare lo sguardo viene reso musicalmente cambiando il pattern ritmico dal precedente ternario \meter{3+3+2}{8} al binario \meter{3}{4}. Similmente, in \gquotes{Wondering which of the buggers to blame} la misura dispari da \meter{5}{8} rende l'andamento armonico claudicante, a simboleggiare l'affanno e la lotta portata avanti dall'essere umano. A conferma dell'importanza della sinergia tra l'elemento lirico e ritmico, vediamo in Rg.\ref{sheet:potw2-rhythm_line23} che in \acrshort{pw2} molte delle misure tagliate di cui sopra vengono arrotondate al metro pari più vicino e rendono pertanto l'andatura più regolare, in accordo con il contenuto più sereno di \acrshort{pw2}.
 
-    \begin{sheet}{Mentro nelle sezioni Linea 2 e Linea 3 in \acrshort{pw2}.}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw2-rhythm_line23.ly}
+        \caption{Mentro nelle sezioni Linea 2 e Linea 3 in \acrshort{pw2}.}
         \label{sheet:potw2-rhythm_line23}
     \end{sheet}
     
     \subsection{Assolo}
     L'assolo di Snowy White è piuttosto semplice e melodico, privo di virtuosismi: è prevalentemente costruito sulla scala maggiore, utilizza arpeggi e insiste sulle note degli accordi anche per l'intera misura, sfruttando l'articolazione data da bending e vibrati per mantenere il solo interessante. L'elemento più interessante è forse dato dall'utilizzo del Fa naturale nelle prime due misure del solo, sopra al \writechord{C}, in una frase legata. Non è l'unica occorrenza di Fa naturale all'interno di questo brano, ma qui viene utilizzato a fini melodici, in una sezione dove il centro tonale è chiaramente Sol maggiore. In questo senso, l'uso del Fa naturale conferisce a queste frasi un sottile sapore misolidio.
     
-    \begin{sheet}{Prime quattro misure dell'assolo.}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw-phrases_solo.ly}
+        \caption{Prime quattro misure dell'assolo.}
         \label{sheet:potw-phrases_solo}
     \end{sheet}
 
@@ -148,8 +156,10 @@
     \section{Analisi armonica}
     \label{sec:03-harmony}
     L'introduzione del brano è costituita da un vamp di due accordi, un \writechord{G} e un {\writechord{C},} rispettivamente della durata di \meter{6}{8} e \meter{2}{8}. Questo vamp viene ripetuto per 4 misure (Rg.\ref{sheet:potw-chords_intro}), per poi essere ripreso in chiusura del brano. 
-    \begin{sheet}{Progressione dell'introduzione}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw-chords_intro.ly}
+        \caption{Progressione dell'introduzione}
         \label{sheet:potw-chords_intro}
     \end{sheet}
     
@@ -157,15 +167,19 @@
 
     La progressione (Rg.\ref{sheet:potw1-chords_line1}) che abbiamo per i primi due versi  è simile alla progressione dell'introduzione, ma le prime due misure traslano il vamp di una quarta: al posto di \writechord{G} e \writechord{C} abbiamo rispettivamente \writechord{C} e \writechord{C,_,sus4}. La durata ritmica degli accordi rimane invariata, pertanto possiamo considerare \writechord{C,_,sus4} un abbellimento del precedente \writechord{C} per lo stesso motivo di cui sopra, nonostante l'uso del Fa naturale, non diatonico a Sol maggiore. Le successive due misure, invece, riprendono il vamp non traslato. 
     
-    \begin{sheet}{Progressione della sezione Linea 1 in \acrshort{pw1}}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw1-chords_line1.ly}
+        \caption{Progressione della sezione Linea 1 in \acrshort{pw1}}
         \label{sheet:potw1-chords_line1}
     \end{sheet}
     
     Interessante notare che in \acrshort{pw2} l'abbellimento sugli ultimi \meter{2}{8} viene sostituito con un \writechord{F} (Rg.\ref{sheet:potw2-chords_line1}); questa scelta non modifica l'analisi della sezione riportata, ed è presumibilmente motivata dalla volontà di aggiungere un elemento di varietà tra le due versioni del brano. Si può anche aggiungere che \writechord{F} è privo della dissonanza data dall'intervallo di seconda maggiore del \writechord{C,_,sus4}, e quindi è più consonante; cosi come il narratore  è più sereno e fiducioso, anche l'armonia diventa più consonante e stabile in \acrshort{pw2}.
 
-    \begin{sheet}{Progressione della sezione Linea 1 in \acrshort{pw2}}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw2-chords_line1.ly}
+        \caption{Progressione della sezione Linea 1 in \acrshort{pw2}}
         \label{sheet:potw2-chords_line1}
     \end{sheet}
     
@@ -174,8 +188,10 @@
     
     Il fatto di iniziare una progressione armonica con un accordo di sottodominante (in questo caso \writechord{C}) le conferisce un carattere di leggero moto. Notiamo inoltre che la frase della voce recita solamente metà del verso (\gquotes{If you didn't care}, nel caso della prima ripetizione) e l'ultima nota della frase  cade sul battere del primo quarto della prima misura della progressione; abbiamo poi una seconda frase che recita la seconda metà del verso (\gquotes{what happens to me}). Il verso viene quindi lasiato a metà, sospeso, durante l'accordo di sottodominante, per poi essere completato durante l'accordo di tonica, giustificando quindi il ruolo dell'accordo di sottodominante come motore per questa progressione.
     
-    \begin{sheet}{Linea vocale in Linea 1 in \acrshort{pw1}}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw1-lyrics_line1.ly}
+        \caption{Linea vocale in Linea 1 in \acrshort{pw1}}
         \label{sheet:potw1-lyrics_line1}
     \end{sheet}
     
@@ -185,8 +201,10 @@
         \item \emph{interscambio modale}: \writechord{A,7} potrebbe essere un prestito dalla parallela lidia, di cui fa parte, e suggerire quindi un allontanamento dall'armonia tonale in favore di una modale; tuttavia, non ci sono particolari elementi che suggeriscano questa ipotesi (come ad esempio un pedale di Sol), e la progressione di accordi che lo segue (Rg.\ref{sheet:potw1-chords_line2}) indebolisce ulteriormente questa tesi.
     \end{itemize}
 
-    \begin{sheet}{Progressione della sezione Linea 2 in \acrshort{pw1}}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw1-chords_line2.ly}
+        \caption{Progressione della sezione Linea 2 in \acrshort{pw1}}
         \label{sheet:potw1-chords_line2}
     \end{sheet}
 
@@ -196,8 +214,10 @@
 
     Ma in una vita senza amori e affetti la serenita non può che essere effimera: subito dopo, infatti, la pusillanimitudine riprende il sopravvento negli umani che \gquotes{wondering which of the buggers to blame}\footnote{\gquotes{ponderano di quale accollo lamentarsi}}, e la tonalità di riferimento da maggiore diventa minore. Un \writechord{Am} funge da accordo pivot e sposta brevemente il centro tonale verso il La minore, relativa minore di Do maggiore, tonalità adiacente a Sol maggiore nel circolo delle quinte. Segue un breve scambio tra \writechord{Am} e \writechord{F} ([ Im ] e [ \flat VI ] di La minore): il rimpallo tra un accordo di area di tonica e uno di sottodominante ben rappresenta la frenesia interiore di chi sta cercando un capro espiatorio per il proprio malessere. Questa progressione si chiude con una misura di \writechord{C} che scende diatonicamente verso la tonica di \writechord{Am} (Rg.\ref{sheet:potw1-chords_line3}).
 
-    \begin{sheet}{Progressione della sezione Linea 3 in \acrshort{pw1}}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw1-chords_line3.ly}
+        \caption{Progressione della sezione Linea 3 in \acrshort{pw1}}
         \label{sheet:potw1-chords_line3}
     \end{sheet}
 
@@ -205,15 +225,19 @@
     
     Se estendiamo il raggio di analisi possiamo anche considerare il \writechord{Am} che precede il \writechord{D}, che avrebbe quindi la funzione di accordo pivot e sopratonica secondaria, risultando quindi in un uso della cadenza composta tipica del jazz del [ IIm - V - I ]. Questa progressione è quindi un esempio di modulazione indiretta, in cui il \writechord{Am} funge da ponte tra le due tonalità.
 
-    \begin{sheet}{Progressione della sezione Finale.}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw1-chords_line4.ly}
+        \caption{Progressione della sezione Finale.}
         \label{sheet:potw1-chords_line4}
     \end{sheet}
     
     La progressione dell'assolo riprende la maggior parte degli elementi armonici che abbiamo visto finora. In particolare, l'assolo inizia con due ripetizioni della progressione armonica della sezione Linea 1 (quindi [ IV - IV - I - I ]), leggermente alterata per seguire il metro che nell'assolo è \meter{6}{8}. Sono rimossi anche gli accordi di abbellimento. Il solo prosegue usando un vamp [ IIm - V ], che viene ripetuto tre volte, seguito da una ripresa della discesa diatonica (vedi Rg.\ref{sheet:potw1-rhythm_line23}). L'assolo termina con quattro misure che riprendono il vamp dell'introduzione, questa volta nel metro originale \meter{3+3+2}{8}.
 
-    \begin{sheet}{Progressione dell'assolo.}
+    \begin{sheet}[htbp]
+        \centering
         \lilypondfile{./potw-chords_solo.ly}
+        \caption{Progressione dell'assolo.}
         \label{sheet:potw-chords_solo}
     \end{sheet}
 
