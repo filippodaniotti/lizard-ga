@@ -21,6 +21,9 @@ help:
 build:
 	arara main.tex
 
-##build-standalone: @ Builds a standalone
-build-standalone:
-	echo '$(RUN_ARGS)'
+# ##build-standalone: @ Builds a chapter
+# chapter:
+# 	cd chapters && echo 
+
+chapter4: 
+	cd chapters/04 && arara chapter04

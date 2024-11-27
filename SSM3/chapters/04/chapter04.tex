@@ -1,0 +1,79 @@
+% arara: lualatex: { shell: true }
+% arara: latexmk: { clean: partial }
+\documentclass[class=book, crop=false, oneside, 12pt]{standalone}
+\usepackage{standalone}
+\usepackage{../../style}
+\usepackage{../../glossary}
+
+\let\isCompiledFromMain\undefined
+\usepackage{../../music-tools}
+
+\graphicspath{{./assets/images/}}
+\ifdefined\isCompiledFromMain
+\else
+    \setluaoption{ly}{includepaths}{./assets/scores/}
+\fi
+
+\begin{document}
+
+    \chapter{Sheep}
+
+    \section{Introduzione}
+    \label{sec:04-intro}
+
+    Sheep è un brano lungo poco più di dieci minuti. 
+    durata comparabile a quella delle altri tre canzoni core dell'album
+
+    posizione nel disco
+    
+    
+    come quelle, non è una vera e propria suite, nel senso che non tutti gli elementi della scrittura musicale cambiano, ma solo alcuni. es la tonalità non cambia (o comunque non sempre), nemmeno il bpm. in ultima analisi, pare più una canzone lunga che una suite.
+
+    note di arrangiamento
+    genesi e significato
+    altre note
+
+
+
+    \section{Struttura}
+    \label{sec:04-struttura}
+
+    Il brano si può dividere in \emph{tre} sezioni principali.
+    
+    La suddivisione del brano in sezioni si basa su criteri che individuano similitudini intra segmento e differenze extra segmento; in particolare, le caratteristiche principali tenute in considerazione sono dinamica, tonalità e modo, progressione di accordi, voci impiegate e trame melodiche.
+
+    Per comodità consultativa, in questa analisi chiamiamo le tre sezioni rispettivamente \(\mathcal{A}\), \(\mathcal{B}\) e \(\mathcal{C}\). Il diagramma in Figura~\ref{fig:04-sections-timeline} mostra la posizione dei confini tra le sezioni individuate.
+
+    \begin{figure}[htbp]
+        \centering
+        \subimport{assets/figures}{sections_timeline.tex}
+        \label{fig:04-sections-timeline}
+        \caption{Durata delle varie sezioni del brano.}
+    \end{figure}
+
+    \subsection*{Sezione \(\mathcal{A}\)}
+    Sezione di apertura del brano, viene ripresa anche in un secondo momento, circa al minuti 5:32. È caratterizzata da una dinamica contenuta, che va dal piano al mezzopiano. Dal punto di vista armonico la sezione è prevalentemente occupata da un pedale di D tenuto dal basso; sulla parte conclusiva, in funzione di una modulazione verso la sezione successiva, il pedale viene abbandonato in favore di un movimento verso la sottodominante Am. Lo spazio al di sopra del pedale armonico viene occupato in \(\mathcal{A}1\) dall'iconico assolo di E-Piano, mentre in \(\mathcal{A}2\) da una trama armonico/melodica costituita da vari sintetizzatori e campioni di registrazioni ambientali. 
+
+    \subsection*{Sezione \(\mathcal{B}\)}
+
+    
+    \subsection*{Sezione \(\mathcal{C}\)}
+    Sezione di chiusura del brano, di cui costituisce a tutti gli effetti una coda. Inizia circa a minuto 8:06 e si protrae fino alla conclusione della traccia, in fade out.
+    
+    \section{Tecnica e arrangiamento}
+    \label{sec:03-arrangement}
+
+    \subsection{Assolo di E-Piano}
+
+    \begin{sheet}[htbp]
+        \centering
+        \lilypondfile{./sheep-epiano_solo.ly}
+        \caption{Pattern ritmico dell'introduzione.}
+        \label{sheet:sheep-epiano_solo}
+    \end{sheet}
+
+    \section{Analisi armonica}
+    \label{sec:03-harmony}
+    
+
+\end{document}
