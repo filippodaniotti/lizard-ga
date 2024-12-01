@@ -17,6 +17,10 @@ endif
 help:
 	@fgrep -h "##" $(MAKEFILE_LIST)| sort | fgrep -v fgrep | tr -d '##'  | awk 'BEGIN {FS = ":.*?@ "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
+##code: @ Opens the code editor
+code:
+	code .
+
 ##build: @ Builds the document
 build:
 	arara main.tex
