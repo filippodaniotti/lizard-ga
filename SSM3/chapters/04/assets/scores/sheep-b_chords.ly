@@ -7,7 +7,7 @@ harmonies = \chordmode {
 
   \repeat volta 2 {
     e1:m r r r
-    c r r r
+    a:m r r r
     e1:m r r r
   }
 
@@ -28,17 +28,17 @@ rhythms = \relative c' {
   }
   
   \repeat volta 2 {
-    e1~ e~ e~ e
-    c1~ c~ c~ c
-    e1~ e~ e~ e
+    <e g b>1~ <e g b>~ <e g b>~ <e g b>
+    <e a c>1~ <e a c>~ <e a c>~ <e a c>
+    <e g b>1~ <e g b>~ <e g b>~ <e g b>
   }
   
   \repeat volta 2 {
-    fis1~ fis
-    a~ a
+    <fis ais cis>1~ <fis ais cis>
+    <e a cis>~ <e a cis>
   }
   
-  e1~ e~ e~ e
+  <e g b>1~ <e g b>~ <e g b>~ <e g b>
 
 }
 

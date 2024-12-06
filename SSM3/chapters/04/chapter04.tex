@@ -46,8 +46,8 @@
     \begin{figure}[htbp]
         \centering
         \subimport{assets/figures}{sections_timeline.tex}
-        \label{fig:04-sections-timeline}
         \caption{Durata delle varie sezioni del brano.}
+        \label{fig:04-sections-timeline}
     \end{figure}
 
     \subsection*{Sezione \(\mathcal{A}\)}
@@ -82,10 +82,8 @@
     \section{Analisi armonica}
     \label{sec:03-harmony}
 
-    \subsection{Sezione \(\mathcal{A}\)}
-    La sezione \(\mathcal{A}\) è caratterizzata nella sua quasi totale interezza da un pedale di D. In \(\mathcal{A}1\), L'assolo di Rhodes fa ampio uso del Si naturale, dando alla sezione una forte impronta modale dorica.     
-
-    In \(\mathcal{A}2\) il pedale di D viene mantenuto, ma la trama armonica cambia profondamente e al di sopra del pedale viene costruita una fortissima tensione attraverso l'ampio uso dell'accordo di settima diminuita, che viene impiegato dai vari synth e organi, principalmente in forma di arpeggio dei primi e cluster di note dai secondi. \todo[inline]{Interessante che all'inizio solo due note, quindi diatoniche e tutto normale, e poi solo }
+    \subsection*{Sezione \(\mathcal{A}\)}
+    La sezione \(\mathcal{A}\) è caratterizzata nella sua quasi totale interezza da un pedale di D. In \(\mathcal{A}1\) (Rg.\ref{sheet:sheep-a1_chords}), L'assolo di Rhodes fa ampio uso del Si naturale, dando alla sezione una forte impronta modale dorica.     
     
     \begin{sheet}[htbp]
         \centering
@@ -93,6 +91,8 @@
         \caption{Progressione di accordi della sezione \(\mathcal{A}1\).}
         \label{sheet:sheep-a1_chords}
     \end{sheet}
+
+    In \(\mathcal{A}2\) (Rg.\ref{sheet:sheep-a2_chords}) il pedale di D viene mantenuto, ma la trama armonica cambia profondamente e al di sopra del pedale viene costruita una fortissima tensione attraverso l'ampio uso dell'accordo di settima diminuita, che viene impiegato dai vari synth e organi, principalmente in forma di arpeggio dei primi e cluster di note dai secondi. In particolare, è interessante notare come il contour armonico venga svelato gradualmente: inizialmente sentiamo un intervallo di terza minore discendente eseguito da un synth in glissando, che ricorda il belato delle pecore. In seguito, un organo entra prepotentemente e suona un bicordo, in cui viene per la prima volta rivelato il tritono. Infine, un suono ricco di alte frequenze e dal lungo attacco (probabilmente un altro synth, oppure una chitarra suonata in swell) arpeggia l'intero accordo. \todo[inline]{Sistemare prepotentemente}
     
     \begin{sheet}[htbp]
         \centering
@@ -104,11 +104,10 @@
     Entrambe le varianti si chiudono con una modulazione verso la tonalità di Em, funzionale alla transizione verso la sezione \(\mathcal{B}\). La modulazione è indiretta: viene sfruttato Am, Vm di Re e IVm di Em,  come accordo pivot tra i due centri armonici. Nello specifico, a 24 misure di pedale di D seguono due misure di Am, due di Bm e, infine, altre due misure di Am. Si noti che nessun Em è presente fino all'inizio della sezione successiva; in quest'ottica,  il Bm assume il ruolo di supportare e rendere manifesto il cambio di tonalità, dal momento che è diatonico a Em (Vm) ma non a D dorico. 
     \todo[inline]{Am sottodominante tiene tutto in moto, Bm invece?}
 
-    \subsection{Sezione \(\mathcal{B}\)}
-    La sezione \(\mathcal{B}\) inizia con una semplice progressione in forma [ I - IV ], quindi Em e C. Gli accordi hanno un respiro molto ampio e coprono ciascuno la durata di \(4\) misure, rivelandosi pienamente in funzione dell'elemento lirico. 
-    Modulazione a F\#, con alternanza della IIIm cioè A
+    \subsection*{Sezione \(\mathcal{B}\)}
+    La sezione \(\mathcal{B}\) inizia con una semplice progressione in forma [ I - IV - I ], quindi [ Em - C - Em ]. Gli accordi hanno un respiro molto ampio e coprono ciascuno la durata di \(4\) misure e il movimento armonico, che rimbalza tra area tonale di riposo e area di sottodominante, sembrano conferire all'armonia un ruolo di secondo piano, in funzione dell'elemento lirico. La progressione e la frase musicale della voce indicano il Mi come centro armonico; nello specifico, la sezione sembra essere costruita sulla scala di Mi minore naturale.
+    Segue un altro vamp di due accordi, ripetuto due volte e composto dagli accordi di [ F\sharp~ - A ], ossia [ II di Em - IV di Em ].  A questi due accordi poi seguono ulteriori \(4\) misure di Em, che concludono il periodo musicale della sezione. L'intera sezione è riportata in Rg.\ref{sheet:sheep-b_chords}
 
-    
     \begin{sheet}[htbp]
         \centering
         \lilypondfile{./sheep-b_chords.ly}
@@ -117,8 +116,18 @@
     \end{sheet}
     
 
-    \subsection{Sezione \(\mathcal{C}\)}
-    La sezione \(\mathcal{C}\) appare inizialmente modale. Le trame armoniche sono statiche sul Mi mentre la chitarra esegue un ostinato costruito su una discesa diatonica sul Mi misolidio; questo schema viene ripetuto molte volte, restituendo la ragionevole certezza che l'intera sezione sia un pedale di Mi. Tuttavia, dopo 3 ripetizioni l'armonia si sposta su un A, spiazzando l'ascoltatore e forzando a ricontestualizzare le trame armoniche precedenti: questo passaggio ha un forte elemento risolutivo, in opposizione alla tensione dominante del precedente E e dovuta al tritono. Questa sezione appare quindi tonale, anzi: può essere vista come una cadenza perfetta ([ V7 - I ]), dove la risoluzione verso il I arriva dopo un periodo di tensione lungo e straziante.
+    Il vamp [ F\sharp~ - A ] è  di difficile contestualizzazione armonica: abbiamo due note non diatoniche nel primio accordo, La\sharp~ e Do\sharp~, e una sola nel secondo, Do\sharp~, in comune con il primo. Di seguito proviamo a valutare alcuni espedienti armonici che potrebbero aiutare a interpretare questo movimento.
+    \begin{itemize}
+        \item \emph{Interscambio modale}. Il prestito temporaneo di note da scale parallele alla tonica potrebbe spiegare la presenza delle note non diatoniche. Non esiste però nessuna scala che contenga sia F\sharp~, sia A; l'interpretazione di questo passaggio come espressione di interscambio modale appare quindi poco convincente.
+        \item \emph{Sostituzione di tritono}. È facile vedere come non si possa usare la sostituzione di tritono per interpretare il vamp: gli accordi sono delle triadi, e la sostituzione di tritono si applica laddove c'è un tritono, presente nella quadriade di un accordo di dominante.
+        \item \emph{Dominante Secondaria}. Come sopra, non avendo un vero accordo di dominante, l'interpretazione del passaggio come applicazione di dominanti secondarie appare impropria. Inoltre, anche sorvolando sull'assenza delle settime, non si tratterebbe comunque di una catena di dominanti secondarie: in tal caso ci aspetteremmo di avere [ F\sharp~ - B ], essendo che F\sharp~ è V di B e B è, a sua volta, V di Em.
+    \end{itemize}
+    
+    Proviamo quindi ad adoperare un approccio più descrittivo. Questo vamp è un passaggio carico di tensione, più di qualsiasi altro momento all'interno del brano all'infuori della coda. Questa tensione è data dal passaggio repentino dal Em precedente al F\sharp : i due accordi non hanno alcuna nota in comune, e questo spiazza l'ascoltatore, come se ci si trovasse di fronte a una modulazione indiretta. Il successivo A supporta e tiene alta la tensione creata dall'accordo precedente. In sostanza, a livello macroscopico questo vamp assume il ruolo di momento di massima tensione della sezione; è sopra a questi accordi che il narratore rivela l'inquietudine delle pecore, che percepiscono che c'è qualcosa di sinistro nella società in cui si trovano, ma a cui non riescono a dare né un nome, né un volto. A livello microscopico, l'alternanza tra i due accordi può essere vista come una \emph{mediante cromatica}, ossia una relazione tra un accordo di primo grado, in questo caso F\sharp, e un accordo costruito su un'alterazione della mediante,  in questo caso A, il quale è \flat III di F\sharp~ e diciamo essere mediante cromatica di F\sharp. Una mediante cromatica rinnova l'interesse su un accordo arricchendolo di nuovi colori armonici, mentre ne prolunga la funzione armonica originale \cite[p. 202]{benward2014music}.
+
+
+    \subsection*{Sezione \(\mathcal{C}\)}
+    La sezione \(\mathcal{C}\) appare inizialmente modale. Il basso e l'organo tengono un pedale di Mi, al di sopra del quale la chitarra esegue un ostinato costruito su una discesa diatonica sul Mi misolidio. Al netto di leggere variazioni sul finale dell'ostinato (si veda Rg.\ref{sheet:sheep-guitar_out_chords}), questo schema viene ripetuto 4 volte, restituendo la ragionevole certezza che l'intera sezione sia un pedale di Mi. Tuttavia, nella quarta ripetizione dell'ostinato il basso si sposta su un A, spiazzando l'ascoltatore e forzando a ricontestualizzare le trame armoniche precedenti: questo passaggio ha un forte elemento risolutivo, in opposizione alla tensione dominante del precedente E e dovuta al tritono. Questa sezione appare quindi tonale, anzi: può essere vista come una cadenza perfetta ([ V7 - I ]), dove la risoluzione verso il I arriva dopo un periodo di tensione lungo e straziante.
 
     
     \begin{sheet}[htbp]
