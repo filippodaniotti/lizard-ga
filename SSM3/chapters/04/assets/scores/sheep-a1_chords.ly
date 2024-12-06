@@ -24,7 +24,7 @@ rhythms = \relative c' {
   }
   
   \repeat volta 2 {
-    <d f a b>1~ d~ d~ d
+    <d f a b>1~ <d f a b>~ <d f a b>~ <d f a b>
   }
 
 

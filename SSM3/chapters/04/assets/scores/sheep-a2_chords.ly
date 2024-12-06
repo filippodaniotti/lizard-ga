@@ -11,8 +11,6 @@ harmonies = \chordmode {
 
   d1:min7
   a1:m r 
-  b1:m r 
-  a1:m r 
 
 }
 
@@ -24,16 +22,12 @@ rhythms = \relative c' {
   }
   
   \repeat volta 2 {
-    <d f aes ces>1~ d~ d~ d
+    <d f aes ces>1~ <d f aes ces>~ <d f aes ces>~ <d f aes ces>
   }
 
 
   d2. e4
-  a,1~  a2. d4
-  b1~  b
-  a1~ a 
-
-  
+  a,1~  a2. d4  
 
 }
 
