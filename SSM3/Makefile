@@ -19,7 +19,7 @@ help:
 
 ##code: @ Opens the code editor
 code:
-	code .
+	cursor .
 
 ##build: @ Builds the document
 build:
