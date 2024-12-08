@@ -42,9 +42,7 @@ rhythms = \relative c' {
   \time 4/4 
   \tempo \markup {
     Swing
-    % \hspace #0.4
-    % \rhythm { 8[ 8] } = \rhythm { \tuplet 3/2 { 4 8 } }
-  }
+  } 4 = 124
 
   \repeat volta 2 {
     r8 

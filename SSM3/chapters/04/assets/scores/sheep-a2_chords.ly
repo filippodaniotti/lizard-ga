@@ -11,6 +11,8 @@ harmonies = \chordmode {
 
   d1:min7
   a1:m r 
+  b1:m r 
+  a1:m r 
 
 }
 
@@ -19,7 +21,7 @@ rhythms = \relative c' {
   \time 4/4 
   \tempo \markup {
     Swing
-  }
+  } 4 = 62
   
   \repeat volta 2 {
     <d f aes ces>1~ <d f aes ces>~ <d f aes ces>~ <d f aes ces>
@@ -27,7 +29,9 @@ rhythms = \relative c' {
 
 
   d2. e4
-  a,1~  a2. d4  
+  a,1~  a2. d4
+  b1~  b
+  a1~ a 
 
 }
 

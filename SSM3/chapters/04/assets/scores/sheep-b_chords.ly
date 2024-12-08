@@ -25,7 +25,7 @@ rhythms = \relative c' {
   \time 4/4 
   \tempo \markup {
     Swing
-  }
+  } 4 = 124
   
   \repeat volta 2 {
     <e g b>1~ <e g b>~ <e g b>~ <e g b>

@@ -78,10 +78,14 @@
     \subsection*{Sezione \(\mathcal{D}\)}
     Sezione di chiusura del brano, di cui costituisce a tutti gli effetti una coda. Mantiene la dinamica della precedente sezione ed è caratterizzata da una tensione armonica molto intensa. Inizia circa a minuto 8:06 e si ripete in loop fino al fade out, il quale inizia circa a minuto 9:20. Dopo il minuto 10:00 nessuno strumento è più udibile e restano solo i belati delle pecore, in ripresa dell'inizio del brano.
     
-    \section{Tecnica e arrangiamento}
+    \section{Composizione}
     \label{sec:03-arrangement}
 
     \subsection{Assolo di Rhodes}
+    Il Rhodes è il primo strumento ad entrare nel brano e, con un assolo di oltre un minuto e mezzo, assume il ruolo di voce principale della sezione \(\mathcal{A}1\). È eseguito su un Rhodes Mk1, dal timbro più scuro e morbido rispetto al Mk II e che ben si adatta all'atmosfera dalla calma cupa e alla dinamica contenuta della sezione. L'assolo è carico di una grande spontaneità, e il fraseggio è di carattere improvvisativo. Il sound engineer Brian Humphreis raccontò in seguito di aver intenzionalmente allontanato Waters dallo studio e aver spento le luci per creare un atmosfera soffusa, dando come unica indicazione a Wright la seguente frase: \gquotes{Rick, just do your thing.}\footnote{\gquotes{Rick, fai una delle tue solite cose.}}~\cite{easlea2022raving}.
+
+    
+    In effetti, l'impronta di Rick Wright è molto riconoscibile nel fraseggio: gli elementi principali sono lick blues, arpeggi e cluster di accordi. 
 
     \begin{sheet}[htbp]
         \centering
@@ -89,6 +93,10 @@
         \caption{Pattern ritmico dell'introduzione.}
         \label{sheet:sheep-epiano_solo}
     \end{sheet}
+
+    \subsection{Arrangiamento}
+
+    \subsection{Voce}
 
     \section{Analisi armonica}
     \label{sec:03-harmony}
@@ -138,12 +146,28 @@
 
 
     \subsection*{Sezione \(\mathcal{C}\)}
+    La sezione \(\mathcal{C}\) si sviluppa quasi interamente su un pedale di Mi, mantenuto dal basso. Nello specifico, \(\mathcal{C}1\) (Rg.\ref{sheet:sheep-c1_chords}) appare marcatamente modale, con un preponderante e variato uso di interscambio modale tra le scale modali parallele di Mi. Nessuna scala modale è tale per cui tutti gli accordi della sezione vi si possono costruire; le due scale con la maggiore copertura sono Mi dorico e Mi lidio di dominante:
+    \begin{itemize}
+        \item Mi dorico: Em, A/E, D/E, e G/E
+        \item Mi lidio di dominante: E, A/E, D/E, C\sharp m/E e G/E
+    \end{itemize}
+
+    Rimane fuori il G\flat, che sembra essere un cromatismo di transizione dal precedente G/E al successivo Em nella sezione \(\mathcal{C}2\).
+    
+    \begin{sheet}[htbp]
+        \centering
+        \lilypondfile{./sheep-c1_chords.ly}
+        \caption[Progressione di accordi della sezione \(\mathcal{C}1\).]{Progressione di accordi della sezione \(\mathcal{C}1\).}
+        \label{sheet:sheep-c1_chords}
+    \end{sheet}
+
+    La sezione \(\mathcal{C}2\) (Rg.\ref{sheet:sheep-c2_chords})  si apre con un Em  sopra il quale un sintetizzatore esegue una scala ascendente di Mi dorico; la scala ha un respiro molto ampio, una nota pe rmisura. A questo segue un A7 (IV7 di E dorico) che conferma il carattere dorico della sezione. La sezione si conclude con una ripresa del vamp della sezione \(\mathcal{B}\), che mantiene la stessa funzione di tensione armonica. In questo caso, tuttavia, l'ultimo accordo di A assume il ruolo di dominante secondaria, funzionale alla risoluzione sulla sezione successiva \(\mathcal{A}2\), la quale si sviluppa su un pedale di Re.
 
     \begin{sheet}[htbp]
         \centering
-        \lilypondfile{./sheep-c_chords.ly}
-        \caption{Progressione di accordi della sezione \(\mathcal{C}\).}
-        \label{sheet:sheep-c_chords}
+        \lilypondfile{./sheep-c2_chords.ly}
+        \caption[Progressione di accordi della sezione \(\mathcal{C}2\).]{Progressione di accordi della sezione \(\mathcal{C}2\). In evidenza la scala di Mi dorico eseguita dal sintetizzatore.}
+        \label{sheet:sheep-c2_chords}
     \end{sheet}
 
     \subsection*{Sezione \(\mathcal{D}\)}
