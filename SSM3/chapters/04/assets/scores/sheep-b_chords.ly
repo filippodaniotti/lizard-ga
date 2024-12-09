@@ -28,7 +28,7 @@ rhythms = \relative c' {
   } 4 = 124
   
   \repeat volta 2 {
-    <e g b>1~ <e g b>~ <e g b>~ <e g b>
+    <e g b>1~^\markup { "1:42" } <e g b>~ <e g b>~ <e g b>
     <e a c>1~ <e a c>~ <e a c>~ <e a c>
     <e g b>1~ <e g b>~ <e g b>~ <e g b>
   }

@@ -27,8 +27,8 @@ rhythms = \relative c' {
   } 4 = 62
 
   % C1
-  e'1~ e~ e~ e
-  a,~ a d cis e e a g ges
+  e'1~^\markup { "3:46" } e~ e~ e
+  a,~ a d cis e e a, g ges
   
   \bar "||"
 

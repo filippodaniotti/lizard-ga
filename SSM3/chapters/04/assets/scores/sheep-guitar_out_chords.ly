@@ -45,7 +45,7 @@ rhythms = \relative c' {
   } 4 = 124
 
   \repeat volta 2 {
-    r8 
+    r8 ^\markup { "8:06" }
     <gis' b e>2
     <fis a d>4.~ <fis a d>8 
     <cis e a>2

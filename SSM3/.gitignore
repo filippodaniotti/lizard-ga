@@ -71,6 +71,8 @@ tmp-ly/
 # floats
 *.sht
 
+.venv/*
+
 ### vscode ###
 .vscode/
 .devcontainer/

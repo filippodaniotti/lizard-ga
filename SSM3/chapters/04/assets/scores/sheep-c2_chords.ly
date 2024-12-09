@@ -35,10 +35,12 @@ rhythms = \relative c' {
 
   % C2
   % \ottava #1
-  e1 fis g a b cis d
+  \override NoteHead.color = #blue
+  e1^\markup { "4:36" } fis g a b cis d
   \bar "||" 
   \tempo 4 = 124
   e~ e
+  \override NoteHead.color = #black
   g~ g2 fis2 e1~ e
   e~ e~ e~ e
   % \ottava #0
