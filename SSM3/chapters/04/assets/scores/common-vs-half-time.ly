@@ -1,10 +1,12 @@
 \version "2.22.0"
 
 \score {
-  \new DrumStaff \with { 
-    \override StaffSymbol.line-count = #1
-    drumStyleTable = #drums-style
-  } {
+  \new DrumStaff 
+  % \with { 
+  %   \override StaffSymbol.line-count = #1
+  %   drumStyleTable = #drums-style
+  % } 
+  {
     \drummode {
       \time 4/4
       \tempo 4 = 120

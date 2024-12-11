@@ -38,6 +38,7 @@
 	style=numeric,
 	sorting=ynt
 ]{biblatex}
+\DeclareFieldFormat{postnote}{§#1}
 % \usepackage[hidelinks]{hyperref}
 \usepackage[a-3u]{pdfx}
 % \usepackage{cleveref}
@@ -47,6 +48,7 @@
     
 \newcommand{\parenth}[2][]{#1(#2#1)}
 \newcommand{\gquotes}[1]{<<#1>>}
+\newcommand{\songSec}[1]{\(\mathcal{#1}\)}
 
 %%% FLOATS %%%
 \newfloat{sheet}{htbp}{sht}[chapter]
