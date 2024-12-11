@@ -27,34 +27,46 @@
 \begin{document}
     \frontmatter
     \import{./chapters/titlepage/}{titlepage}
+
+    \cleardoublepage
+    
     \setcounter{tocdepth}{1}
-	\newgeometry{left=25mm,right=25mm,bottom=3cm}
+	\newgeometry{inner=30mm,outer=20mm,bottom=3cm}
     \tableofcontents
     \restoregeometry
     \cleardoublepage
     
+    
     \begingroup
-        \let\clearpage\relax
-        \let\cleardoublepage\relax
-        \listoffigures    
-        \addcontentsline{toc}{chapter}{\listfigurename}
-        \listoftables
-        \addcontentsline{toc}{chapter}{\listtablename}
-        \listof{sheet}{Elenco dei pentagrammi}
-        \addcontentsline{toc}{chapter}{Elenco dei pentagrammi}
+    \let\clearpage\relax
+    \let\cleardoublepage\relax
+    \listoffigures    
+    \addcontentsline{toc}{chapter}{\listfigurename}
+    \listoftables
+    \addcontentsline{toc}{chapter}{\listtablename}
+    \listof{sheet}{Elenco dei pentagrammi}
+    \addcontentsline{toc}{chapter}{Elenco dei pentagrammi}
     \endgroup
+    
+    \import{./chapters/00/}{chapter00}
     
     \mainmatter
     \import{./chapters/01/}{chapter01}
+    \cleardoublepage
     \import{./chapters/02/}{chapter02}
+    \cleardoublepage
     \import{./chapters/03/}{chapter03}
+    \cleardoublepage
     \import{./chapters/04/}{chapter04}
+    \cleardoublepage
     \import{./chapters/05/}{chapter05}
+    \cleardoublepage
     
     
     \backmatter
 	\newgeometry{left=25mm,right=25mm,bottom=3cm}
 	\printbibliography[heading=bibintoc, title={Bibliografia}]
+    \cleardoublepage
     \printglossary[type=\acronymtype, title=Acronimi e nomenclature, toctitle=Acronimi]
     \restoregeometry
 
