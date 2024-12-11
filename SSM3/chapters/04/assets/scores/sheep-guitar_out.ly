@@ -40,7 +40,7 @@ rhythms = \relative c' {
   \key e \major
   \time 4/4 
   \tempo \markup {
-    Swing
+    Shuffle
     % \hspace #0.4
     % \rhythm { 8[ 8] } = \rhythm { \tuplet 3/2 { 4 8 } }
   }

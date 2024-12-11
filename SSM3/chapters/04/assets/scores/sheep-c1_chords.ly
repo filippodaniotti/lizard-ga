@@ -23,7 +23,7 @@ rhythms = \relative c' {
   \key e \minor
   \time 4/4 
   \tempo \markup {
-    Swing
+    Shuffle
   } 8 = 124
 
   % C1

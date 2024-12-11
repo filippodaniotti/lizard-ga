@@ -11,7 +11,7 @@ rhythms = \relative c' {
   \key d \minor
   \time 4/4
   \tempo \markup {
-    Swing
+    Shuffle
   } 8 = 124
 
   r2^\markup { "0:00" }  r4

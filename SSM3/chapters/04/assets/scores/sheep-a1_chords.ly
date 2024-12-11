@@ -20,7 +20,7 @@ rhythms = \relative c' {
   \key f \major
   \time 4/4 
   \tempo \markup {
-    Swing
+    Shuffle
   } 8 = 124
   
   \repeat volta 2 {
