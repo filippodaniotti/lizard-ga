@@ -26,7 +26,7 @@ rhythms = \relative c' {
   \time 4/4 
   \tempo \markup {
     Swing
-  } 4 = 62
+  } 8 = 124
 
   % C1
   ges'1

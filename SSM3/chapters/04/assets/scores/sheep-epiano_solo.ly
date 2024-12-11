@@ -12,7 +12,7 @@ rhythms = \relative c' {
   \time 4/4
   \tempo \markup {
     Swing
-  } 4 = 62
+  } 8 = 124
 
   r2^\markup { "0:00" }  r4
   \tuplet 3/2 { \slashedGrace { c'8 } d8 \slashedGrace { c8 } d8 \slashedGrace { c8 } d8 }

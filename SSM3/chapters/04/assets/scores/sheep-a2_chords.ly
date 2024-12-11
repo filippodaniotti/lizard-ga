@@ -21,7 +21,7 @@ rhythms = \relative c' {
   \time 4/4 
   \tempo \markup {
     Swing
-  } 4 = 62
+  } 8 = 124
   
   \repeat volta 2 {
     <d f aes ces>1~^\markup { "5:32" } <d f aes ces>~ <d f aes ces>~ <d f aes ces>

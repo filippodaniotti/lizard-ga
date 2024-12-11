@@ -27,7 +27,10 @@
 \begin{document}
     \frontmatter
     \import{./chapters/titlepage/}{titlepage}
+    \setcounter{tocdepth}{1}
+	\newgeometry{left=25mm,right=25mm,bottom=3cm}
     \tableofcontents
+    \restoregeometry
     \cleardoublepage
     
     \begingroup
@@ -50,7 +53,9 @@
     
     
     \backmatter
+	\newgeometry{left=25mm,right=25mm,bottom=3cm}
 	\printbibliography[heading=bibintoc, title={Bibliografia}]
     \printglossary[type=\acronymtype, title=Acronimi e nomenclature, toctitle=Acronimi]
+    \restoregeometry
 
 \end{document}
