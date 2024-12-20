@@ -1,9 +1,18 @@
 % Template from https://www.overleaf.com/latex/templates/title-page-for-unipv-theses/rsdfxvcgdndp
-\documentclass[class=book, crop=false, oneside]{standalone}
+\documentclass[class=book, crop=false, oneside, a4paper]{standalone}
 \usepackage{../../style}
 \graphicspath{{./images/}}
 
 \begin{document}
+    % cover page
+    \thispagestyle{empty}
+    \includepdf{cover.pdf}
+    \clearpage
+    \thispagestyle{empty}
+    \clearpage
+    \addtocounter{page}{-2}
+
+    % titlepage
     \begin{titlepage}
         \begin{center}
                 
@@ -36,7 +45,7 @@
         \raggedright
         
         \Large
-        Insegnante:
+        \textbf{Insegnante}
         \vspace{0.125cm}\\
         \large
         Luca Valerani
@@ -44,7 +53,7 @@
         \vspace{0.2cm}
 
         \Large
-        Esaminatore:
+        \textbf{Esaminatore}
         \vspace{0.125cm}\\
         \large
         Dario Calamai
@@ -52,7 +61,7 @@
         \raggedleft
         
         \Large
-        Allievo:
+        \textbf{Allievo}
         \vspace{0.125cm}\\
         \large
         Filippo Daniotti
@@ -65,4 +74,13 @@
         \end{center}
         
     \end{titlepage}
+    \clearpage
+
+    % copyright page
+    \thispagestyle{empty}
+    \vspace*{\fill}
+    \begin{center}
+        \textit{Copertina a cura di Camilla Greggio}
+    \end{center}
+    \clearpage
 \end{document}
