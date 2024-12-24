@@ -4,6 +4,8 @@
 harmonies = \chordmode {
   \set majorSevenSymbol = \markup { maj7 }
   \set noChordSymbol = "" 
+
+  d1:m6
   
 }
 

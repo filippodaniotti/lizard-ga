@@ -14,23 +14,23 @@ rhythms = \relative c' {
     Shuffle
   } 8 = 124
 
-  % Original note in blue
-  \override NoteHead.color = #blue
-  \override Stem.color = #blue
   <ces' f>2^\markup{ "6:10" }\>\fff
   
-  % Echo notes in magenta with decreasing dynamics  
-  \override NoteHead.color = #magenta
-  \override Stem.color = #magenta
+  \parenthesize
+  <ces f>2
+  \parenthesize
+  <ces f>2
+  \parenthesize
   <ces f>2
   
+  \parenthesize
   <ces f>2
+  \parenthesize
   <ces f>2
   
+  \parenthesize
   <ces f>2
-  <ces f>2
-  
-  <ces f>2
+  \parenthesize
   <ces f>2\ppp\!
 }
 

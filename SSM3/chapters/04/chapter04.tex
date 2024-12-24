@@ -95,6 +95,15 @@
 
     In \acrshort{s} c'è un chiaro utilizzo narrativo del tempo dimezzato: la sezione \songSec{A} e gran parte della sezione \songSec{C} sono eseguite in tempo dimezzato, mentre le sezioni \songSec{B} e \songSec{D} sono eseguite in tempo comune. In termini di bpm, il tempo fluttua attorno ai 124 bpm nelle sezioni in tempo comune, quindi 62 bpm in tempo dimezzato. Il tempo dimezzato è usato per creare un'atmosfera più calma, quasi sinistra, mentre il tempo comune è usato per evocare un'atmosfera più concitata e dinamica.
 
+    L'uso più interessante è probabilmente il cambio di tempo dall'\emph{half-time shuffle} allo \emph{shuffle} in tempo comune che avviene a minuto 5:00 nella sezione \songSec{C}2. Fino a quel momento in \songSec{C}2 la scena era dominata da un synth lead, che ha eseguito una scala diatonica ascendente di Mi dorico. Le note della scala erano molto lunghe, occupando un'intera misura ciascuna, e la scala è stata eseguita per intero, da tonica a ottava. Il passaggio da dimezzato a comune avviene proprio nella misura in cui i synth raggiungono finalmente l'ottava (Rg.\ref{sheet:sheep-c_drums}). L'intero blocco restituisce all'ascoltatore l'impressione di stare affrontando una sfida difficile, come ad esempio scalare una montagna, in cui ogni piccolo passo, che rappresenta l'elemento atomico del progresso (in questa metafora il raggiungimento della nota successiva della scala), richiede  molto tempo e fatica per essere conseguito. La batteria supporta questo incedere lento e costante con l'uso del tempo dimezzato, evitando accuratamente di suonave suddivisioni inferiori alla seminimina. Quando però si arriva alla vetta (ossia, all'ottava), allora la fatica viene ripagata e muoversi diventa più facile, libero, naturale: la batteria passa quindi in dimezzato. 
+    
+    \begin{sheet}[htb]
+        \centering
+        \lilypondfile{./sheep-c_drums.ly}
+        \caption[Parte di batteria nella sezione \songSec{C}2 e linea del synth.]{Parte di batteria nella sezione \songSec{C}2 e linea del synth. In evidenza come il cambio di tempo da dimezzato a comune  avvenga in corrispondenza del raggiungimento dell'ottava di una scala diatonica ascendente di Mi dorico.}
+        \label{sheet:sheep-c_drums}
+    \end{sheet}
+
 
     \subsection{Assolo di Rhodes}
     Il Rhodes è il primo strumento a entrare nel brano e, con un assolo di oltre un minuto e mezzo, assume il ruolo di voce principale della sezione \songSec{A}1. È eseguito su un Rhodes Mk I, dal timbro più scuro e morbido rispetto al Mk II e che ben si adatta all'atmosfera dalla calma cupa e alla dinamica contenuta della sezione. L'assolo è carico di una grande spontaneità, e il fraseggio è di carattere improvvisativo. Il sound engineer Brian Humphreis raccontò in seguito che questo assolo è stato l'unico contributo sostanziale di Wright all'album che, in quel periodo, stava attraversando un periodo di difficoltà artistiche e personali. Humphreis avrebbe intenzionalmente allontanato Waters dallo studio e,   spente le luci per creare un atmosfera soffusa, diede come unica indicazione a Wright la seguente frase: \gquotes{Rick, just do your thing.}\footnote{\gquotes{Rick, fai una di quelle cose lì che sai fare tu.}}~\cite{easlea2022raving}.
@@ -128,19 +137,9 @@
     \begin{sheet}[htb]
         \centering
         \lilypondfile{./sheep-organ_delay.ly}
-        \caption[Effetto di delay sull'organo.]{Effetto di delay sull'organo nella sezione \songSec{A}2. In evidenza in blu l'accordo effettivamente suonato  e le sue ripetizioni in magenta, con volume decrescente.}
+        \caption[Effetto di delay sull'organo.]{Effetto di delay sull'organo nella sezione \songSec{A}2. In evidenza l'accordo effettivamente suonato  e le sue ripetizioni fra parentesi, con volume decrescente.}
         \label{sheet:sheep-organ_delay}
     \end{sheet}
-
-    % \subsection{Vocoder}
-    % Il vocoder è un effetto che permette di modificare la voce umana in modo da emulare strumenti musicali. È stato applicato alla voce di Waters nella sezione \songSec{A}2, in cui è presente un diverbio di voci. L'effetto è stato applicato con un ritardo di 10 misure e un feedback di 4 misure.
-
-    % \begin{sheet}[htb]
-    %     \centering
-    %     \lilypondfile{./sheep-vocoder.ly}
-    %     \caption[Effetto vocoder.]{Effetto vocoder nella sezione \songSec{A}2. In evidenza in blu la voce originale e in magenta la voce modificata.}
-    %     \label{sheet:sheep-vocoder}
-    % \end{sheet}
 
     \section{Analisi armonica}
     \label{sec:04-harmony}
@@ -217,11 +216,12 @@
     \subsection{Sezione \songSec{D}}
     La sezione \songSec{D} appare inizialmente modale. Il basso e l'organo tengono un pedale di Mi, al di sopra del quale la chitarra esegue un ostinato sincopato costruito su una discesa diatonica sul Mi misolidio. Al netto di leggere variazioni sul finale dell'ostinato (si veda Rg.\ref{sheet:sheep-guitar_out_chords}), questo schema viene ripetuto 4 volte, restituendo la ragionevole certezza che l'intera sezione sia un pedale di Mi misolidio. Tuttavia, nella quarta ripetizione dell'ostinato il basso si sposta su un A, spiazzando l'ascoltatore e forzando a ricontestualizzare le trame armoniche precedenti: questo passaggio ha un forte elemento risolutivo, in opposizione alla tensione dominante del precedente E e dovuta al tritono. Questa sezione appare quindi tonale, anzi: può essere vista come una cadenza perfetta ([ \writechord{V,7} - I ]), dove la risoluzione verso il I arriva dopo un periodo di tensione lungo e straziante.
 
+    Nell'impianto meta-musicale dell'opera, questa sezione rappresenta il climax dell'intero album. Le pecore hanno attraversato tutte le fasi della rivoluzione: hanno destituito i cani, faticosamente costituito un nuovo ordine, affrontato diverbi e fatto emergere una leadership forte che ha alterato il nuovo ordine e assicurato il potere nelle proprie mani, diventando simili in tutto e per tutto ai cani e chiudendo il circolo di autoconservazione del potere. L'ostinato in misolidio della chitarra celebra la festa dei nuovi padroni, il riposo sul \writechord{A,7} risolve la tensione armonica e narrativa e mette il punto fermo a una storia in cui l'epilogo si confonde con il prologo, e che ha come costante il sorpruso del più forte sul più debole.
     
     \begin{sheet}[htb]
         \centering
         \lilypondfile{./sheep-guitar_out_chords.ly}
-        \caption{Progressione di accordi della sezione \songSec{D}. In evidenza gli accordi eseguiti in ostinato dalla chitarra.}
+        \caption[Progressione di accordi della sezione \songSec{D}.]{Progressione di accordi della sezione \songSec{D}. In evidenza gli accordi eseguiti in ostinato dalla chitarra.}
         \label{sheet:sheep-guitar_out_chords}
     \end{sheet}
     

@@ -28,7 +28,9 @@ rhythms = \relative c' {
 
   % C1
   e'1~^\markup { "3:46" } e~ e~ e
-  a,~ a d cis e e a, g ges
+  a,~ a 
+  \break
+  d cis e e a, g ges
   
   \bar "||"
 

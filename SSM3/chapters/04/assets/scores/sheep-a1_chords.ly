@@ -23,12 +23,16 @@ rhythms = \relative c' {
     Shuffle
   } 8 = 124
   
-  \repeat volta 2 {
-    <d f a b>1~^\markup { "0:00" } <d f a b>~ <d f a b>~ <d f a b>
+  \repeat volta 20 {
+    <d f a b>1~^\markup { "0:00" } <d f a b>~ <d f a b>~ 
+  }
+  \alternative {
+    { <d f a b> }
+    { d2. e4 }
   }
 
+  \break
 
-  d2. e4
   a,1~  a2. d4
   b1~  b
   a1~ a 
