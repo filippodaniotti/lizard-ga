@@ -60,3 +60,10 @@
 \newfloat{sheet}{htbp}{sht}[chapter]
 \floatname{sheet}{Rigo}
 \restylefloat*{sheet}
+
+
+\makeatletter
+\newcommand{\l@sheet}{\@dottedtocline{1}{0em}{2.3em}}
+\makeatother
+
+\preto\chapter{\addtocontents{sht}{\protect\vspace{1em}}}
